@@ -7,7 +7,8 @@ search:           true
 # You don't need to specify the protocol if you want it available on http and https. Example: //localhost:4000
 url:              //lailson.github.io
 #url:              //localhost:4000
-
+#--------
+	
 # Owner/author information
 owner:
   name:           Lailson Henrique
