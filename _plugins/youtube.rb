@@ -1,16 +1,3 @@
-# Jekyll - Easy Youtube Embed
-#
-# Katie Harron - https://github.com/pibby
-#
-#   Input:
-#     {% youtube Al9FOtZcadQ %}
-#   Output:
-#   <div class="video">
-#     <figure>
-#       <iframe width="640" height="480" src="//www.youtube.com/embed/Al9FOtZcadQ?rel=0" allowfullscreen></iframe>
-#     </figure>
-#   </div>
-
 module Jekyll
   class Youtube < Liquid::Tag
     @url = nil
