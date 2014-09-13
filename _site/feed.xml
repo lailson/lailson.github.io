@@ -10,7 +10,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000/" />
-<updated>2014-09-13T14:43:47-03:00</updated>
+<updated>2014-09-13T14:51:40-03:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Lailson Henrique</name>
@@ -93,7 +93,17 @@ Para execute o wireshark pelo remnux utiliza-se o comando &lt;code&gt;sudo wires
 
 &lt;p&gt;Video:&lt;/p&gt;
 
-&lt;div class=&quot;video&quot;&gt;&lt;figure&gt;&lt;iframe width=&quot;640&quot; height=&quot;480&quot; src=&quot;//www.youtube.com/embed/8MEjb4N5kTM?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;Utilizando iframe
+&amp;lt;iframe width=&quot;420&quot; height=&quot;315&quot;
+src=&quot;http://www.youtube.com/embed/XGSy3_Czz8k&quot;&amp;gt;
+&amp;lt;/iframe&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Utilizando object
+&lt;object width=&quot;420&quot; height=&quot;315&quot; data=&quot;http://www.youtube.com/v/XGSy3_Czz8k&quot;&gt;
+&lt;/object&gt;&lt;/p&gt;
+
+&lt;p&gt;utilizando embed
+&lt;embed width=&quot;420&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/v/XGSy3_Czz8k&quot; /&gt;&lt;/p&gt;
 
 
   
