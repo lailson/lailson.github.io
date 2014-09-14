@@ -5,31 +5,31 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Análise de Malware - PARTE1 &#8211; Lailson Henrique</title>
-<meta name="description" content="Análise estática e dinâmina de um malware. Uma visão prática">
-<meta name="keywords" content="malware analise estatica dinamica linux wireshark botnet rxbot">
+<title>Segurança em servidores Linux - Parte 2 &#8211; Lailson Henrique</title>
+<meta name="description" content="Práticas recomendadas para deixar seu servidor linux mais seguro">
+<meta name="keywords" content="segurança linux antivirus boot grub log kaspersky clamav mysql patições">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="//localhost:4000/images/figuraAnaliseMalware.jpg">
+<meta name="twitter:image" content="//localhost:4000/images/seguranca_linux/comandos-linux.jpg">
 
-<meta name="twitter:title" content="Análise de Malware - PARTE1">
-<meta name="twitter:description" content="Análise estática e dinâmina de um malware. Uma visão prática">
+<meta name="twitter:title" content="Segurança em servidores Linux - Parte 2">
+<meta name="twitter:description" content="Práticas recomendadas para deixar seu servidor linux mais seguro">
 <meta name="twitter:creator" content="@lailsonh">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Análise de Malware - PARTE1">
-<meta property="og:description" content="Análise estática e dinâmina de um malware. Uma visão prática">
-<meta property="og:url" content="//localhost:4000/articles/Analise-de-Malware-Parte1/">
+<meta property="og:title" content="Segurança em servidores Linux - Parte 2">
+<meta property="og:description" content="Práticas recomendadas para deixar seu servidor linux mais seguro">
+<meta property="og:url" content="//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte2/">
 <meta property="og:site_name" content="Lailson Henrique">
 
 
 
 
 
-<link rel="canonical" href="//localhost:4000/articles/Analise-de-Malware-Parte1/">
+<link rel="canonical" href="//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte2/">
 <link href="//localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Lailson Henrique Feed">
 
 
@@ -110,100 +110,74 @@
 
 <div id="main" role="main">
   <article class="hentry">
-    <img src="//localhost:4000/images/figuraAnaliseMalware.jpg" class="entry-feature-image" alt="Análise de Malware - PARTE1" ><p class="image-credit">Photo Credit: <a href="http://lailsonhenrique.com">Lailson Henrique</a>
+    <img src="//localhost:4000/images/seguranca_linux/comandos-linux.jpg" class="entry-feature-image" alt="Segurança em servidores Linux - Parte 2" ><p class="image-credit">Photo Credit: <a href="">Lailson Henrique</a>
     <div class="entry-wrapper">
       <header class="entry-header">
-        <span class="entry-tags"><a href="//localhost:4000/tags/#malware analise estatica dinamica linux wireshark botnet rxbot" title="Pages tagged malware analise estatica dinamica linux wireshark botnet rxbot">malware analise estatica dinamica linux wireshark botnet rxbot</a></span>
+        <span class="entry-tags"><a href="//localhost:4000/tags/#segurança linux antivirus boot grub log kaspersky clamav mysql patições" title="Pages tagged segurança linux antivirus boot grub log kaspersky clamav mysql patições">segurança linux antivirus boot grub log kaspersky clamav mysql patições</a></span>
         
-          <h1 class="entry-title">Análise de Malware - PARTE1</h1>
+          <h1 class="entry-title">Segurança em servidores Linux - Parte 2</h1>
         
       </header>
       <footer class="entry-meta">
         <img src="//localhost:4000/images/bio-photo.jpg" alt="Lailson Henrique photo" class="author-photo">
         <span class="author vcard">By <span class="fn"><a href="//localhost:4000/about/" title="About Lailson Henrique">Lailson Henrique</a></span></span>
-        <span class="entry-date date published"><time datetime="2014-06-14T00:00:00-03:00"><i class="icon-calendar-empty"></i> June 14, 2014</time></span>
-        <span class="entry-date date modified"><time datetime="2014-06-14"><i class="icon-pencil"></i> June 14, 2014</time></span>
+        <span class="entry-date date published"><time datetime="2014-09-13T00:00:00-03:00"><i class="icon-calendar-empty"></i> September 13, 2014</time></span>
+        <span class="entry-date date modified"><time datetime="2014-09-14"><i class="icon-pencil"></i> September 14, 2014</time></span>
         
-        <span><a href="//localhost:4000/articles/Analise-de-Malware-Parte1/" rel="bookmark" title="Análise de Malware - PARTE1"><i class="icon-link"></i> Permalink</a></span>
+        <span><a href="//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte2/" rel="bookmark" title="Segurança em servidores Linux - Parte 2"><i class="icon-link"></i> Permalink</a></span>
         
         <span class="social-share-facebook">
-            <a href="https://www.facebook.com/sharer/sharer.php?u=//localhost:4000/articles/Analise-de-Malware-Parte1/" title="Share on Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Like</a></span>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte2/" title="Share on Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Like</a></span>
         <span class="social-share-twitter">
-            <a href="https://twitter.com/intent/tweet?hashtags=articles&text=Análise de Malware - PARTE1&url=//localhost:4000/articles/Analise-de-Malware-Parte1/&via=lailsonh" title="Share on Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Tweet</a></span>
+            <a href="https://twitter.com/intent/tweet?hashtags=articles&text=Segurança em servidores Linux - Parte 2&url=//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte2/&via=lailsonh" title="Share on Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Tweet</a></span>
         <span class="social-share-googleplus">
-            <a href="https://plus.google.com/share?url=//localhost:4000/articles/Analise-de-Malware-Parte1/" title="Share on Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
+            <a href="https://plus.google.com/share?url=//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte2/" title="Share on Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
             <!-- /.social-share -->
       </footer>
       <div class="entry-content">
-        <p>Este post mostra uma introdução à Análise de Malware mostrando passo-a-passo como devemos analisar de forma estática e dinâmica um malware. 
-A análise </p>
+        <h1 id="limitando-recursos">Limitando recursos</h1>
+<p>No sistema operacional Linux é possível limitar a utilização de recursos como memória, processador e logins
+Estes recursos são controlados pelo Kernel e configurados no arquivo limits.conf para todos os serviços que utilizam PAM</p>
 
-<h1 id="analisando-malware">Analisando Malware</h1>
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">find /etc/pam.d/ \! -name &quot;*.dpkg*&quot; | xargs -- grep limits |grep -v &quot;:#&quot;</span></code></pre></div>
 
-<h2 id="anlise-na-web">Análise na web</h2>
-<p>Inicialmente vamos submentar o nosso artefato a um site para ser avalisado por diersos antivirus. O site é <a href="http://virustotal.com">www.virustotal.com</a></p>
+<p>A primeira ação é derrubar o sistema com um comando simples chamado <em>fork bomb</em>. Como usuário comum, entre no Linux e digite o código abaixo:</p>
+
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">:(){ :|:&amp; };</span><span class="p-Indicator">:</span></code></pre></div>
+
+<p>Com esse comando o sistema vai parar então caso tenha executado o comando reinicie a máquina.<br />
+Vamos verificar quais os limites do usuário: <code>ulimit -a</code></p>
 <figure>
- 	<img src="/images/virustotal.png" />
+ 	<img src="/images/seguranca_linux/ulimit-a.png" />
+ </figure>
+<p>Para definirmos os limites, temos que separar o usuário ROOT em um grupo especial, assim como todos os usuários que tenham perfil de administrador.</p>
+
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">groupadd adm</span>
+<span class="l-Scalar-Plain">gpasswd -a root adm</span></code></pre></div>
+
+<p>Editando os limites dos usuários:<br />
+<code>vim /etc/security/limits.conf</code><br />
+É possível verificar as opções a serem alteras no arquivo. O arquivo é todo comentado.</p>
+<figure>
+ 	<img src="/images/seguranca_linux/limits-conf.png" />
  </figure>
 
-<p>Nesse caso o malware submetido pof analisado por 54 antivirus no qual 40 deles detectaram que este realmente é um malware.</p>
+<h1 id="expiracao-de-senhas">Expiração de Senhas</h1>
+<p>O arquivo <code>/etc/login.defs</code> controla as opções de senha e mais algumas coisas que são configuradas no momento da criação do usuário.
+No exemplo abaixo vamos configurar o tempo máximo de uma senha e quanto tempo antes da senha do usuário expirar o sistema vai avisar.</p>
 
-<h2 id="ambiente-virtual">Ambiente Virtual</h2>
-<p>Nessa prática vamos utilizar o <a href="https://www.virtualbox.org/">Virtual Box</a> que é uma ferramentar para virtualizar ambientes, assim podemos simular (virtualizar) uma máquina windows xp e uma máquina linux (REMnux). 
-Como vamos manipular um malware devemos tomar certos cuidados, para isso vamos criar uma rede host-only para que haja conexão apenas entre a máquina windows XP e Linux. 
-Para faciliar segue o <a href="https://mega.co.nz/#!rsJx0LRK!a6whtxW014bzH2kDyv03an1hyhqvkwVXyOqBV84pJ5o">link da máquina xp</a> no formato .ova e do <a href="http://sourceforge.net/projects/remnux/files/version5/remnux-5.0-live-cd.iso/download"> linux no formato iso e <a href="http://sourceforge.net/projects/remnux/files/version5/remnux-5.0-ova-public.ova/download">no formato ova</a></a></p>
-<figure>
- 	<img src="/images/analisemalware/Virtualbox.png" />
- </figure>
-
-<h2 id="anlise-esttica---cdigo">Análise Estática - Código</h2>
-<p>Vamos analisar o código utilizando um programa bintext <a href="http://b2b-download.mcafee.com/products/tools/foundstone/bintext303.zip">link</a> que é possível “ler” um código mesmo depois que o arquivo é compilado.</p>
-<figure>
- 	<img src="/images/analisemalware/bintext.png" />
- </figure>
-<p>Como mostra a figura a cima o código está ofuscado. Essa é uma técnica usada pelos malwares para tentar esconder seu código, para isso é utilizado programas conhecidos como packer. Pare tentar desofuscar o código iremos utilizao o UPX <a href="http://sourceforge.net/projects/upx/">link</a></p>
-<figure>
- 	<img src="/images/analisemalware/upx.png" />
- </figure>
-<p>Figura: upx </p>
-
-<h2 id="anlise-dinmica---comportamental">Análise Dinâmica - Comportamental</h2>
-<p>Utilizaremos o wireshark para verificar os pacotes que trafegam na rede. O wireshark é um snifer (bisbilhoteiro) que capture o tráfego da rede para análise.
-Neste caso usaremos a versão do Remnux que ja vem com o wireshark instalado, mas primiero devemos criar uma rede host-only.
-Para execute o wireshark pelo remnux utiliza-se o comando <code>sudo wireshark</code> e a senha do root é <code>malware</code></p>
-<figure>
- 	<img src="/images/analisemalware/wireshark.png" />
- </figure>
-
-<h3 id="hosts">Hosts</h3>
-<p>Na nossa experiência percebemos através do wireshark que nosso malware tenta se conectar com o servidor lailsonhenrique.com então vamos alterar o arquivo hosts para que o windowsxp pense que nossa máquina linux é o servidor lailsonhenrique.com
-<code>C:\windows\system32\drivers\etc\hosts</code></p>
-<figure>
- 	<img src="/images/analisemalware/hosts.png" />
- </figure>
-<p>Figura: Aterando arquivo Hosts</p>
-
-<h2 id="irc">IRC</h2>
-<p>O malware tenta se conectar a um servidor irc, sendo assim vamos utilizar o Remnux para estartar um servidor irc utilizando o comando <code>ircd start</code> depois vamos entrar no canal <code>#malware</code> e vamos perceber que o virus estar conectado a este canal, então vamos digitar alguns comandos para interagir com o malware
-É necessário se autenticar para se comunicar com o malware para isso vamos digitar <code>.login aula</code> onde aula é a senha.</p>
-
-<h1 id="vdeo">Vídeo</h1>
-<p>Veja todo o processo no vídeo a baixo</p>
-
-<p>link: https://www.youtube.com/watch?v=8MEjb4N5kTM</p>
-
-<p>Video:</p>
-
-<embed width="420" height="315" src="http://www.youtube.com/v/8MEjb4N5kTM" />
-
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">vim /etc/login.defs</span>
+     <span class="l-Scalar-Plain">PASS_MAX_DAYS 60</span>
+     <span class="l-Scalar-Plain">PASS_MIN_DAYS 0</span>
+     <span class="l-Scalar-Plain">PASS_WARN_AGE 10</span></code></pre></div>
 
         
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
       
+        <a href="//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte1/" class="btn" title="Segurança em servidores Linux - Parte 1">Previous article</a>
       
-        <a href="//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte1/" class="btn" title="Segurança em servidores Linux - Parte 1">Next article</a>
       
     </nav><!-- /.pagination -->
   </article>
