@@ -3,7 +3,7 @@
 		{
 		  "title"      : "Segurança em servidores Linux - Parte 2",
 		  "category"   : "articles",
-		  "url"        : "//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte2/",
+		  "url"        : "http://lailson.github.io/articles/Seguranca-em-servidor-Linux-Parte2/",
 		  "date"       : "2014-09-13 00:00:00 -0300",
 		  "shortdate"  : "September 13, 2014"
 		} ,
@@ -11,7 +11,7 @@
 		{
 		  "title"      : "Segurança em servidores Linux - Parte 1",
 		  "category"   : "articles",
-		  "url"        : "//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte1/",
+		  "url"        : "http://lailson.github.io/articles/Seguranca-em-servidor-Linux-Parte1/",
 		  "date"       : "2014-09-13 00:00:00 -0300",
 		  "shortdate"  : "September 13, 2014"
 		} ,
@@ -19,7 +19,7 @@
 		{
 		  "title"      : "Análise de Malware - PARTE1",
 		  "category"   : "articles",
-		  "url"        : "//localhost:4000/articles/Analise-de-Malware-Parte1/",
+		  "url"        : "http://lailson.github.io/articles/Analise-de-Malware-Parte1/",
 		  "date"       : "2014-06-14 00:00:00 -0300",
 		  "shortdate"  : "June 14, 2014"
 		} 
