@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "POSCOMP",
+		  "category"   : "concursos",
+		  "url"        : "//localhost:4000/concursos/Poscomp/",
+		  "date"       : "2014-09-16 00:00:00 -0300",
+		  "shortdate"  : "September 16, 2014"
+		} ,
+	
+		{
 		  "title"      : "Segurança em servidores Linux - Parte 2",
 		  "category"   : "articles",
 		  "url"        : "//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte2/",
@@ -12,14 +20,6 @@
 		  "title"      : "Segurança em servidores Linux - Parte 1",
 		  "category"   : "articles",
 		  "url"        : "//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte1/",
-		  "date"       : "2014-09-13 00:00:00 -0300",
-		  "shortdate"  : "September 13, 2014"
-		} ,
-	
-		{
-		  "title"      : "Segurança em servidores Linux - Parte 1",
-		  "category"   : "concursos",
-		  "url"        : "//localhost:4000/concursos/Seguranca-em-servidor-Linux-Parte1/",
 		  "date"       : "2014-09-13 00:00:00 -0300",
 		  "shortdate"  : "September 13, 2014"
 		} ,

@@ -10,13 +10,227 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000/" />
-<updated>2014-09-16T19:16:58-03:00</updated>
+<updated>2014-09-16T20:22:31-03:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Lailson Henrique</name>
   <uri>http://localhost:4000/</uri>
   <email>lailson.pi@gmail.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[POSCOMP]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/concursos/Poscomp/"/>
+  <id>http://localhost:4000/concursos/Poscomp</id>
+  <updated>2014-09-16T00:00:00-00:00</updated>
+  <published>2014-09-16T00:00:00-03:00</published>
+  
+  <author>
+    <name>Lailson Henrique</name>
+    <uri>http://localhost:4000</uri>
+    <email>lailson.pi@gmail.com</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#prova%20poscomp" term="prova poscomp" />
+  <content type="html">
+  
+    &lt;p&gt;A Sociedade Brasileira de Computação usando de suas atribuições legais, resolve divulgar a abertura das inscrições e estabelecer normas para a realização do Exame Nacional para Ingresso na Pós-Graduação em Computação. &lt;/p&gt;
+
+&lt;h1 id=&quot;data-da-prova&quot;&gt;Data da prova&lt;/h1&gt;
+&lt;p&gt;A prova será realizada dia 21 de setembro de 2014.
+Horário (Teresina-PI): 15h&lt;/p&gt;
+
+&lt;h1 id=&quot;edital&quot;&gt;Edital&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cops.uel.br/concursos/174_poscomp_2014/edital_001_2014.pdf&quot;&gt;Aqui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;contedos-programticos&quot;&gt;Conteúdos Programáticos&lt;/h1&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;Área de Matemática&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;Álgebra Linear&lt;/code&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Sistemas de Equações Lineares: método de eliminação de Gauss para sistemas lineares. Espaços 
+vetoriais. Subespaços. Bases. Somas Diretas. Introdução à Programação Linear. Transformações 
+Lineares e Matrizes. Autovalores e Autovetores. Diagonalização. Espaços com Produto Interno. 
+Bases Ortonormais. Projeções Ortogonais. Movimentos Rígidos. Método dos Mínimos Quadrados. 
+Transformações em Espaços com Produto Interno. O Teorema da Representação para Funções 
+Lineares. Adjunta de uma Transformação Linear. Operadores Simétricos, Unitários, Ortogonais e 
+Normais. O Teorema Espectral. Formas Canônicas.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Análise Combinatória&lt;/code&gt;&lt;br /&gt;
+Distribuição. Permutações. Combinações. Funções Geradoras Ordinárias e Exponenciais. Princípio 
+de Inclusão e Exclusão. Enumeração de Partições, Grafos, Árvores e Redes. Enumeração por 
+Recursão. Permutações com Posições Restritas. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Cálculo Diferencial e Integral&lt;/code&gt;&lt;br /&gt;
+Limites de Funções e de Sequências. Funções Reais de uma Variável: Continuidade e 
+Diferenciabilidade. Máximos e Mínimos. Fórmula de Taylor e Aproximação de Funções. Método de 
+Newton para o Cálculo de Raízes e de Máximos e Mínimos. Integração de Funções Reais de uma 
+Variável. Métodos de Integração. Integração Aproximada. Regras dos Trapézios, de Simpson e 
+Generalizadas. Funções de Várias Variáveis: Continuidade e Diferenciabilidade. Gradiente. Máximos 
+e Mínimos. Multiplicadores de Lagrange. Transformações. Matrizes Jacobianas. Teorema da Função 
+Inversa. Diferenciação Implícita. Integração de Funções de Várias Variáveis. Mudanças de 
+Coordenadas em Integrais. Integral de Linha. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Geometria Analítica&lt;/code&gt;&lt;br /&gt;
+Matrizes. Sistemas de Equações Lineares. Vetores. Produtos: escalar, vetorial e misto. Álgebra 
+Vetorial. Reta no plano e no espaço. Planos. Posições Relativas, Interseções, Distâncias e Ângulos. 
+Círculo e Esfera. Coordenadas Polares, Cilíndricas e Esféricas. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Lógica Matemática&lt;/code&gt;&lt;br /&gt;
+Lógica Proposicional e de Predicados. Linguagem Proposicional e de Primeira Ordem. Sistemas 
+Dedutivos. Tabelas Verdade e Estruturas de Primeira Ordem. Relações de Consequência. Corretude. 
+Completude. Compacidade. Lowemhein-Skolem. Decidibilidade. Prova Automática de Teoremas. 
+Lógicas não clássicas. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Matemática Discreta&lt;/code&gt;&lt;br /&gt;
+Iteração, Indução e Recursão. Conjuntos e Álgebra de Conjuntos como uma Teoria Axiomática. Par 
+Ordenado. Funções. Funções e Formas Booleanas, Álgebra Booleana, Minimização de Funções 
+Booleanas. Relações sobre Conjuntos, Relações de Equivalência e Ordem. Reticulados, Monóides, 
+Grupos, Anéis. Teoria dos Códigos, Canal Binário, Canal Simétrico, Código de Blocos, Matrizes 
+Geradoras e Verificadoras, Códigos de Grupo, Códigos de Hamming. Teoria dos Domínios: Ordens 
+Parciais Completas, Continuidade, Ponto Fixo, Domínios, Espaço das Funções. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Probabilidade e Estatística&lt;/code&gt;&lt;br /&gt;
+Eventos. Experimentos Aleatórios. Análise Exploratória de Dados. Descrição Estatística dos Dados. 
+Espaços Amostrais. Probabilidades em Espaços Amostrais Discretos. Distribuições de Probabilidades 
+de Variáveis Aleatórias Unidimensionais e Bidimensionais. Esperança Matemática. Variância e 
+Coeficientes de Correlação. Aproximação Normal. Estimação Pontual e por Intervalo. Teste de 
+Hipóteses para Médias. Testes do Qui-Quadrado. Testes de Comparações de Médias. Regressão e 
+Correlação. &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;Área de de Fundamentos da Computação&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;Análise de Algoritmos&lt;/code&gt;&lt;br /&gt;
+Medidas de Complexidade, Análise Assintótica de Limites de Complexidade, Técnicas de Prova de 
+Cotas Inferiores. Notação “Big O”, “Little o”, “Omega” e “Theta”. Medidas Empíricas de Performance. 
+O Uso de Relações de Recorrência para Análise de Algoritmos Recursivos. Análise de Algoritmos 
+Iterativos e Recursivos. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Algoritmos e Estrutura de Dados&lt;/code&gt;&lt;br /&gt;
+Metodologia de Desenvolvimento de Algoritmos. Tipos de Dados Básicos e Estruturados. Comandos 
+de uma Linguagem de Programação. Recursividade: Conceito e Implementação. Modularidade e 
+Abstração. Estratégias de Depuração. Cadeias e Processamento de Cadeias. Estruturas de Dados 
+Lineares e suas Generalizações: Listas Ordenadas, Listas Encadeadas, Pilhas e Filas. Árvores e 
+suas Generalizações: Árvores Binárias, Árvores de Busca e Árvores Balanceadas. Tabelas Hash. 
+Algoritmos para Pesquisa e Ordenação. Algoritmos para “Garbage Collection”. Técnicas de Projeto de 
+Algoritmos: Método da Força Bruta, Pesquisa Exaustiva, Algoritmo Guloso, Dividir e Conquistar, 
+“Backtracking” e Heurísticas. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Arquitetura e Organização de Computadores&lt;/code&gt;&lt;br /&gt;
+Organização de Computadores: Memórias, Unidades Centrais de Processamento, Entrada e Saída. 
+Linguagens de Montagem. Modos de Endereçamento, Conjunto de Instruções. Mecanismos de 
+Interrupção e de Exceção. Barramento, Comunicações, Interfaces e Periféricos. Organização de 
+Memória. Memória Auxiliar. Arquiteturas RISC e CISC. Pipeline. Paralelismo de Baixa Granularidade. 
+Processadores Superescalares e Superpipeline. Multiprocessadores. Multicomputadores. Arquiteturas 
+Paralelas e não Convencionais. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Circuitos Digitais&lt;/code&gt;&lt;br /&gt;
+Sistemas de Numeração e Códigos. Aritmética Binária. Representação e Manipulação de Circuitos 
+Combinatórios. Minimização e Otimização de Funções Combinatórias. Projeto de Circuitos 
+Combinatórios. Análise e Síntese de Componentes Sequenciais e de Memória. Projeto de Circuitos 
+Sequenciais. Modelo de Máquinas de Estado Finito (FSM). Circuitos Sequenciais Síncronos e 
+Assíncronos. Componentes de Armazenamento. Projeto de Sistemas Digitais: Hierárquico e Modular. 
+Princípios e Técnicas de Projeto. Conceitos de Controle e de Tempo. Famílias Lógicas. Dispositivos 
+Lógicos Programáveis (PLD). &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Linguagens de Programação&lt;/code&gt;&lt;br /&gt;
+Conceitos. Paradigmas de Linguagens de Programação. Semântica Formal. Teoria dos Tipos: 
+Sistemas de Tipos, Polimorfismo. Verificação e Inferência de Tipos. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Linguagens Formais, Autômatos e Computabilidade&lt;/code&gt;&lt;br /&gt;
+Gramáticas. Linguagens Regulares, Livres-de-Contexto e Sensíveis-ao-Contexto. Tipos de 
+Reconhecedores. Operações com Linguagens. Propriedades das Linguagens. Autômatos de Estados 
+Finitos Determinístico e não Determinístico. Autômatos de Pilha. Máquina de Turing. Hierarquia de 
+Chomsky. Funções Recursivas. Tese de Church. Problemas Indecidíveis. Teorema da Incompletude 
+de Godel. Classes de Problemas P, NP, NP Completo e NP-Difícil. Métodos de Redução de 
+Problemas. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Organização de Arquivos e Dados&lt;/code&gt;&lt;br /&gt;
+Organização, Estrutura e Operação de Arquivos. Diretórios: Conteúdo e Estrutura. Arquivos do 
+Sistema e Sistema de Arquivos Virtuais. Técnicas de Pesquisa. Dados e Metadados. Representação 
+Digital e Analógica. Algoritmos de Codificação e Decodificação. Compressão de Dados, Áudio, 
+Imagem e Vídeo. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Sistemas Operacionais&lt;/code&gt;&lt;br /&gt;
+Conceito de Processo. Gerência de Processos/Processador. Comunicação, Concorrência e 
+Sincronização de Processos. Gerenciamento de Memória: Memória Virtual, Paginação, Segmentação 
+e “Swap”. Gerenciamento de Arquivos. Gerenciamento de Dispositivos de Entrada/Saída. Alocação 
+de Recursos. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Técnicas de Programação &lt;/code&gt;&lt;br /&gt;
+Desenvolvimento de algoritmos. Tipos de dados básicos e estruturados. Comandos de uma 
+Linguagem de programação. Metodologia de desenvolvimento de programas. Modularidade e 
+abstração. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Teoria dos Grafos&lt;/code&gt;&lt;br /&gt;
+Grafos orientados e não-orientados. Caminhos. Planaridade. Conectividade. Coloração. Grafos 
+Infinitos. Algoritmos em grafos. Problemas intratáveis. Busca em Largura e Profundidade. Algoritmos 
+do Menor Caminho. Árvore Geradora. Ordenação Topológica. &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;Área de Tecnologia da Computação&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;Banco de Dados&lt;/code&gt;&lt;br /&gt;
+Modelo de Dados. Modelagem e Projeto de Banco de Dados. Sistemas de Gerenciamento de Bancos 
+de Dados (SGBD): Arquitetura, Segurança, Integridade, Concorrência, Recuperação após Falha, 
+Gerenciamento de Transações. Linguagens de Consulta. Bancos de Dados Distribuídos. Mineração 
+de Dados. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Compiladores&lt;/code&gt;&lt;br /&gt;
+Compiladores e Interpretadores. Análise Léxica e Sintática. Tabelas de Símbolos. Esquemas de 
+Tradução. Ambientes de Tempo de Execução. Representação Intermediária. Análise Semântica. 
+Geração de Código. Otimização de Código. Bibliotecas e Compilação em Separado. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Computação Gráfica &lt;/code&gt;&lt;br /&gt;
+Transformações Geométricas em Duas e Três Dimensões: Coordenadas Homogêneas e Matrizes de 
+Transformação. Transformação entre Sistemas de Coordenadas 2D e Recorte. Transformações de 
+Projeção Paralela e Perspectiva. Câmera Virtual. Transformação entre Sistemas de Coordenadas 3D. 
+Definição de Objetos e Cenas Tridimensionais: Modelos Poliedrais e Malhas de Polígonos. O 
+Processo de “Rendering”: Fontes de Luz, Remoção de Linhas e Superfícies Ocultas, Modelos de 
+Tonalização (“Shading”). Aplicação de Texturas. O problema do Serrilhado (“Aliasing”) e Técnicas de 
+Anti-Serrilhado (“Antialiasing”). Visualização. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Engenharia de Software&lt;/code&gt;&lt;br /&gt;
+Processo de Desenvolvimento de Software. Ciclo de Vida de Desenvolvimento de Software. 
+Qualidade de Software. Técnicas de Planejamento e Gerenciamento de Software. Gerenciamento de 
+Configuração de Software. Engenharia de Requisitos. Métodos de Análise e de Projeto de Software. 
+Garantia de Qualidade de Software. Verificação, Validação e Teste. Manutenção. Documentação. 
+Padrões de Desenvolvimento. Reuso. Engenharia Reversa. Reengenharia. Ambientes de 
+Desenvolvimento de Software. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Inteligência Artificial&lt;/code&gt;&lt;br /&gt;
+Linguagens Simbólicas. Programação em Lógica. Resolução de Problemas como Busca. Estratégias 
+de Busca, Busca Cega e Busca Heurística. Hill climbing, best first, simulated annealing e Algoritmo 
+A*. Busca como Maximização de Função. Grafos And/Or. Esquemas para Representação do 
+Conhecimento: Lógicos, em Rede, Estruturados, Procedurais. Sistemas de Produção com 
+Encadeamento para a Frente e Encadeamento para trás. Raciocínio Não-Monotônico. Formalismos 
+para a Representação de Conhecimento Incerto. A Regra de Bayes. Conjuntos e Lógica Fuzzy. 
+Aprendizado de Máquina. Aprendizado Indutivo. Árvores de Decisão, Redes Neurais e Algoritmos 
+Genéticos. Sistemas Especialistas. Processamento de Linguagem Natural. Agentes Inteligentes. 
+Robótica. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Processamento de Imagens&lt;/code&gt;&lt;br /&gt;
+Introdução aos Filtros Digitais. Métodos de Espaço de Estados. Noções de Percepção Visual 
+Humana. Amostragem e Quantização de Imagens. Transformadas de Imagens. Realce. Filtragem e 
+Restauração. Reconstrução Tomográfica de Imagens. Codificação. Análise de Imagens e Noções de 
+Visão Computacional. Reconhecimento de Padrões. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Redes de Computadores&lt;/code&gt;&lt;br /&gt;
+Tipos de Enlace, Códigos, Modos e Meios de Transmissão. Protocolos e Serviços de Comunicação. 
+Terminologia, Topologias, Modelos de Arquitetura e Aplicações. Especificação de Protocolos. Internet 
+e Intranets. Interconexão de Redes. Redes de Banda Larga. Segurança e Autenticação. Avaliação de 
+Desempenho. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Sistemas Distribuídos&lt;/code&gt;&lt;br /&gt;
+Problemas Básicos em Computação Distribuída: Coordenação e Sincronização de Processos, 
+Exclusão Mútua, Difusão de Mensagens. Compartilhamento de Informação: Controle de 
+Concorrência, Transações Distribuídas. Comunicação entre Processos. Tolerância a Falhas. 
+Sistemas Operacionais Distribuídos: Sistemas de Arquivos, Servidores de Nomes, Memória 
+Compartilhada, Segurança.&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/concursos/Poscomp/&quot;&gt;POSCOMP&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lailson Henrique&lt;/a&gt; on September 16, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -246,180 +460,6 @@ Alterações no &lt;code&gt;/etc/fstab&lt;/code&gt;&lt;/p&gt;
 
   
   &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/Seguranca-em-servidor-Linux-Parte1/&quot;&gt;Segurança em servidores Linux - Parte 1&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lailson Henrique&lt;/a&gt; on September 13, 2014.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Segurança em servidores Linux - Parte 1]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/concursos/Seguranca-em-servidor-Linux-Parte1/"/>
-  <id>http://localhost:4000/concursos/Seguranca-em-servidor-Linux-Parte1</id>
-  <updated>2014-09-13T00:00:00-00:00</updated>
-  <published>2014-09-13T00:00:00-03:00</published>
-  
-  <author>
-    <name>Lailson Henrique</name>
-    <uri>http://localhost:4000</uri>
-    <email>lailson.pi@gmail.com</email>
-  </author>
-  <category scheme="http://localhost:4000/tags/#seguran%C3%A7a%20linux%20antivirus%20boot%20grub%20log%20kaspersky%20clamav%20mysql%20pati%C3%A7%C3%B5es" term="segurança linux antivirus boot grub log kaspersky clamav mysql patições" />
-  <content type="html">
-  
-    &lt;p&gt;Hoje, o cenário da segurança digital não é um dos melhores. Sendo a informação o principal ativo de uma empresa, esta passa a ser bastante requisitada. A empresa &lt;a href=&quot;http://imprima.com&quot;&gt;imprima&lt;/a&gt; mostrou uma imagem dos 20 paies que mais sofrem com ataques digitais. 
-Tomar medidas para aumentar a segurança do seu servidor linux é primordial nos dias de hoje. Veremos aqui algumas delas:&lt;/p&gt;
-&lt;figure&gt;
- 	&lt;img src=&quot;/images/seguranca_linux/20countries.jpg&quot; /&gt;
- &lt;/figure&gt;
-
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#instalando-antivirus&quot;&gt;Instalando antivirus&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#kaspersky&quot;&gt;Kaspersky&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#segurana-no-gestor-de-boot-grub&quot;&gt;Segurança no gestor de boot: GRUB&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#gerenciando-logs&quot;&gt;Gerenciando Logs&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#configuraes-do-servidor-de-log&quot;&gt;Configurações do servidor de log&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#configurando-o-cliente-de-log&quot;&gt;Configurando o cliente de log&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#gravando-os-logs-no-mysql&quot;&gt;Gravando os logs no MySQL&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#configurando-parties&quot;&gt;Configurando Partições&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;instalando-antivirus&quot;&gt;Instalando antivirus&lt;/h1&gt;
-&lt;hr /&gt;
-&lt;p&gt;##ClamAV
-Instalando o ClamAV&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;apt-get install clamav&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;apt-get install arc bzip2 cabextract p7zip unzip unrar-free&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;/etc/init.d/clamav-freshclam status&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;O EICAR test file(arquivo de teste, em português) é um arquivo de 68 bytes que possui uma linha de caracteres, desenvolvido pelo European Institute of Computer Anti-Virus Research (Instituto Europeu para Pesquisa de Antivírus de Computador), é usado para testar a eficiência dos antivírus na detecção de vírus conhecidos sem qualquer risco ao computador. Usar o EICAR ao invés de um vírus real para testar um antivírus, é a garantia de que o computador não será infectado.
-Baixar o &lt;a href=&quot;http://www.eicar.org/&quot;&gt;Eicar&lt;/a&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;wget http://www.eicar.org/download/eicar.com&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Testando o ClamAv:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;clamscan eicar.com&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Testando o ClamAV&lt;/p&gt;
-&lt;figure&gt;
- 	&lt;img src=&quot;/images/seguranca_linux/clamscan_eicar.png&quot; /&gt;
- &lt;/figure&gt;
-
-&lt;h2 id=&quot;kaspersky&quot;&gt;Kaspersky&lt;/h2&gt;
-&lt;p&gt;Efetuar o download do pacote no site &lt;a href=&quot;http://kaspersky.com/&quot;&gt;kaspersky.com&lt;/a&gt;:
-Baixando e intalando o pacote mais atual (8.0.2):&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;wget http://products.kaspersky-labs.com/products/multilanguage/file_servers/kavlinuxserver8.0/linux/kav4fs_8.0.2-172_i386.deb&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;dpkg -i kav4fs_8.0.2-172_i386.deb&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;/opt/kaspersky/kav4fs/bin/kav4fs-setup.pl&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;O processo de configuração do Kaspersky irá iniciar.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Configuração do proxy, caso exista: N&lt;/li&gt;
-  &lt;li&gt;Download da última base de dados (atualização): yes&lt;/li&gt;
-  &lt;li&gt;Agendar atualização: N&lt;/li&gt;
-  &lt;li&gt;Proteção do kernel em tempo real: yes&lt;/li&gt;
-  &lt;li&gt;Proteção do SAMBA: yes&lt;/li&gt;
-  &lt;li&gt;locale: pt_BR.utf8&lt;/li&gt;
-  &lt;li&gt;diretório do arquivo da licença trial: &lt;/li&gt;
-  &lt;li&gt;senha : Yes &lt;em&gt;**&lt;/em&gt;
-Ao final abra seu navegador e digite http://SEU_IP:9080&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure&gt;
- 	&lt;img src=&quot;/images/seguranca_linux/kaspersky-web.png&quot; /&gt;
- &lt;/figure&gt;
-
-&lt;h1 id=&quot;segurana-no-gestor-de-boot-grub&quot;&gt;Segurança no gestor de boot: GRUB&lt;/h1&gt;
-
-&lt;p&gt;Instalando o pbkdf2&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;grub-mkpasswd-pbkdf2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;figure&gt;
- 	&lt;img src=&quot;/images/seguranca_linux/pbkdf2.png&quot; /&gt;
- &lt;/figure&gt;
-&lt;p&gt;Edite o arquivo /etc/grub.d/40_custom e adiciona a senha ao final do arquivo.&lt;/p&gt;
-&lt;figure&gt;
- 	&lt;img src=&quot;/images/seguranca_linux/40_custon.png&quot; /&gt;
- &lt;/figure&gt;
-&lt;p&gt;Neste arquivo foi criado o usuário &lt;code&gt;lailson&lt;/code&gt; e sua senha. Este usuário é o root, é o unico que poderar editar o grub. É possível adicionar novas usuário mas estes não poderão editar o grub.
-Para efetivar a operaçao digite o comando &lt;code&gt;update-grub&lt;/code&gt; para atualizar o grub. 
-Ao reiniciar o sistema verá que se solicitar a tecla de edição “e” será solicitado usuário e senha.&lt;/p&gt;
-&lt;figure&gt;
- 	&lt;img src=&quot;/images/seguranca_linux/grub_senha.png&quot; /&gt;
- &lt;/figure&gt;
-
-&lt;h1 id=&quot;gerenciando-logs&quot;&gt;Gerenciando Logs&lt;/h1&gt;
-&lt;p&gt;Os logs são responsável por registrar todas as ações no sistema em um arquivo. Podemos registrar:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Tentativas de conexão de usuários&lt;/li&gt;
-  &lt;li&gt;Páginas acessadas&lt;/li&gt;
-  &lt;li&gt;Registros do firewall como scanners e outros tipos de tentativas de invasão&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;O RSyslog é uma versão avançada do syslog que vamos utilizar para gerenciar os log.&lt;/p&gt;
-
-&lt;h2 id=&quot;configuraes-do-servidor-de-log&quot;&gt;Configurações do servidor de log&lt;/h2&gt;
-&lt;p&gt;Neste exemplo o servidor vai ser a maquina que irá receber os log e tem o ip=192.168.0.17. &lt;/p&gt;
-&lt;p&gt;Devemos alterar o arquivo &lt;code&gt;vim /etc/rsyslog.conf&lt;/code&gt; e descomentar as linhas:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;$ModLoad imudp&lt;/span&gt; 
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;$UDPServerRun 514&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;No arquivo &lt;code&gt;vim /etc/default/rsyslog&lt;/code&gt; devemos adiconar ao final do arquivo:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;RSYSLOGD_OPTIONS=&amp;quot;-c0 -r&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Reiniciando o serviço com o comando &lt;code&gt;/etc/init.d/rsyslog restart&lt;/code&gt;. Para visualizar os logs utilizaremos o comando &lt;code&gt;tail -f /var/log/auth.log&lt;/code&gt;. 
-Agora vamos configurar o cliente que irá enviar os logs para o servidor.&lt;/p&gt;
-
-&lt;h2 id=&quot;configurando-o-cliente-de-log&quot;&gt;Configurando o cliente de log&lt;/h2&gt;
-&lt;p&gt;Vamos alterar o arquivo de hosts do cliente.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;192.168.0.17     lailson&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Agora vamos alterar o arquivo de configuração `vim /etc/rsyslog.conf`&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;err&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;.*       @lailson&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Adicionando isso ao final do arquivo podmos reiniciar o serviço `/etc/init.d/rsyslog restart`. Pronto! Se logarmos novamente no cliente o log de  &lt;/p&gt;
-&lt;figure&gt;
- 	&lt;img src=&quot;/images/seguranca_linux/logs.png&quot; /&gt;
- &lt;/figure&gt;
-&lt;p&gt; Podemos ver na figura acima um terminal onde o lado esquerdo mostra a tela do servidor e o lado direito mostra a tela do cliente. Podemos ver que no lado direito foi feito autenticação de usuário e isso foi registrado no servidor (lado direito).&lt;/p&gt;
-
-&lt;h2 id=&quot;gravando-os-logs-no-mysql&quot;&gt;Gravando os logs no MySQL&lt;/h2&gt;
-&lt;p&gt;No servidor de log:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;apt-get install rsyslog-mysql mysql-server&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;mysql -p&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;mysql&amp;gt; grant ALL ON Syslog.* to rsyslog@localhost identified by &amp;#39;secret&amp;#39;;&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;mysql&amp;gt; flush privileges;&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;vim /etc/rsyslog.d/mysql.conf&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;$ModLoad ommysql&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;*.* :ommysql:localhost,Syslog,rsyslog,secret&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Todos os logs estão sendo gravados no banco de dados mysql. Podemos entrar no mysql `mysql -p` e na tabela syslog `use Syslog` podemos ver todos os logs: `select * from SystemEvents`&lt;/p&gt;
-
-&lt;h1 id=&quot;configurando-parties&quot;&gt;Configurando Partições&lt;/h1&gt;
-&lt;p&gt;Para todas as partições montadas em um servidor, é importante verificar as opções que estão disponíveis, pois estas podem ser uma porta de entrada para intrusos.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;nosuid&lt;/code&gt; – Irá ignorar o bit SUID em um arquivo, fazendo com que ele se comporte como um executável convencional.&lt;br /&gt;
-&lt;code&gt;noexec&lt;/code&gt; - Não permite a execução de arquivos nesta partição.&lt;br /&gt;
-&lt;code&gt;nodev&lt;/code&gt;  - Não permite a utilização de arquivos de dispositivos nesta partição.&lt;br /&gt;
-&lt;code&gt;/tmp&lt;/code&gt;   – Deve ter a opção noexec.&lt;br /&gt;
-&lt;code&gt;/usr&lt;/code&gt;   - Pode ser montado como apenas leitura. Lembre que em alguns servidores a mudança de arquivos é feita em momentos muito específicos.&lt;br /&gt;
-&lt;code&gt;/var &lt;/code&gt;  - É possível utilizarmos o noexec nesta partição.&lt;br /&gt;
-Alterações no &lt;code&gt;/etc/fstab&lt;/code&gt;&lt;/p&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/concursos/Seguranca-em-servidor-Linux-Parte1/&quot;&gt;Segurança em servidores Linux - Parte 1&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lailson Henrique&lt;/a&gt; on September 13, 2014.&lt;/p&gt;</content>
 </entry>
 
 

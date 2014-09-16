@@ -1,66 +1,21 @@
+--
+layout: nil
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>//localhost:4000</loc>
+        <loc>{{ site.url }}</loc>
     </url>
     
-    
+    {% for page in site.pages %}
     <url>
-        <loc>//localhost:4000/404.html</loc>
+        <loc>{{ site.url }}{{ page.url }}</loc>
     </url>
-    
-    <url>
-        <loc>//localhost:4000/about/</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/articles/</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/feed.xml</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/index.html</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/concursos/index.html</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/search.json</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/sitemap.xml</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/tags/</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/theme-setup/</loc>
-    </url>
-    
+    {% endfor %}
 
-    
+    {% for post in site.posts %}
     <url>
-        <loc>//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte2/</loc>
+        <loc>{{ site.url }}{{ post.url }}</loc>
     </url>
-    
-    <url>
-        <loc>//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte1/</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/concursos/Seguranca-em-servidor-Linux-Parte1/</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/articles/Analise-de-Malware-Parte1/</loc>
-    </url>
-    
+    {% endfor %}
 </urlset>
