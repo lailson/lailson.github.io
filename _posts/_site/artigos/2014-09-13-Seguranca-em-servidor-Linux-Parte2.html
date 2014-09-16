@@ -1,0 +1,35 @@
+<h1 id="limitando-recursos">Limitando recursos</h1>
+<p>No sistema operacional Linux é possível limitar a utilização de recursos como memória, processador e logins
+Estes recursos são controlados pelo Kernel e configurados no arquivo limits.conf para todos os serviços que utilizam PAM</p>
+
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">find /etc/pam.d/ \! -name &quot;*.dpkg*&quot; | xargs -- grep limits |grep -v &quot;:#&quot;</span></code></pre></div>
+
+<p>A primeira ação é derrubar o sistema com um comando simples chamado <em>fork bomb</em>. Como usuário comum, entre no Linux e digite o código abaixo:</p>
+
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">:(){ :|:&amp; };</span><span class="p-Indicator">:</span></code></pre></div>
+
+<p>Com esse comando o sistema vai parar então caso tenha executado o comando reinicie a máquina.<br />
+Vamos verificar quais os limites do usuário: <code>ulimit -a</code></p>
+<figure>
+ 	<img src="/images/seguranca_linux/ulimit-a.png" />
+ </figure>
+<p>Para definirmos os limites, temos que separar o usuário ROOT em um grupo especial, assim como todos os usuários que tenham perfil de administrador.</p>
+
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">groupadd adm</span>
+<span class="l-Scalar-Plain">gpasswd -a root adm</span></code></pre></div>
+
+<p>Editando os limites dos usuários:<br />
+<code>vim /etc/security/limits.conf</code><br />
+É possível verificar as opções a serem alteras no arquivo. O arquivo é todo comentado.</p>
+<figure>
+ 	<img src="/images/seguranca_linux/limits-conf.png" />
+ </figure>
+
+<h1 id="expiracao-de-senhas">Expiração de Senhas</h1>
+<p>O arquivo <code>/etc/login.defs</code> controla as opções de senha e mais algumas coisas que são configuradas no momento da criação do usuário.
+No exemplo abaixo vamos configurar o tempo máximo de uma senha e quanto tempo antes da senha do usuário expirar o sistema vai avisar.</p>
+
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">vim /etc/login.defs</span>
+     <span class="l-Scalar-Plain">PASS_MAX_DAYS 60</span>
+     <span class="l-Scalar-Plain">PASS_MIN_DAYS 0</span>
+     <span class="l-Scalar-Plain">PASS_WARN_AGE 10</span></code></pre></div>

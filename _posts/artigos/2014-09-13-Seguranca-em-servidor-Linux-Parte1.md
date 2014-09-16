@@ -19,8 +19,11 @@ Tomar medidas para aumentar a segurança do seu servidor linux é primordial nos
  	<img src="/images/seguranca_linux/20countries.jpg">
  </figure>
 
-#Instalando antivirus 
+* Table of Contents
+{:toc}
 
+#Instalando antivirus 
+---
 ##ClamAV
 Instalando o ClamAV
 {% highlight yaml %}
