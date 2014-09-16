@@ -1,5 +1,8 @@
 # Site navigation links
 
+- title: Inicio
+  url: /
+
 - title: Artigos
   url: /articles/
 
