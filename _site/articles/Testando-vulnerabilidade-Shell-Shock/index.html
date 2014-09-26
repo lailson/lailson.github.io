@@ -5,31 +5,31 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Segurança em servidores Linux - Parte 2 &#8211; Lailson Henrique</title>
-<meta name="description" content="Práticas recomendadas para deixar seu servidor linux mais seguro">
-<meta name="keywords" content="segurança linux antivirus boot grub log kaspersky clamav mysql patições">
+<title>Testando vulnerabilidade Shell Shock &#8211; Lailson Henrique</title>
+<meta name="description" content="Teste se o seu sistema está vulnerável para Shell Shock">
+<meta name="keywords" content="vulnerabilidade shell shock osx linux">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="//localhost:4000/images/seguranca_linux/comandos-linux.jpg">
+<meta name="twitter:image" content="//localhost:4000/images/ShellShock/img.jpg">
 
-<meta name="twitter:title" content="Segurança em servidores Linux - Parte 2">
-<meta name="twitter:description" content="Práticas recomendadas para deixar seu servidor linux mais seguro">
+<meta name="twitter:title" content="Testando vulnerabilidade Shell Shock">
+<meta name="twitter:description" content="Teste se o seu sistema está vulnerável para Shell Shock">
 <meta name="twitter:creator" content="@lailsonh">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Segurança em servidores Linux - Parte 2">
-<meta property="og:description" content="Práticas recomendadas para deixar seu servidor linux mais seguro">
-<meta property="og:url" content="//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte2/">
+<meta property="og:title" content="Testando vulnerabilidade Shell Shock">
+<meta property="og:description" content="Teste se o seu sistema está vulnerável para Shell Shock">
+<meta property="og:url" content="//localhost:4000/articles/Testando-vulnerabilidade-Shell-Shock/">
 <meta property="og:site_name" content="Lailson Henrique">
 
 
 
 
 
-<link rel="canonical" href="//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte2/">
+<link rel="canonical" href="//localhost:4000/articles/Testando-vulnerabilidade-Shell-Shock/">
 <link href="//localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Lailson Henrique Feed">
 <link rel="author" href="https://plus.google.com/+LailsonHenrique?rel=author">
 
@@ -130,76 +130,106 @@
 
 <div id="main" role="main">
   <article class="hentry">
-    <img src="//localhost:4000/images/seguranca_linux/comandos-linux.jpg" class="entry-feature-image" alt="Segurança em servidores Linux - Parte 2" ><p class="image-credit">Photo Credit: <a href="">Lailson Henrique</a>
+    <img src="//localhost:4000/images/ShellShock/img.jpg" class="entry-feature-image" alt="Testando vulnerabilidade Shell Shock" >
     <div class="entry-wrapper">
       <header class="entry-header">
-        <span class="entry-tags"><a href="//localhost:4000/tags/#segurança linux antivirus boot grub log kaspersky clamav mysql patições" title="Pages tagged segurança linux antivirus boot grub log kaspersky clamav mysql patições">segurança linux antivirus boot grub log kaspersky clamav mysql patições</a></span>
+        <span class="entry-tags"><a href="//localhost:4000/tags/#vulnerabilidade shell shock osx linux" title="Pages tagged vulnerabilidade shell shock osx linux">vulnerabilidade shell shock osx linux</a></span>
         
-          <h1 class="entry-title">Segurança em servidores Linux - Parte 2</h1>
+          <h1 class="entry-title">Testando vulnerabilidade Shell Shock</h1>
         
       </header>
       <footer class="entry-meta">
         <img src="//localhost:4000/images/bio-photo.jpg" alt="Lailson Henrique photo" class="author-photo">
         <span class="author vcard">By <span class="fn"><a href="//localhost:4000/about/" title="About Lailson Henrique">Lailson Henrique</a></span></span>
-        <span class="entry-date date published"><time datetime="2014-09-13T00:00:00-03:00"><i class="icon-calendar-empty"></i> September 13, 2014</time></span>
-        <span class="entry-date date modified"><time datetime="2014-09-14"><i class="icon-pencil"></i> September 14, 2014</time></span>
+        <span class="entry-date date published"><time datetime="2014-09-26T00:00:00-03:00"><i class="icon-calendar-empty"></i> September 26, 2014</time></span>
+        <span class="entry-date date modified"><time datetime="2014-09-26"><i class="icon-pencil"></i> September 26, 2014</time></span>
         <span class="entry-comments"><i class="icon-comment-alt"></i> <a href="#disqus_thread">Comment</a></span>
-        <span><a href="//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte2/" rel="bookmark" title="Segurança em servidores Linux - Parte 2"><i class="icon-link"></i> Permalink</a></span>
+        <span><a href="//localhost:4000/articles/Testando-vulnerabilidade-Shell-Shock/" rel="bookmark" title="Testando vulnerabilidade Shell Shock"><i class="icon-link"></i> Permalink</a></span>
         
         <span class="social-share-facebook">
-            <a href="https://www.facebook.com/sharer/sharer.php?u=//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte2/" title="Compartilhar no Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Compartilharno Facebook</a></span>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=//localhost:4000/articles/Testando-vulnerabilidade-Shell-Shock/" title="Compartilhar no Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Compartilharno Facebook</a></span>
         <span class="social-share-twitter">
-            <a href="https://twitter.com/intent/tweet?hashtags=articles&text=Segurança em servidores Linux - Parte 2&url=//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte2/&via=lailsonh" title="Compartilhar no Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Compartilhar no twitter</a></span>
+            <a href="https://twitter.com/intent/tweet?hashtags=articles&text=Testando vulnerabilidade Shell Shock&url=//localhost:4000/articles/Testando-vulnerabilidade-Shell-Shock/&via=lailsonh" title="Compartilhar no Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Compartilhar no twitter</a></span>
         <span class="social-share-googleplus">
-            <a href="https://plus.google.com/share?url=//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte2/" title="Compartilhar no Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
+            <a href="https://plus.google.com/share?url=//localhost:4000/articles/Testando-vulnerabilidade-Shell-Shock/" title="Compartilhar no Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
             <!-- /.social-share -->
       </footer>
       <div class="entry-content">
-        <h1 id="limitando-recursos">Limitando recursos</h1>
-<p>No sistema operacional Linux é possível limitar a utilização de recursos como memória, processador e logins
-Estes recursos são controlados pelo Kernel e configurados no arquivo limits.conf para todos os serviços que utilizam PAM</p>
+        <h1 id="vulnerabilidade">Vulnerabilidade</h1>
+<p>Nesta quarta-feira dia 24 foi divulgado uma vulnerabilidade tão perigosa quando a Heartbleed, é uma falha no bash, um interpretador de comandos utilizado em sistemas operacionais baseado em Unix. A esta falha foi dada o nome de Shell Shock (CVE-2014-6271 e CVE-2014-7168)</p>
+<p>O Bash é um shell utilizado sistemas baseado em Unix, portanto Ubuntu, Debian, OSX (Sistema Operacional da Apple), alguns roteadores podem estar vulneráveis. E o Windows ? Por incrível que pareca essa vulnerabildiade não esta presente no Windows, independente de sua versão, ja que este não utiliza o Bash.</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">find /etc/pam.d/ \! -name &quot;*.dpkg*&quot; | xargs -- grep limits |grep -v &quot;:#&quot;</span></code></pre></div>
+<h2 id="qual-a-boa-notcia-">Qual a boa notícia ?</h2>
+<p>O linux é um sistema aberto e pessoas do mundo inteiro podem colaborar no seu desenvolvimento, assim, algumas horas após a divulgação da vulnerabilidade ja existia uma atualização das principais distribuições linux, como Ubuntu e Debian. Se esta vulnerabilidade estivesse presente no Windows, um patch de atualização poderia demorar meses ou anos, como ja aconteceu.</p>
+<p>Esta não é a primeira vulnerabilidade divulgada que atinge um número muito grande de máquinas, temos exemplos na história de vulnerabilidade que era relacionada ao sistema operacional e o protocolo TCP/IP portanto atingia tanto Unix (linux e Mac OS) e Windows, depois da divulgação da vulnerabilidade poucas horas depois foi lançada uma atualização para o linux, ja o patch do Windows demorou alguns anos. </p>
+<p>Algumas sites ou telejornais apresentaram esta vulnerabilidade como sendo um <em>Vírus</em>, o que não é verdade. Isto é um <em>bug</em>, que significa uma falha/defeito no software, e após feita a devida correção/atualização no software não poderá ser infectado por esta vulnerabilidade. </p>
 
-<p>A primeira ação é derrubar o sistema com um comando simples chamado <em>fork bomb</em>. Como usuário comum, entre no Linux e digite o código abaixo:</p>
+<h2 id="verificando-a-vulnerabilidade-no-macos">Verificando a vulnerabilidade no MacOS</h2>
+<p>E como podemos saber se nossa máquina está vulnerável??</p>
+<p>Abre o seu terminal Bash  e digite a linha de comando:<br />
+<code>env x='() { :;}; echo vulnerable' bash -c 'echo hello'</code></p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">:(){ :|:&amp; };</span><span class="p-Indicator">:</span></code></pre></div>
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">$ env x=&#39;() { :;}; echo vulnerable&#39; bash -c &#39;echo hello&#39;</span>
+<span class="l-Scalar-Plain">bash</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">warning</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">x</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">ignoring function definition attempt</span>
+<span class="l-Scalar-Plain">bash</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">error importing function definition for `x&#39;</span>
+<span class="l-Scalar-Plain">hello</span></code></pre></div>
 
-<p>Com esse comando o sistema vai parar então caso tenha executado o comando reinicie a máquina.<br />
-Vamos verificar quais os limites do usuário: <code>ulimit -a</code></p>
 <figure>
- 	<img src="/images/seguranca_linux/ulimit-a.png" />
- </figure>
-<p>Para definirmos os limites, temos que separar o usuário ROOT em um grupo especial, assim como todos os usuários que tenham perfil de administrador.</p>
+	<img src="/images/ShellShock/vulnerabilidade.png" />
+</figure>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">groupadd adm</span>
-<span class="l-Scalar-Plain">gpasswd -a root adm</span></code></pre></div>
+<p>Caso o resultado seja igual ao da imagem o seu sistema está vulnerável</p>
 
-<p>Editando os limites dos usuários:<br />
-<code>vim /etc/security/limits.conf</code><br />
-É possível verificar as opções a serem alteras no arquivo. O arquivo é todo comentado.</p>
+<h2 id="corrigindo-a-vulnerabilidade">Corrigindo a vulnerabilidade</h2>
+<p>Verificando a versão do bash</p>
+
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">$ bash --version</span>
+<span class="l-Scalar-Plain">GNU bash, version 3.2.51(1)-release (x86_64-apple-darwin13)</span>
+<span class="l-Scalar-Plain">Copyright (C) 2007 Free Software Foundation, Inc.</span></code></pre></div>
+
+<p>Atualizando e recompilando o bash - Caso tenha o XCode instalado</p>
+
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">$ mkdir bash-fix</span>
+<span class="l-Scalar-Plain">$ cd bash-fix</span>
+<span class="l-Scalar-Plain">$ curl https://opensource.apple.com/tarballs/bash/bash-92.tar.gz | tar zxf -</span>
+<span class="l-Scalar-Plain">$ cd bash-92/bash-3.2</span>
+<span class="l-Scalar-Plain">$ curl https://ftp.gnu.org/pub/gnu/bash/bash-3.2-patches/bash32-052 | patch -p0</span>    
+<span class="l-Scalar-Plain">$</span> <span class="c1"># Not-yet-released-patch - replace seclists line with:</span>
+<span class="l-Scalar-Plain">$</span> <span class="c1"># curl https://ftp.gnu.org/pub/gnu/bash/bash-3.2-patches/bash32-053 | patch -p0  </span>
+<span class="l-Scalar-Plain">$ curl http://alblue.bandlem.com/bash32-053.patch | patch -p0</span>
+<span class="l-Scalar-Plain">$ cd ..</span>
+<span class="l-Scalar-Plain">$ xcodebuild</span>
+<span class="l-Scalar-Plain">$ sudo cp /bin/bash /bin/bash.old</span>
+<span class="l-Scalar-Plain">$ sudo cp /bin/sh /bin/sh.old</span>
+<span class="l-Scalar-Plain">$ build/Release/bash --version</span> <span class="c1"># GNU bash, version 3.2.53(1)-release</span>
+<span class="l-Scalar-Plain">$ build/Release/sh --version</span>   <span class="c1"># GNU bash, version 3.2.53(1)-release</span>
+<span class="l-Scalar-Plain">$ sudo cp build/Release/bash /bin</span>
+<span class="l-Scalar-Plain">$ sudo cp build/Release/sh /bin</span></code></pre></div>
+
+<p>Verificando a nova versão do Bash</p>
+
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">$ bash --version</span>
+<span class="l-Scalar-Plain">GNU bash, version 3.2.53(1)-release (x86_64-apple-darwin13)</span>
+<span class="l-Scalar-Plain">Copyright (C) 2007 Free Software Foundation, Inc.</span></code></pre></div>
+
+<p>Para melhorar a segurança devemos utilizar o comando <em>chmod -x</em> na pasta da versão do bash anterior para que não possa ser executado</p>
+
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">$ sudo chmod a-x /bin/bash.old /bin/sh.old</span></code></pre></div>
+
+<p>Digite o comando novamente e seu sistema mostara a mensagem abaixo, assim, seu sistema está protegido de uma das maiores falhas ja divulgadas</p>
+
 <figure>
- 	<img src="/images/seguranca_linux/limits-conf.png" />
- </figure>
+	<img src="/images/ShellShock/ShellShock.png" />
+</figure>
 
-<h1 id="expiracao-de-senhas">Expiração de Senhas</h1>
-<p>O arquivo <code>/etc/login.defs</code> controla as opções de senha e mais algumas coisas que são configuradas no momento da criação do usuário.
-No exemplo abaixo vamos configurar o tempo máximo de uma senha e quanto tempo antes da senha do usuário expirar o sistema vai avisar.</p>
-
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">vim /etc/login.defs</span>
-     <span class="l-Scalar-Plain">PASS_MAX_DAYS 60</span>
-     <span class="l-Scalar-Plain">PASS_MIN_DAYS 0</span>
-     <span class="l-Scalar-Plain">PASS_WARN_AGE 10</span></code></pre></div>
 
         <div id="disqus_thread"></div><!-- /#disqus_thread -->
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
       
-        <a href="//localhost:4000/articles/Seguranca-em-servidor-Linux-Parte1/" class="btn" title="Segurança em servidores Linux - Parte 1">Previous article</a>
+        <a href="//localhost:4000/concursos/Poscomp/" class="btn" title="POSCOMP">Previous article</a>
       
-      
-        <a href="//localhost:4000/concursos/Poscomp/" class="btn" title="POSCOMP">Next article</a>
       
     </nav><!-- /.pagination -->
   </article>
