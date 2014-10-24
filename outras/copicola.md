@@ -71,7 +71,9 @@ Salomão.
 23 25 28 33 44 46 <br>
 13 17 28 29 46 50 <br>
 06 08 22 30 42 50 <br>
-
+04 10 11 32 36 44 <br>
+07 15 23 31 43 54 <br>
+<br>
 <a href="/arquivos/copicola.txt">Arquivo txt</a> <br>
 <a href="/arquivos/copicola.pdf">Arquivo pdf</a>
 
