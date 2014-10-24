@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Raiacana
-description: "Bolão do Raiacana"
+title: copicola
+description: "Bolão do Copi Cola"
 modified: 2014-10-24
 category: 
 tags: [megasena bolao grana sorte]
@@ -10,7 +10,7 @@ image:
   credit: Lailson Henrique
   creditlink: 
 comments: true
-share: true
+share: false
 ---
 
 <p>A Sociedade Brasileira de Computação usando de suas atribuições legais, resolve divulgar a abertura das inscrições e estabelecer normas para a realização do Exame Nacional para Ingresso na Pós-Graduação em Computação. </p>
