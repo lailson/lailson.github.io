@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: copicola
 description: "Bolão do Copi Cola"
 modified: 2014-10-24
