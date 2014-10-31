@@ -26,6 +26,9 @@ share: true
 <p>E como podemos saber se nossa máquina está vulnerável??</p>
 Abre o seu terminal Bash  e digite a linha de comando:<br>
 `env x='() { :;}; echo vulnerable' bash -c 'echo hello'`
+{% highlight console linenos %}
+env x='() { :;}; echo vulnerable' bash -c 'echo hello'
+{% endhighlight %}
 
 <figure>
 	<img src="/images/ShellShock/vulnerabilidade.png">
@@ -35,14 +38,15 @@ Abre o seu terminal Bash  e digite a linha de comando:<br>
 
 ##Corrigindo a vulnerabilidade
 <p>Verificando a versão do bash</p>
-{% highlight yaml %}
+
+{% highlight bash linenos %}
 $ bash --version
 GNU bash, version 3.2.51(1)-release (x86_64-apple-darwin13)
 Copyright (C) 2007 Free Software Foundation, Inc.
 {% endhighlight %}
 
 <p>Atualizando e recompilando o bash - Caso tenha o XCode instalado</p>
-{% highlight yaml %}
+{% highlight bash linenos %}
 $ mkdir bash-fix
 $ cd bash-fix
 $ curl https://opensource.apple.com/tarballs/bash/bash-92.tar.gz | tar zxf -
@@ -62,14 +66,14 @@ $ sudo cp build/Release/sh /bin
 {% endhighlight %}
 
 <p>Verificando a nova versão do Bash</p>
-{% highlight yaml %}
+{% highlight bash linenos %}
 $ bash --version
 GNU bash, version 3.2.53(1)-release (x86_64-apple-darwin13)
 Copyright (C) 2007 Free Software Foundation, Inc.
 {% endhighlight %}
 
 <p>Para melhorar a segurança devemos utilizar o comando <em>chmod -x</em> na pasta da versão do bash anterior para que não possa ser executado</p>
-{% highlight yaml %}
+{% highlight bash linenos %}
 $ sudo chmod a-x /bin/bash.old /bin/sh.old
 {% endhighlight %}
 
