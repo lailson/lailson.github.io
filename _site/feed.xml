@@ -4,33 +4,159 @@
 
 
   
+  
 
 <title type="text">Lailson Henrique</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://lailson.github.io/feed.xml" />
-<link rel="alternate" type="text/html" href="http://lailson.github.io/" />
-<updated>2014-10-30T21:33:30-03:00</updated>
-<id>http://lailson.github.io/</id>
+<link rel="self" type="application/atom+xml" href="http://172.28.128.3:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://172.28.128.3:4000/" />
+<updated>2014-11-05T15:07:32-03:00</updated>
+<id>http://172.28.128.3:4000/</id>
 <author>
   <name>Lailson Henrique</name>
-  <uri>http://lailson.github.io/</uri>
+  <uri>http://172.28.128.3:4000/</uri>
   <email>lailson.pi@gmail.com</email>
 </author>
 
 
 <entry>
+  <title type="html"><![CDATA[Sefaz PI]]></title>
+  <link rel="alternate" type="text/html" href="http://172.28.128.3:4000/concursos/Sefaz-PI/"/>
+  <id>http://172.28.128.3:4000/concursos/Sefaz-PI</id>
+  <updated>2014-11-07T00:00:00-00:00</updated>
+  <published>2014-11-07T00:00:00-03:00</published>
+  
+  <author>
+    <name>Lailson Henrique</name>
+    <uri>http://172.28.128.3:4000</uri>
+    <email>lailson.pi@gmail.com</email>
+  </author>
+  <category scheme="http://172.28.128.3:4000/tags/#sefaz" term="sefaz" /><category scheme="http://172.28.128.3:4000/tags/#piau%C3%AD" term="piauí" /><category scheme="http://172.28.128.3:4000/tags/#auditor" term="auditor" /><category scheme="http://172.28.128.3:4000/tags/#analista" term="analista" /><category scheme="http://172.28.128.3:4000/tags/#concurso" term="concurso" />
+  <content type="html">
+  
+    &lt;p&gt;Concurso para Auditor e Analista da Secretaria da fazenda do Estado do Piauí &lt;/p&gt;
+
+&lt;h1 id=&quot;remunerao&quot;&gt;Remuneração&lt;/h1&gt;
+&lt;p&gt;Auditor: R$ 11.020,91. &lt;br /&gt; 
+Analista: R$ 8.088,20 &lt;br /&gt; &lt;/p&gt;
+
+&lt;h1 id=&quot;taxa-de-inscrio&quot;&gt;Taxa de Inscrição&lt;/h1&gt;
+&lt;p&gt;Auditor: R$ 180,00&lt;br /&gt;
+Analista: R$ 135,00&lt;/p&gt;
+
+&lt;h1 id=&quot;data-de-inscrio&quot;&gt;Data de Inscrição&lt;/h1&gt;
+&lt;p&gt;Inscrição: 27/10/2014 às 14h do dia 02/12/2014 (horário de Brasília)&lt;/p&gt;
+
+&lt;h1 id=&quot;banca&quot;&gt;Banca&lt;/h1&gt;
+&lt;p&gt;Fundação Carlos Chagas - FCC&lt;/p&gt;
+
+&lt;h1 id=&quot;data-da-prova&quot;&gt;Data da prova&lt;/h1&gt;
+&lt;p&gt;Auditor: 01/02/2015.&lt;br /&gt;
+Analista: 08/02/2015.&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;/images/concursos/sefaz-auditor.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;auditor-fiscal-da-fazenda-estadual--affe-brbr&quot;&gt;AUDITOR FISCAL DA FAZENDA ESTADUAL – AFFE &lt;br /&gt;&lt;br /&gt;&lt;/h1&gt;
+
+&lt;h3 id=&quot;conhecimentos-gerais-p1&quot;&gt;CONHECIMENTOS GERAIS (P1)&lt;/h3&gt;
+
+&lt;h4 id=&quot;lngua-portuguesa&quot;&gt;LÍNGUA PORTUGUESA&lt;/h4&gt;
+
+&lt;p&gt;1.Interpretação de textos. 2. Articulação do texto: expressões referenciais, nexos, operadores sequenciais. 3. Significação contextual de palavras e expressões. 4. Pressuposições e inferências; implícitos e subentendidos. 5. Variedades de texto e adequação de linguagem. 6. Equivalência e transformação de estruturas. 7. Discurso direto e indireto. 8. Processos de coordenação e subordinação. 9. Emprego de tempos e modos verbais. 10. Pontuação. 11. Estrutura e formação de palavras. 12. Empregos e funções das palavras. 13. Flexão nominal e verbal. 14. Pronomes: emprego, formas de tratamento e colocação. 15. Concordância nominal e verbal. 16. Regência nominal e verbal. 17. Ocorrência de crase. 18. Ortografia e acentuação. 19. Sintaxe.&lt;/p&gt;
+
+&lt;h4 id=&quot;matemtica-financeira&quot;&gt;MATEMÁTICA FINANCEIRA&lt;/h4&gt;
+
+&lt;p&gt;Juros simples. Montante e juros. Taxa real e taxa efetiva. Taxas equivalentes. Capitais equivalentes. Juros compostos. Montante e juros. Taxa real e taxa efetiva. Taxas equivalentes. Capitais equivalentes. Capitalização contínua. Descontos: simples, composto. Desconto racional e desconto comercial. Amortizações. Sistema francês. Sistema de amortização constante. Sistema misto. Fluxo de caixa. Valor atual. Taxa interna de retorno.&lt;/p&gt;
+
+&lt;h4 id=&quot;estatstica&quot;&gt;ESTATÍSTICA&lt;/h4&gt;
+
+&lt;p&gt;Estatística Descritiva: gráficos, tabelas, medidas de posição e de variabilidade. Probabilidades: conceito, axiomas e distribuições (binomial, normal, Poisson, qui-quadrado, t de Student e F). Inferência estatística. Amostragem: amostras casuais e não casuais. Processos de amostragem, incluindo estimativas de parâmetros. Intervalos de confiança. Testes de hipóteses para médias e proporções. Correlação e Regressão.&lt;/p&gt;
+
+&lt;h4 id=&quot;tecnologia-da-informao&quot;&gt;TECNOLOGIA DA INFORMAÇÃO&lt;/h4&gt;
+
+&lt;p&gt;1.Conceitos básicos de componentes funcionais de computadores (hardware e software). 2. Utilização da planilha eletrônica Microsoft Excel (2010). 3. Conceitos básicos de segurança da informação: Confidencialidade, disponibilidade e integridade; códigos maliciosos (malware); criptografia de chave pública (assimétrica); criptografia de chave secreta (simétrica); certificados digitais; assinaturas digitais; hashes criptográficos. 4. Utilização do Microsoft Access (2010). 5. Conceito de Sistemas Gerenciadores de Banco de Dados (SGBD). 6. Modelo relacional de dados; Modelagem de Dados: Entidades, Atributos, Relacionamentos e Cardinalidade. 7. Conceitos de SQL, tabelas, views, chaves primárias e estrangeiras. 8. Conceitos de Data Warehousing e Business Intelligence.&lt;/p&gt;
+
+&lt;h4 id=&quot;direito-administrativo&quot;&gt;DIREITO ADMINISTRATIVO&lt;/h4&gt;
+
+&lt;p&gt;1.Administração Pública: conceito, natureza e fins da Administração; agentes da Administração. 2. Organização Administrativa: descentralização e desconcentração. Órgãos públicos. Administração direta e indireta; Agências executivas e reguladoras. 3. Princípios da Administração Pública. 4. Papel das políticas públicas como elemento indutor do desenvolvimento da sociedade. 5. Poderes e deveres do administrador público. 6. Poderes da Administração: poder vinculado e poder discricionário, poder hierárquico, poder disciplinar, poder regulamentar, poder de polícia. 7. Atos Administrativos: conceitos, requisitos, atributos; classificação; espécies; validade; formalidade; motivação; revogação; anulação; modificação; extinção. 8. Controle administrativo, legislativo e judicial da Administração. Órgãos fiscalizadores das contas públicas. 9. Contratos Administrativos: características; formalização; vigência; Alteração unilateral e bilateral; Equilíbrio financeiro; Cláusulas exorbitantes; Modalidades de contratos; Extinção, prorrogação e renovação; Inexecução; Revisão, rescisão e suspensão. 10. Licitação (Lei federal nº 8.666/1993 e alterações; Lei Federal nº 10.520/2002): Finalidade, princípios, modalidades e objeto da licitação. Regime Diferenciado de Contratação (Lei 12462/2011).11. Serviços Públicos: Conceito; Classificação; Regulamentação e Controle; Requisitos do serviço e direitos do usuário; Competência para prestar o serviço; Formas e meios de prestação do serviço. Delegação. Regulação. 12. Formas de parceria com a iniciativa privada. Parceria Público-Privada. Terceirização. Fomento. 13. Servidores públicos: Classificação e Regime Jurídico; Normas constitucionais sobre o regime jurídico dos servidores públicos; Cargo, emprego e função pública; Provimento em cargo público; Direitos e vantagens dos servidores públicos; Deveres e responsabilidades. 14. Sindicância e processo administrativo. 15. Os direitos do administrado. Princípios básicos da defesa administrativa do contribuinte. 16. Responsabilidade extracontratual do Estado. 17. Bens Públicos. Formas de utilização dos bens públicos. 18. Atribuições e responsabilidades do Auditor Fiscal da Receita Estadual do Estado do Piauí. 19. Improbidade Administrativa (Lei Federal nº 8.429/1992): Imperícia, Negligência e Fraude. 20. Lei de acesso à informação. (Lei federal nº 12.527/2011).&lt;/p&gt;
+
+&lt;h4 id=&quot;direito-civil&quot;&gt;DIREITO CIVIL&lt;/h4&gt;
+
+&lt;p&gt;1.A Lei: vigência no tempo e no espaço. 2. Das pessoas. Pessoas naturais e jurídicas. Domicílio civil. 3. Das diferentes classes de bens. 4. Fatos e atos jurídicos. 5. Validade e defeitos dos negócios jurídicos. 6. Prescrição e decadência. 7. Atos ilícitos. 8. Direito das Coisas. Posse. Efeitos da posse. Propriedade. Direitos reais sobre coisas alheias. 9. Teoria Geral das obrigações. Direito das obrigações. Modalidades das obrigações. As formas de extinção das obrigações. A inexecução das obrigações. Transmissão das Obrigações. Fontes das obrigações. 10. Responsabilidade civil contratual e extracontratual. Indenização. 11. Teoria Geral dos contratos. Contratos em espécie. Atos unilaterais. 12. Código de Defesa do Consumidor (Lei nº 8.078/1990). 13. Direito das Sucessões. Sucessão em geral. Sucessão legítima. Sucessão testamentária. 14.Regimes de bens. Inventário e partilha.&lt;/p&gt;
+
+&lt;h4 id=&quot;direito-penal&quot;&gt;DIREITO PENAL&lt;/h4&gt;
+
+&lt;p&gt;1.Crimes praticados por funcionário público contra a Administração em geral. 2. Crimes contra a ordem tributária, econômica e contra as relações de consumo (Lei federal nº 8.137/1990). 3. Crimes contra as Finanças Públicas.&lt;/p&gt;
+
+&lt;h4 id=&quot;direito-constitucional&quot;&gt;DIREITO CONSTITUCIONAL&lt;/h4&gt;
+
+&lt;p&gt;1.Conceitos de teoria do Estado. 2. Princípios do Estado Democrático de Direito. 3. Conceito de Constituição. 4. Regras materialmente e formalmente constitucionais. 5. Tipos de Constituição. 6. Hermenêutica constitucional. 7. O Direito Constitucional e os demais ramos do direito. 8. Poder constituinte originário e derivado. 9. Controle de constitucionalidade. 10. Controle judiciário difuso e concentrado. 11. Ação declaratória de constitucionalidade e Ação direta de inconstitucionalidade. 12. Constituição da República Federativa do Brasil: a) Princípios fundamentais e Direitos e Deveres individuais e coletivos. O habeas corpus. O mandado de segurança. O direito de petição. O mandado de injunção. A ação popular. A ação civil pública. O habeas data. b) Direitos sociais. Cidadania plena e participação político-social. c) Direitos Humanos: Direito à vida, à liberdade, à igualdade, dignidade humana e justiça. Nacionalidade. Direitos políticos. d) Organização político-administrativa. O federalismo no Brasil. Repartição de rendas. Repartição de competências. Competências constitucionais: União, Estados, Distrito Federal e Municípios. Intervenção nos estados e municípios. Administração pública, disposições gerais e servidores públicos civis. e) Separação de poderes. Sistemas de governo. Poder Legislativo, Poder Executivo e Poder Judiciário. Ministério Público. f) Processo legislativo. g) Defesa do Estado e as instituições democráticas. h) Princípios gerais da atividade econômica e financeira. i) Sistema Tributário Nacional e do Orçamento e Finanças Públicas. 13. Constituição do Estado do Piauí.&lt;/p&gt;
+
+&lt;h3 id=&quot;conhecimentos-especficos-p2&quot;&gt;CONHECIMENTOS ESPECÍFICOS (P2)&lt;/h3&gt;
+
+&lt;h4 id=&quot;direito-tributrio&quot;&gt;DIREITO TRIBUTÁRIO&lt;/h4&gt;
+
+&lt;p&gt;1.Sistema Tributário Nacional: previsão constitucional; atribuição e competência tributária, princípios constitucionais tributários, limitações ao poder de tributar. 2. Matérias reservadas à previsão por lei complementar. 3. Receitas e Despesas Públicas. 4. Tributos de competência da União. 5. Tributos de competência dos Estados e do Distrito Federal. 6. Tributos de competência dos Municípios. 7. Os impostos em espécie. 8. Repartição das receitas tributárias: receita da União aos Estados, ao Distrito Federal e aos Municípios. Receitas dos Estados distribuídas aos Municípios. 9. Tratados e convenções internacionais. 10. Legislação tributária: lei complementar, lei ordinária, lei delegada; decretos legislativos, resoluções do Senado Federal; atos normativos de autoridades administrativas: decretos e despachos normativos do executivo, resoluções administrativas, portarias, decisões administrativas. 11. Convênios interestaduais CONFAZ. 12. Métodos de interpretação. Vigência, aplicação, interpretação e integração da legislação tributária. Interpretações sistemática, teleológica e outras. 13. As normas do Código Tributário Nacional. 14. Tributo: definição e espécies. Impostos, taxas, contribuição de melhoria, empréstimos compulsórios, contribuições especiais. 15. Obrigação tributária: principal e acessória: conceito. 16. Aspecto objetivo: fato gerador, hipótese de incidência tributária: incidência e não incidência, isenção, imunidade, domicíliotributário. 17. Aspecto subjetivo: competência tributária, sujeito ativo. 18. Capacidade tributária; sujeito passivo: contribuinte e responsável; responsabilidade solidária, responsabilidade de terceiros, responsabilidade por infrações; substituição tributária. 19. Elemento valorativo: base de cálculo, alíquota. 20. Crédito tributário: lançamento: efeitos e modalidades. Suspensão, extinção e exclusão do crédito tributário. 21. Função socioeconômica dos tributos. 22. Sonegação Fiscal. 23. Importância dos documentos fiscais. 24. Administração tributária: fiscalização, regulamentação, competência, limites, procedimentos. 25. Dívida ativa: certidão negativa. Repetição de indébito. 26. Informações e sigilo fiscal.&lt;/p&gt;
+
+&lt;h4 id=&quot;legislao-tributria-estadual&quot;&gt;LEGISLAÇÃO TRIBUTÁRIA ESTADUAL&lt;/h4&gt;
+
+&lt;h5 id=&quot;lei-3216-de-09-junho-de-1973&quot;&gt;LEI 3.216 DE 09 JUNHO DE 1973:&lt;/h5&gt;
+
+&lt;p&gt;1.Disposições Iniciais. 2. Do Processo Administrativo Fiscal. 3. Dos Órgãos Centrais de Direção Superior de Atividades Específicas Procuradoria Fiscal. 4. Das Contribuições de Melhoria.LEI 4.257, DE 06 DE JANEIRO DE 1989: 1. Do Imposto: da Incidência e do Fato Gerador. 2. Da Imunidade e da não Incidência. 3. Dos Incentivos, Das Isenções e demais Benefícios Fiscais. 4. Da Sujeição Passiva: dos Contribuintes e dos responsáveis. 5. Do Estabelecimento. 6. Do Domicílio Tributário. 7. Da Obrigação Principal: do Cálculo do Imposto, .da Sistemática de Apuração, do Recolhimento do Imposto e dos Prazos. 8. Das Obrigações Acessórias: do Cadastro de Contribuintes, do Documentário e da Escrita Fiscal. 9. Da Fiscalização: das Disposições Gerais. 10. Das Infrações e Penalidades: das Infrações, das Penalidades. 11. Da Retenção, Da Devolução, Da Liberação e Leilão de Mercadorias e Bens. 12. Das Disposições Gerais, Finais e Transitórias.&lt;/p&gt;
+
+&lt;h5 id=&quot;decreto-13500-de-23-de-dezembro-de-2008&quot;&gt;DECRETO 13.500, DE 23 DE DEZEMBRO DE 2008:&lt;/h5&gt;
+
+&lt;p&gt;1.Parte Geral: 1.1 Do Imposto. 1.2. Da Obrigação Principal. 1.3 Da Sujeição Passiva. 2. Das Obrigações Acessórias: 2.1 Das Disposições Gerais. 2.2 Do Cadastro de Contribuintes. 2.3 Dos Livros e Dos Documentos Fiscais. 2.4 Do Equipamento Emissor de Cupom Fiscal. 2.5 Da Autorização e Utilização de ECF. 2.6 Das Informações Econômico-Fiscais. 3. Dos Procedimentos Especiais: 3.1 Dos Regimes Especiais de Apuração. 3.2 Das Operações e Prestações Especiais. 3.3 Das Empresas de Transportes. 3.4 Da Substituição e Antecipação Tributária. 3.5 Dos Outros Procedimentos Especiais. 4. Das Isenções. 5. Da Administração Tributária.&lt;/p&gt;
+
+&lt;h5 id=&quot;lei-n-4548-de-29-de-dezembro-de-1992&quot;&gt;LEI Nº 4.548, DE 29 DE DEZEMBRO DE 1992:&lt;/h5&gt;
+
+&lt;p&gt;1.Do Imposto. 2. Da Incidência. 3. Da Imunidade. 4 Das Isenções. 5 Dos Contribuintes e Dos Responsáveis. 6 Do Lançamento. 7. Da Base de Cálculo. 8 Das Alíquotas. 9 Do Cálculo e Dos Prazos de Recolhimento. 10. Das Multas e Dos Acréscimos Moratórios. 11. Da Fiscalização. 12. Da Repartição da Receita. 13. Das Disposições Finais.&lt;/p&gt;
+
+&lt;h5 id=&quot;lei-n-4261-de-01-de-fevereiro-de-1989&quot;&gt;LEI Nº 4.261, DE 01 DE FEVEREIRO DE 1989:&lt;/h5&gt;
+
+&lt;p&gt;1.Das Disposições Gerais: 1.1 Da Incidência. 1.2 Da Imunidade e Da Não Incidência. 1.3. Das Isenções. 1.4. Da Base de Cálculo. 1.5 Das Alíquotas. 1.6 Dos Contribuintes e Responsáveis. 1.7 Do Pagamento do Imposto. 1.8. Da Restituição do Imposto. 1.9 Dos Acréscimos Moratórios. 1.10. Dos Juros de Mora. 1.11. Da Atualização Monetária. 1.12. Da Fiscalização. 1.13. Das Infrações. 1.14. Das Penalidades. 1.15 Da Administração Tributária. 1.16 Do Parcelamento. 1.17. Disposições Finais.&lt;/p&gt;
+
+&lt;h5 id=&quot;lei-n-4254-de-27-de-dezembro-de-1988&quot;&gt;LEI Nº 4.254 DE 27 DE DEZEMBRO DE 1988:&lt;/h5&gt;
+
+&lt;p&gt;1.Da Incidência. 2. Das Isenções. 3. Da Base de Cálculo e das Alíquotas. 4. Do Local, Forma e Prazos de Pagamento. 5. Dos Contribuintes. 6. Da Exigência e da Fiscalização. 7. Das Penalidades. 8. Das Disposições Finais.&lt;/p&gt;
+
+&lt;h4 id=&quot;contabilidade-geral&quot;&gt;CONTABILIDADE GERAL&lt;/h4&gt;
+
+&lt;p&gt;1.Contabilidade: Conceituação, objetivos, campo de atuação e usuários da informação contábil. 2. Princípios contábeis e normas contábeis brasileiras emanadas pelo Conselho Federal de Contabilidade. 3. Componentes do patrimônio: conceitos, critérios de avaliação e evidenciação. 4. Variação do patrimônio líquido. Apuração dos resultados. Conceitos, critérios de avaliação e evidenciação. 5. Escrituração contábil: Método das partidas dobradas; Contas patrimoniais e de resultado. 6. Contabilização de operações típicas de empresas mercantis. 7. Tratamento contábil dos estoques de mercadorias -conceitos e forma de avaliação. 8. Tipos de Inventários. Apuração do custo das mercadorias vendidas e do resultado com mercadorias. 9. Tratamento contábil dos impostos incidentes em operações de compras e vendas e demais tributos e contribuições incidentes. 10. Balanço Patrimonial: Estrutura e Elaboração 11. Demonstração do resultado do exercício: conteúdo e forma de apresentação. 12. Apuração e procedimentos contábeis para a identificação do resultado do exercício. 13. Custo dos produtos vendidos e dos serviços prestados. 14. Tratamento contábil e apuração dos resultados dos itens operacionais e das outras receitas e das outras despesas. 15. Demonstração das mutações do Patrimônio Líquido: conteúdo, itens evidenciáveis e forma de apresentação. 16. Procedimentos contábeis para elaboração de: a) Demonstração dos fluxos de caixa: Conceitos, principais componentes, formas de apresentação, critérios e métodos de elaboração e interligação com o conjunto das demonstrações contábeis obrigatórias; b) Demonstração do valor adicionado: Conceitos, principais componentes, formas de apresentação e critérios de elaboração. Lei nº 6.404/1976, que dispõe sobre as Sociedades por Ações.&lt;/p&gt;
+
+&lt;h4 id=&quot;contabilidade-avanada&quot;&gt;CONTABILIDADE AVANÇADA&lt;/h4&gt;
+
+&lt;p&gt;Contabilidade Avançada: Critérios de avaliação e baixas das contas do Ativo – Investimentos, Imobilizado e Intangível. Contabilização de vendas, compras, devoluções, abatimentos, despesas e receitas operacionais e outras receitas e despesas. Consolidação das Demonstrações Contábeis: Conceito e objetivos da consolidação, procedimentos e critérios contábeis aplicados, obrigatoriedade e divulgação. Reorganização e reestruturação de empresas: Incorporação, fusão, cisão e extinção de empresas - Aspectos contábeis, fiscais, legais e societários da reestruturação social. Redução ao valor recuperável de ativos: Objetivo, alcance, definições, procedimentos, divulgação e demais aspectos objeto da Resolução nº 1.292/2010 do CFC. Efeitos das mudanças nas taxas de câmbio e conversão de demonstrações contábeis: Objetivo, alcance, definições, procedimentos, divulgação e demais aspectos objeto da Resolução nº 1.295/2010 do CFC. Conceitos e procedimentos: Filiais, agências, sucursais ou dependências no exterior. Conversão das demonstrações de uma entidade no exterior. Ativo intangível: Objetivo, alcance, definições, procedimentos, divulgação e demais aspectos objeto da Resolução nº 1.303/2010 do CFC. Conceitos e procedimentos: Reconhecimento e mensuração. Reconhecimento de despesa. Mensuração após reconhecimento. Vida útil. Ativo intangível com vida útil definida e indefinida. Recuperação do valor contábil – perda por redução ao valor recuperável de ativos. Baixa e alienação. Operações de arrendamento mercantil: Objetivo, alcance, definições, procedimentos, divulgação e demais aspectos objeto da Resolução nº 1.304/2010 do CFC. Custos de transação e prêmios na emissão de títulos e valores mobiliários: Objetivo, alcance, definições, procedimentos, divulgação e demais aspectos objeto da Resolução nº 1.313/2010 do CFC. Conceitos e procedimentos: Contabilização das captações de recursos para o capital próprio, da aquisição de ações de emissão própria (ações em tesouraria), captação de recursos de terceiros e contabilização temporária dos custos de transação. Subvenção e assistência governamentais: Objetivo, alcance, definições, procedimentos, divulgação e demais aspectos objeto da Resolução nº 1.305/2010 do CFC. Ajuste a valor presente: Objetivo, alcance, definições, procedimentos, divulgação e demais aspectos objeto da Resolução nº 1.151/09 do CFC. (Obs.: Os itens abordados no programa devem estar de conformidade com as normas atualizadas).&lt;/p&gt;
+
+&lt;h4 id=&quot;contabilidade-de-custos&quot;&gt;CONTABILIDADE DE CUSTOS&lt;/h4&gt;
+
+&lt;p&gt;1.Custo: conceito, nomenclaturas aplicáveis à contabilidade de custos, classificação dos custos e despesas, sistemas de custeio, formas de produção, métodos de custeio e sistemas de controle de custo. 2. Custeio por absorção e custeio variável. 3. Custeio e controle dos materiais diretos. 4. Custeio, controle, tratamento contábil da mão de obra direta e indireta. 5. Custeio, tratamento contábil e custos indiretos de fabricação. 6. Critérios de rateio. 7. Custeio por ordem e por processo. 8. Custos e custeio da produção conjunta. 9. Coprodutos, subprodutos e sucatas: conceito, cálculo e tratamento contábil. 10. Margem de contribuição. 11. Análise das relações custo/volume/lucro. 12. O ponto de equilíbrio contábil, econômico e financeiro. 13. Custeio baseado em atividades. ABC - Activity Based Costing.&lt;/p&gt;
+
+&lt;h4 id=&quot;auditoria&quot;&gt;AUDITORIA&lt;/h4&gt;
+
+&lt;p&gt;1.Auditoria: conceitos, objetivos e estruturação do sistema de controle interno do Estado do Piauí. 2. Distinção entre auditoria interna, auditoria independente e perícia contábil. 3. Procedimentos de auditoria. Testes de observância. Testes substantivos. 4. Papéis de trabalho e documentação de auditoria. 5. Normas de execução dos trabalhos de auditoria. 6. Planejamento da auditoria. 7. Fraude e erro. 8. Relevância na auditoria. 9. Riscos da auditoria. 10. Supervisão e controle de qualidade. 11. Estudo e avaliação do sistema contábil e de controles internos. 12. Continuidade normal dos negócios da entidade. 13. Amostragem: tamanho, tipos e avaliação dos resultados. 14. Estimativas contábeis. 15. Transações com partes relacionadas. 16. Contingências. 17. Transações e eventos subsequentes. 18. Evidência em auditoria. 19. Avaliação do negócio. 20. Carta de responsabilidade da administração. 21. Pareceres de auditoria. Parecer sem ressalva. Parecer com ressalva. Parecer adverso. Parecer com abstenção de opinião, parágrafo de ênfase.&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://172.28.128.3:4000/concursos/Sefaz-PI/&quot;&gt;Sefaz PI&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://172.28.128.3:4000&quot;&gt;Lailson Henrique&lt;/a&gt; on November 07, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[Testando vulnerabilidade Shell Shock]]></title>
-  <link rel="alternate" type="text/html" href="http://lailson.github.io/articles/Testando-vulnerabilidade-Shell-Shock/"/>
-  <id>http://lailson.github.io/articles/Testando-vulnerabilidade-Shell-Shock</id>
+  <link rel="alternate" type="text/html" href="http://172.28.128.3:4000/articles/Testando-vulnerabilidade-Shell-Shock/"/>
+  <id>http://172.28.128.3:4000/articles/Testando-vulnerabilidade-Shell-Shock</id>
   <updated>2014-09-26T00:00:00-00:00</updated>
   <published>2014-09-26T00:00:00-03:00</published>
   
   <author>
     <name>Lailson Henrique</name>
-    <uri>http://lailson.github.io</uri>
+    <uri>http://172.28.128.3:4000</uri>
     <email>lailson.pi@gmail.com</email>
   </author>
-  <category scheme="http://lailson.github.io/tags/#vulnerabilidade%20shell%20shock%20osx%20linux" term="vulnerabilidade shell shock osx linux" />
+  <category scheme="http://172.28.128.3:4000/tags/#vulnerabilidade%20shell%20shock%20osx%20linux" term="vulnerabilidade shell shock osx linux" />
   <content type="html">
   
     &lt;h1 id=&quot;vulnerabilidade&quot;&gt;Vulnerabilidade&lt;/h1&gt;
@@ -101,23 +227,23 @@
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/articles/Testando-vulnerabilidade-Shell-Shock/&quot;&gt;Testando vulnerabilidade Shell Shock&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on September 26, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://172.28.128.3:4000/articles/Testando-vulnerabilidade-Shell-Shock/&quot;&gt;Testando vulnerabilidade Shell Shock&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://172.28.128.3:4000&quot;&gt;Lailson Henrique&lt;/a&gt; on September 26, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[POSCOMP]]></title>
-  <link rel="alternate" type="text/html" href="http://lailson.github.io/concursos/Poscomp/"/>
-  <id>http://lailson.github.io/concursos/Poscomp</id>
+  <link rel="alternate" type="text/html" href="http://172.28.128.3:4000/concursos/Poscomp/"/>
+  <id>http://172.28.128.3:4000/concursos/Poscomp</id>
   <updated>2014-09-16T00:00:00-00:00</updated>
   <published>2014-09-16T00:00:00-03:00</published>
   
   <author>
     <name>Lailson Henrique</name>
-    <uri>http://lailson.github.io</uri>
+    <uri>http://172.28.128.3:4000</uri>
     <email>lailson.pi@gmail.com</email>
   </author>
-  <category scheme="http://lailson.github.io/tags/#prova%20poscomp" term="prova poscomp" />
+  <category scheme="http://172.28.128.3:4000/tags/#prova%20poscomp" term="prova poscomp" />
   <content type="html">
   
     &lt;p&gt;A Sociedade Brasileira de Computação usando de suas atribuições legais, resolve divulgar a abertura das inscrições e estabelecer normas para a realização do Exame Nacional para Ingresso na Pós-Graduação em Computação. &lt;/p&gt;
@@ -315,23 +441,23 @@ Compartilhada, Segurança.&lt;/p&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/concursos/Poscomp/&quot;&gt;POSCOMP&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on September 16, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://172.28.128.3:4000/concursos/Poscomp/&quot;&gt;POSCOMP&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://172.28.128.3:4000&quot;&gt;Lailson Henrique&lt;/a&gt; on September 16, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Segurança em servidores Linux - Parte 2]]></title>
-  <link rel="alternate" type="text/html" href="http://lailson.github.io/articles/Seguranca-em-servidor-Linux-Parte2/"/>
-  <id>http://lailson.github.io/articles/Seguranca-em-servidor-Linux-Parte2</id>
+  <link rel="alternate" type="text/html" href="http://172.28.128.3:4000/articles/Seguranca-em-servidor-Linux-Parte2/"/>
+  <id>http://172.28.128.3:4000/articles/Seguranca-em-servidor-Linux-Parte2</id>
   <updated>2014-09-14T00:00:00-00:00</updated>
   <published>2014-09-13T00:00:00-03:00</published>
   
   <author>
     <name>Lailson Henrique</name>
-    <uri>http://lailson.github.io</uri>
+    <uri>http://172.28.128.3:4000</uri>
     <email>lailson.pi@gmail.com</email>
   </author>
-  <category scheme="http://lailson.github.io/tags/#seguran%C3%A7a%20linux%20antivirus%20boot%20grub%20log%20kaspersky%20clamav%20mysql%20pati%C3%A7%C3%B5es" term="segurança linux antivirus boot grub log kaspersky clamav mysql patições" />
+  <category scheme="http://172.28.128.3:4000/tags/#seguran%C3%A7a%20linux%20antivirus%20boot%20grub%20log%20kaspersky%20clamav%20mysql%20pati%C3%A7%C3%B5es" term="segurança linux antivirus boot grub log kaspersky clamav mysql patições" />
   <content type="html">
   
     &lt;h1 id=&quot;limitando-recursos&quot;&gt;Limitando recursos&lt;/h1&gt;
@@ -371,23 +497,23 @@ No exemplo abaixo vamos configurar o tempo máximo de uma senha e quanto tempo 
      &lt;span class=&quot;l-Scalar-Plain&quot;&gt;PASS_WARN_AGE 10&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/articles/Seguranca-em-servidor-Linux-Parte2/&quot;&gt;Segurança em servidores Linux - Parte 2&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on September 13, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://172.28.128.3:4000/articles/Seguranca-em-servidor-Linux-Parte2/&quot;&gt;Segurança em servidores Linux - Parte 2&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://172.28.128.3:4000&quot;&gt;Lailson Henrique&lt;/a&gt; on September 13, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Segurança em servidores Linux - Parte 1]]></title>
-  <link rel="alternate" type="text/html" href="http://lailson.github.io/articles/Seguranca-em-servidor-Linux-Parte1/"/>
-  <id>http://lailson.github.io/articles/Seguranca-em-servidor-Linux-Parte1</id>
+  <link rel="alternate" type="text/html" href="http://172.28.128.3:4000/articles/Seguranca-em-servidor-Linux-Parte1/"/>
+  <id>http://172.28.128.3:4000/articles/Seguranca-em-servidor-Linux-Parte1</id>
   <updated>2014-09-13T00:00:00-00:00</updated>
   <published>2014-09-13T00:00:00-03:00</published>
   
   <author>
     <name>Lailson Henrique</name>
-    <uri>http://lailson.github.io</uri>
+    <uri>http://172.28.128.3:4000</uri>
     <email>lailson.pi@gmail.com</email>
   </author>
-  <category scheme="http://lailson.github.io/tags/#seguran%C3%A7a%20linux%20antivirus%20boot%20grub%20log%20kaspersky%20clamav%20mysql%20pati%C3%A7%C3%B5es" term="segurança linux antivirus boot grub log kaspersky clamav mysql patições" />
+  <category scheme="http://172.28.128.3:4000/tags/#seguran%C3%A7a%20linux%20antivirus%20boot%20grub%20log%20kaspersky%20clamav%20mysql%20pati%C3%A7%C3%B5es" term="segurança linux antivirus boot grub log kaspersky clamav mysql patições" />
   <content type="html">
   
     &lt;p&gt;Hoje, o cenário da segurança digital não é um dos melhores. Sendo a informação o principal ativo de uma empresa, esta passa a ser bastante requisitada. A empresa &lt;a href=&quot;http://imprima.com&quot;&gt;imprima&lt;/a&gt; mostrou uma imagem dos 20 paies que mais sofrem com ataques digitais. 
@@ -545,23 +671,23 @@ Alterações no &lt;code&gt;/etc/fstab&lt;/code&gt;&lt;/p&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/articles/Seguranca-em-servidor-Linux-Parte1/&quot;&gt;Segurança em servidores Linux - Parte 1&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on September 13, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://172.28.128.3:4000/articles/Seguranca-em-servidor-Linux-Parte1/&quot;&gt;Segurança em servidores Linux - Parte 1&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://172.28.128.3:4000&quot;&gt;Lailson Henrique&lt;/a&gt; on September 13, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Análise de Malware - PARTE1]]></title>
-  <link rel="alternate" type="text/html" href="http://lailson.github.io/articles/Analise-de-Malware-Parte1/"/>
-  <id>http://lailson.github.io/articles/Analise-de-Malware-Parte1</id>
+  <link rel="alternate" type="text/html" href="http://172.28.128.3:4000/articles/Analise-de-Malware-Parte1/"/>
+  <id>http://172.28.128.3:4000/articles/Analise-de-Malware-Parte1</id>
   <updated>2014-06-14T00:00:00-00:00</updated>
   <published>2014-06-14T00:00:00-03:00</published>
   
   <author>
     <name>Lailson Henrique</name>
-    <uri>http://lailson.github.io</uri>
+    <uri>http://172.28.128.3:4000</uri>
     <email>lailson.pi@gmail.com</email>
   </author>
-  <category scheme="http://lailson.github.io/tags/#malware%20analise%20estatica%20dinamica%20linux%20wireshark%20botnet%20rxbot" term="malware analise estatica dinamica linux wireshark botnet rxbot" />
+  <category scheme="http://172.28.128.3:4000/tags/#malware%20analise%20estatica%20dinamica%20linux%20wireshark%20botnet%20rxbot" term="malware analise estatica dinamica linux wireshark botnet rxbot" />
   <content type="html">
   
     &lt;p&gt;Este post mostra uma introdução à Análise de Malware mostrando passo-a-passo como devemos analisar de forma estática e dinâmica um malware. 
@@ -627,7 +753,7 @@ Para execute o wireshark pelo remnux utiliza-se o comando &lt;code&gt;sudo wires
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/articles/Analise-de-Malware-Parte1/&quot;&gt;Análise de Malware - PARTE1&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on June 14, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://172.28.128.3:4000/articles/Analise-de-Malware-Parte1/&quot;&gt;Análise de Malware - PARTE1&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://172.28.128.3:4000&quot;&gt;Lailson Henrique&lt;/a&gt; on June 14, 2014.&lt;/p&gt;</content>
 </entry>
 
 </feed>
