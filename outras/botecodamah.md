@@ -26,6 +26,8 @@ share: true
 
 <figure><img src="/images/outros/seja_bemvindo.png"></figure>
 
+<figure><img src="/images/outros/mural.png"></figure>
+
 <figure><img src="/images/outros/boteco-da-mah.png"></figure>
 
 
