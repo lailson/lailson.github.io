@@ -4,7 +4,7 @@ title: Segurança em servidores Linux - Parte 2
 description: "Práticas recomendadas para deixar seu servidor linux mais seguro"
 modified: 2014-09-14
 category: articles
-tags: [segurança linux antivirus boot grub log kaspersky clamav mysql patições]
+tags: [segurança, linux, antivirus, boot, grub, log, kaspersky, clamav, mysql, patições]
 image:
   feature: seguranca_linux/comandos-linux.jpg
   credit: Lailson Henrique
