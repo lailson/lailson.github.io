@@ -5,6 +5,8 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
+<meta name="google-site-verification" 
+             content="mss25byVukevJKrr9LvHjQkPRDUoMYluyTGcbvxfs_I" />
 <title>Sobre &#8211; Lailson Henrique</title>
 <meta name="description" content="Mais um site sobre tecnologia">
 <meta name="keywords" content="Jekyll, theme, simple, minimal, minimalism, responsive">
@@ -93,7 +95,7 @@
 		    
 		        
 		    
-		    <li><a href="http://lailson.github.io/concursos/" >Concursos</a></li>
+		    <li><a href="http://lailson.github.io/tags/" >Tags</a></li>
 		  
 		    
 		        
@@ -108,11 +110,11 @@
 <!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
 
 <div class="search-wrapper">
-  <div class="search-form">
-    <input type="text" class="search-field" placeholder="Pesquisar...">
-    <button class="close-btn"><i class="fa fa-times-circle fa-2x"></i></button>
-    <ul class="search-results post-list"></ul><!-- /.search-results -->
-  </div><!-- /.search-form -->
+	<div class="search-form">
+		<input type="text" class="search-field" placeholder="Pesquisar...">
+		<i class="icon-remove-sign icon-2x"></i>
+		<ul class="search-results post-list"></ul><!-- /.search-results -->
+	</div><!-- /.search-form -->
 </div><!-- ./search-wrapper -->
 
 <header class="masthead">
@@ -146,33 +148,43 @@
 
 <div class="footer-wrapper">
   <footer role="contentinfo">
-    <span>&copy; 2014 Lailson Henrique.</span>
+    <span>&copy; 2015 Lailson Henrique.</span>
 <div class="social-icons">
 	<a href="http://twitter.com/lailsonh" title="Lailson Henrique on Twitter" target="_blank"><i class="icon-twitter icon-2x"></i></a>
 	<a href="http://facebook.com/lailson.henrique" title="Lailson Henrique on Facebook" target="_blank"><i class="icon-facebook icon-2x"></i></a>
 	<a href="https://plus.google.com/+LailsonHenrique" title="Lailson Henrique on Google+" target="_blank"><i class="icon-google-plus icon-2x"></i></a>
 	<a href="http://linkedin.com/in/lailsonhenrique" title="Lailson Henrique on LinkedIn" target="_blank"><i class="icon-linkedin icon-2x"></i></a>
 	
-	<a href="http://instagram.com/lailsonh" title="Lailson Henrique on Instagram" target="_blank"><i class="icon-instagram icon-2x"></i></a>
+	<a href="http://instagram.com/lailsonhenrique" title="Lailson Henrique on Instagram" target="_blank"><i class="icon-instagram icon-2x"></i></a>
 	
 	<a href="http://github.com/lailson" title="Lailson Henrique on Github" target="_blank"><i class="icon-github icon-2x"></i></a>
 	
+	
+	<!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+	<form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
+	<!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+	<input type="hidden" name="currency" value="BRL" />
+	<input type="hidden" name="receiverEmail" value="lailson.pi@gmail.com" />
+	<input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/doacoes/120x53-doar-cinza.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+	</form>
+<!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
 </div><!-- /.social-icons -->
+
   </footer>
 </div><!-- /.footer-wrapper -->
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="http://lailson.github.io/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="http://lailson.github.io/assets/js/scripts.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
 
 <!-- Jekyll Simple Search option -->
 <script>
   $(document).ready(function() {
       $('.search-field').simpleJekyllSearch({
-          jsonFile : 'http://lailson.github.io/search.json',
-          searchResults : '.Resultado da pesquisa:',
+          jsonFile : '/search.json',
+          searchResults : '.search-results',
           template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
-          noResults: '<p>Nenhum resultado encontrado.</p>'
+          noResults: '<p>Nothing found.</p>'
         });
   });
 
@@ -217,6 +229,12 @@
   })();
 </script>
 
+
+<!-- Webfonts -->
+<script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
           
 
 </body>

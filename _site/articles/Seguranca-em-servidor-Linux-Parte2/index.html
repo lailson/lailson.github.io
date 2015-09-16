@@ -5,9 +5,11 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
+<meta name="google-site-verification" 
+             content="mss25byVukevJKrr9LvHjQkPRDUoMYluyTGcbvxfs_I" />
 <title>Segurança em servidores Linux - Parte 2 &#8211; Lailson Henrique</title>
 <meta name="description" content="Práticas recomendadas para deixar seu servidor linux mais seguro">
-<meta name="keywords" content="segurança linux antivirus boot grub log kaspersky clamav mysql patições">
+<meta name="keywords" content="segurança, linux, antivirus, boot, grub, log, kaspersky, clamav, mysql, patições">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary_large_image">
@@ -83,7 +85,7 @@
 		    
 		        
 		    
-		    <li><a href="http://lailson.github.io/concursos/" >Concursos</a></li>
+		    <li><a href="http://lailson.github.io/tags/" >Tags</a></li>
 		  
 		    
 		        
@@ -98,11 +100,11 @@
 <!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
 
 <div class="search-wrapper">
-  <div class="search-form">
-    <input type="text" class="search-field" placeholder="Pesquisar...">
-    <button class="close-btn"><i class="fa fa-times-circle fa-2x"></i></button>
-    <ul class="search-results post-list"></ul><!-- /.search-results -->
-  </div><!-- /.search-form -->
+	<div class="search-form">
+		<input type="text" class="search-field" placeholder="Pesquisar...">
+		<i class="icon-remove-sign icon-2x"></i>
+		<ul class="search-results post-list"></ul><!-- /.search-results -->
+	</div><!-- /.search-form -->
 </div><!-- ./search-wrapper -->
 
 <header class="masthead">
@@ -133,7 +135,7 @@
     <img src="http://lailson.github.io/images/seguranca_linux/comandos-linux.jpg" class="entry-feature-image" alt="Segurança em servidores Linux - Parte 2" ><p class="image-credit">Photo Credit: <a href="">Lailson Henrique</a>
     <div class="entry-wrapper">
       <header class="entry-header">
-        <span class="entry-tags"><a href="http://lailson.github.io/tags/#segurança linux antivirus boot grub log kaspersky clamav mysql patições" title="Pages tagged segurança linux antivirus boot grub log kaspersky clamav mysql patições">segurança linux antivirus boot grub log kaspersky clamav mysql patições</a></span>
+        <span class="entry-tags"><a href="http://lailson.github.io/tags/#segurança" title="Pages tagged segurança">segurança</a>&nbsp;&bull;&nbsp;<a href="http://lailson.github.io/tags/#linux" title="Pages tagged linux">linux</a>&nbsp;&bull;&nbsp;<a href="http://lailson.github.io/tags/#antivirus" title="Pages tagged antivirus">antivirus</a>&nbsp;&bull;&nbsp;<a href="http://lailson.github.io/tags/#boot" title="Pages tagged boot">boot</a>&nbsp;&bull;&nbsp;<a href="http://lailson.github.io/tags/#grub" title="Pages tagged grub">grub</a>&nbsp;&bull;&nbsp;<a href="http://lailson.github.io/tags/#log" title="Pages tagged log">log</a>&nbsp;&bull;&nbsp;<a href="http://lailson.github.io/tags/#kaspersky" title="Pages tagged kaspersky">kaspersky</a>&nbsp;&bull;&nbsp;<a href="http://lailson.github.io/tags/#clamav" title="Pages tagged clamav">clamav</a>&nbsp;&bull;&nbsp;<a href="http://lailson.github.io/tags/#mysql" title="Pages tagged mysql">mysql</a>&nbsp;&bull;&nbsp;<a href="http://lailson.github.io/tags/#patições" title="Pages tagged patições">patições</a></span>
         
           <h1 class="entry-title">Segurança em servidores Linux - Parte 2</h1>
         
@@ -159,11 +161,11 @@
 <p>No sistema operacional Linux é possível limitar a utilização de recursos como memória, processador e logins
 Estes recursos são controlados pelo Kernel e configurados no arquivo limits.conf para todos os serviços que utilizam PAM</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">find /etc/pam.d/ \! -name &quot;*.dpkg*&quot; | xargs -- grep limits |grep -v &quot;:#&quot;</span></code></pre></div>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">find /etc/pam.d/ \! -name &quot;*.dpkg*&quot; | xargs -- grep limits |grep -v &quot;:#&quot;</span></code></pre></div>
 
 <p>A primeira ação é derrubar o sistema com um comando simples chamado <em>fork bomb</em>. Como usuário comum, entre no Linux e digite o código abaixo:</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">:(){ :|:&amp; };</span><span class="p-Indicator">:</span></code></pre></div>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">:(){ :|:&amp; };</span><span class="p-Indicator">:</span></code></pre></div>
 
 <p>Com esse comando o sistema vai parar então caso tenha executado o comando reinicie a máquina.<br />
 Vamos verificar quais os limites do usuário: <code>ulimit -a</code></p>
@@ -172,7 +174,7 @@ Vamos verificar quais os limites do usuário: <code>ulimit -a</code></p>
  </figure>
 <p>Para definirmos os limites, temos que separar o usuário ROOT em um grupo especial, assim como todos os usuários que tenham perfil de administrador.</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">groupadd adm</span>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">groupadd adm</span>
 <span class="l-Scalar-Plain">gpasswd -a root adm</span></code></pre></div>
 
 <p>Editando os limites dos usuários:<br />
@@ -186,7 +188,7 @@ Vamos verificar quais os limites do usuário: <code>ulimit -a</code></p>
 <p>O arquivo <code>/etc/login.defs</code> controla as opções de senha e mais algumas coisas que são configuradas no momento da criação do usuário.
 No exemplo abaixo vamos configurar o tempo máximo de uma senha e quanto tempo antes da senha do usuário expirar o sistema vai avisar.</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">vim /etc/login.defs</span>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">vim /etc/login.defs</span>
      <span class="l-Scalar-Plain">PASS_MAX_DAYS 60</span>
      <span class="l-Scalar-Plain">PASS_MIN_DAYS 0</span>
      <span class="l-Scalar-Plain">PASS_WARN_AGE 10</span></code></pre></div>
@@ -199,7 +201,7 @@ No exemplo abaixo vamos configurar o tempo máximo de uma senha e quanto tempo 
         <a href="http://lailson.github.io/articles/Seguranca-em-servidor-Linux-Parte1/" class="btn" title="Segurança em servidores Linux - Parte 1">Previous article</a>
       
       
-        <a href="http://lailson.github.io/concursos/Poscomp/" class="btn" title="POSCOMP">Next article</a>
+        <a href="http://lailson.github.io/articles/Poscomp/" class="btn" title="POSCOMP">Next article</a>
       
     </nav><!-- /.pagination -->
   </article>
@@ -207,17 +209,17 @@ No exemplo abaixo vamos configurar o tempo máximo de uma senha e quanto tempo 
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="http://lailson.github.io/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="http://lailson.github.io/assets/js/scripts.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
 
 <!-- Jekyll Simple Search option -->
 <script>
   $(document).ready(function() {
       $('.search-field').simpleJekyllSearch({
-          jsonFile : 'http://lailson.github.io/search.json',
-          searchResults : '.Resultado da pesquisa:',
+          jsonFile : '/search.json',
+          searchResults : '.search-results',
           template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
-          noResults: '<p>Nenhum resultado encontrado.</p>'
+          noResults: '<p>Nothing found.</p>'
         });
   });
 
@@ -282,7 +284,13 @@ No exemplo abaixo vamos configurar o tempo máximo de uma senha e quanto tempo 
     }());
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>	   
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<!-- Webfonts -->
+<script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+	   
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -303,18 +311,28 @@ No exemplo abaixo vamos configurar o tempo máximo de uma senha e quanto tempo 
 
 <div class="footer-wrapper">
   <footer role="contentinfo">
-    <span>&copy; 2014 Lailson Henrique.</span>
+    <span>&copy; 2015 Lailson Henrique.</span>
 <div class="social-icons">
 	<a href="http://twitter.com/lailsonh" title="Lailson Henrique on Twitter" target="_blank"><i class="icon-twitter icon-2x"></i></a>
 	<a href="http://facebook.com/lailson.henrique" title="Lailson Henrique on Facebook" target="_blank"><i class="icon-facebook icon-2x"></i></a>
 	<a href="https://plus.google.com/+LailsonHenrique" title="Lailson Henrique on Google+" target="_blank"><i class="icon-google-plus icon-2x"></i></a>
 	<a href="http://linkedin.com/in/lailsonhenrique" title="Lailson Henrique on LinkedIn" target="_blank"><i class="icon-linkedin icon-2x"></i></a>
 	
-	<a href="http://instagram.com/lailsonh" title="Lailson Henrique on Instagram" target="_blank"><i class="icon-instagram icon-2x"></i></a>
+	<a href="http://instagram.com/lailsonhenrique" title="Lailson Henrique on Instagram" target="_blank"><i class="icon-instagram icon-2x"></i></a>
 	
 	<a href="http://github.com/lailson" title="Lailson Henrique on Github" target="_blank"><i class="icon-github icon-2x"></i></a>
 	
+	
+	<!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+	<form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
+	<!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+	<input type="hidden" name="currency" value="BRL" />
+	<input type="hidden" name="receiverEmail" value="lailson.pi@gmail.com" />
+	<input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/doacoes/120x53-doar-cinza.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+	</form>
+<!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
 </div><!-- /.social-icons -->
+
   </footer>
 </div><!-- /.footer-wrapper -->
 

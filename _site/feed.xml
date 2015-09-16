@@ -9,7 +9,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://lailson.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://lailson.github.io/" />
-<updated>2014-11-06T16:57:02-03:00</updated>
+<updated>2015-09-16T16:07:04-03:00</updated>
 <id>http://lailson.github.io/</id>
 <author>
   <name>Lailson Henrique</name>
@@ -19,9 +19,503 @@
 
 
 <entry>
+  <title type="html"><![CDATA[IFMA]]></title>
+  <link rel="alternate" type="text/html" href="http://lailson.github.io/articles/IFMA/"/>
+  <id>http://lailson.github.io/articles/IFMA</id>
+  <updated>2015-09-15T00:00:00-00:00</updated>
+  <published>2015-09-15T00:00:00-03:00</published>
+  
+  <author>
+    <name>Lailson Henrique</name>
+    <uri>http://lailson.github.io</uri>
+    <email>lailson.pi@gmail.com</email>
+  </author>
+  <category scheme="http://lailson.github.io/tags/#prodater" term="prodater" /><category scheme="http://lailson.github.io/tags/#piau%C3%AD" term="piauí" /><category scheme="http://lailson.github.io/tags/#teresina" term="teresina" /><category scheme="http://lailson.github.io/tags/#concurso" term="concurso" /><category scheme="http://lailson.github.io/tags/#ti" term="ti" /><category scheme="http://lailson.github.io/tags/#inform%C3%A1tica" term="informática" /><category scheme="http://lailson.github.io/tags/#tecnologia" term="tecnologia" /><category scheme="http://lailson.github.io/tags/#informa%C3%A7%C3%A3o" term="informação" />
+  <content type="html">
+  
+    &lt;p&gt;Concurso para técnico e Analista da Empresa Teresinense de Processamento de Dados&lt;/p&gt;
+
+&lt;h1 id=&quot;remunerao&quot;&gt;Remuneração&lt;/h1&gt;
+&lt;p&gt;Analista: R$ 4.575,16. &lt;br /&gt; 
+Técnico (programador): R$ 2.954,62 &lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;taxa-de-inscrio&quot;&gt;Taxa de Inscrição&lt;/h1&gt;
+&lt;p&gt;Analista: R$ 120,00&lt;br /&gt;
+Técnico : R$ 80,00 &lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;data-de-inscrio&quot;&gt;Data de Inscrição&lt;/h1&gt;
+&lt;p&gt;Inscrição: 18 de Setembro á 02 de outubro de 2015.&lt;/p&gt;
+
+&lt;h1 id=&quot;banca&quot;&gt;Banca&lt;/h1&gt;
+&lt;p&gt;CONSEP - Consultoria e Estudos Pedagógicos Ltda.&lt;/p&gt;
+
+&lt;h1 id=&quot;data-da-prova&quot;&gt;Data da prova&lt;/h1&gt;
+&lt;p&gt;08 de novembro de 2015, a partir das 9:00 h (horário local) com 04 horas de duração&lt;/p&gt;
+
+&lt;h1 id=&quot;programador&quot;&gt;Programador&lt;/h1&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;/images/concursos/prodater-programador.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;analista&quot;&gt;Analista&lt;/h1&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;/images/concursos/prodater-analista.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;vagas&quot;&gt;Vagas&lt;/h1&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;/images/concursos/prodater-vagas.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;programador-1&quot;&gt;Programador&lt;/h1&gt;
+&lt;p&gt;###Lingua portuguesa&lt;/p&gt;
+
+&lt;p&gt;Interpretação de textos de diferentes gêneros. Comunicação verbal e não verbal, elementos da comunicação
+verbal e funções da linguagem. Fonética e fonologia: fonemas, vogais, consoantes e semivogais; encontros
+vocálicos, consonantais e dígrafos, classificação das palavras quanto à sílaba tônica, paronímia e homonímia;
+ortoépia e prosódia. As classes de palavras - definições, classificações, formas e flexões, emprego: substantivos, adjetivos, pronomes, verbos, advérbios, preposições e conjunções. Concordância verbal e concordância nominal. Regência verbal e regência nominal. Ortografia: acentuação gráfica, uso da crase, emprego do hífen e divisão
+silábica. Pontuação: sinais de pontuação. Estilística: figuras de linguagem, figuras de palavras, figuras de sintaxe,
+figuras de pensamento. Variação linguística: as diversas modalidades do uso da língua. Semântica: denotação e
+conotação, significação das palavras (sinônimo, antônimo, homônimo e parônimo), polissemia e homonímia.
+Interpretação e análise de textos: compreensão de texto literário ou não-literário&lt;/p&gt;
+
+&lt;h3 id=&quot;legislao-municipal&quot;&gt;Legislação Municipal&lt;/h3&gt;
+&lt;p&gt;Lei Complementar Nº 4.255, de 4 de Abril de 2012 Institui o Plano de Cargos, Carreira e Salário para os empregados públicos efetivos, integrantes do quadro de pessoal da Empresa Teresinense de Processamento de Dados PRODATER, Lei Nº 2.135 de 02.07.1992 Dispõe sobre a criação da PRODATER e Regimento Interno da PRODATER.&lt;/p&gt;
+
+&lt;h3 id=&quot;conhecimento-especfico&quot;&gt;Conhecimento Específico&lt;/h3&gt;
+&lt;p&gt;Organização básica de computadores. Componentes de um computador (hardware e software). Linguagens de
+programação; compiladores e interpretadores; sistemas de numeração e representação de dados numéricos,
+textuais e estruturados; aritmética computacional. Conhecimentos de C, C++, Java, C#, Visual Basic .NET, Python. Sistemas operacionais: funções básicas; sistemas de arquivos e gerenciamento de memória. Windows e
+Linux. Redes de computadores: fundamentos de comunicação de dados; meios físicos; serviços de comunicação;
+redes locais e redes geograficamente distribuídas; TCP/IP; protocolos e serviços. Orientação a objetos: Classes e
+objetos; Herança e polimorfismo; Encapsulamento. Programação para WEB. PHP e Javascript. ASP,JSP, Servlets. Arquitetura MVC. XML, HTML e CSS. Integração com bancos de dados. Bancos de dados. Linguagem
+SQL. Consultas e subconsultas. Comandos de manipulação de dados. Outros comandos para manipulação
+(DML), controle (DCL) e descrição de dados (DDL). ODBC. Interfaces de utilização: principais propriedades e
+características das bibliotecas mais difundidas. ODBC. Estruturas de dados. Algoritmos fundamentais: busca,
+inserção, atualização e remoção em diversas estruturas (listas, árvores, árvores balanceadas, heaps). Algoritmos
+de ordenação. Tabelas de dispersão (hashing). Análise e projeto orientados a objetos. UML: visão geral, modelos
+e diagramas. Padrões de projeto. Desenvolvimento baseado em componentes. Desenvolvimento baseado em
+serviços. Princípios de interface com o usuário. Segurança no desenvolvimento: práticas de programação segura e revisão de código; controles e testes de segurança para aplicações web; controles e testes de segurança para
+Web Services.- Fundamento de computação. Algoritmos. Iterativos. Recursivos. Teste de mesa. Lógica de
+programação. Tabela verdade. Operações lógicas: negação; conjunção; disjunção; operação condicional;
+operação bicondicional; contradição. Estruturas de dados: vetores e matrizes; listas; pilhas; filas; árvores binárias;
+grafos; tabelas de hashing (tabelas de dispersão). Estruturas de repetição: repetição pré-testada; repetição póstestada;
+repetição com variável de controle; iteração de coleção. Estruturas de decisão: condições; operadores
+relacionais; operadores lógicos; seleção. Compilador, interpretador, montador e link-editor. Programação
+Orientada a Objetos (POO). Fundamentos: abstração; classe, objeto, atributo e método; interface; associação e
+mensagem; herança; polimorfismo; encapsulamento; coesão; pacotes. Construção de algoritmos. Mapeamento
+objetorelacional (ORM). - Linguagens de programação. Java. Construção de programas. Estrutura da linguagem:
+JVM e bytecode; anotações; coleções; serialização; reflexão; Swing; operadores; estruturas de decisão e de
+repetição; tipos; enumeradores; matrizes. J2EE: JDBC; Servlets; JSP; JSF; JTA; EJBs; JCA; JPA; Web Services;
+noções de uso e administração de contêineres (Tomcat, JBoss AS). SWT. Eclipse. Delphi. Construção de
+programas. Estrutura da linguagem - Object Pascal: estruturas de decisão e de repetição; tipos; enumeradores;
+matrizes. IDE. Acesso a bancos de dados. - PL/SQL. Estrutura da linguagem. Stored Procedures. Tratamento de
+erros. Cursores. SQL dinâmico. Package. Function. Array. - Desenvolvimento para web. HTML. CSS. Javascript. XML. Estrutura da linguagem. Transformação XSLT. DTD. XML Schema. Web Services. - Noções de Engenharia
+de Software. Conceitos. Ciclo de vida. Ciclo de desenvolvimento. Modelos de processo de software. Métodos e
+modelos de desenvolvimento. Modelagem. Processos de software. Requisitos, qualidade do software, métricas e
+prototipagem. RUP. Métricas de Processo e Projeto. Análise de pontos de função. Arquitetura de aplicações para
+o ambiente Web. Sistemas Legados. Mudança de software. - UML. Conceitos gerais. Diagramas. Casos de Uso. Sequência. Classes. Estados. Atividades. Análise e Deployment. - Testes de Software. Tipos de Testes. Planos de
+Testes. JUnit. - Banco de Dados. Projeto e modelagem de banco de dados relacional. Conceitos da modelagem
+dimensional. SQL: definição de dados (DDL); manipulação de dados (DML); controle de dados (DCL); transação
+de dados (DTL); expressões regulares; gatilho (trigger); visão (view). - Noções de Governança de TI. Conceito. Noções de COBIT 4: conceito; domínios. - Noções de boas práticas de TI. Conceito. Noções de ITIL 3: conceito;
+estrutura; terminologia (em inglês e português). - Noções de gerenciamento de projetos. Conceito. Papéis. Patrocinador. Gerente de projeto. Membro da equipe. Noções do Guia PMBOK 3: conceito; áreas de
+conhecimento. - Noções de Gerenciamento de Processos. Conceito. Terminologia: atividade; tarefa; responsável;
+proprietário. - Noções de Segurança da Informação. - Hibernate. - XP (extreme programming) e Scrum. - Conceitos da linguagem de programação PHP.&lt;/p&gt;
+
+&lt;h1 id=&quot;analista-1&quot;&gt;Analista&lt;/h1&gt;
+&lt;p&gt;###Lingua Portuguesa
+Língua, Linguagem e fala - signos, índices, ícones e símbolos. Os signos linguísticos, significantes e significados, os conceitos de gramática. Estrutura e elementos de textos normativos, descritivos e dissertativos. Coesão e
+coerência textuais. A coerência e o texto da relação entre coerência e coesão. Coerência narrativa, figurativa, argumentativa. Coesão no período composto, o papel dos elementos de coesão; A coesão referencial. Formas
+remissivos gramaticais presos; Formas remissivos gramaticais livres; Formas remissivos lexicais e
+nominalizações; Coesão sequencial; Sequênciação Parafrástica; Recorrência de termos; Recorrência de
+conteúdos semânticos - paráfrase; Recorrência de tempo e os aspectos verbal; Sequênciação frástica;
+Procedimentos de manutenção temática; Progressão temática. O vocábulo formal, análise mórfica: princípios
+Básicos e Auxiliares; Tipos de morfemas. Estrutura: Formação do vocábulo; Tipos de derivação; Processos de
+Composição; Outros processos de formação de palavras; Flexão nominal e verbal; Concordâncias verbal e
+nominal; Período simples e composto; Termos da oração: Essenciais integrantes e acessórios. Tipos de orações;
+Sintagma e seus tipos; Orações coordenadas e subordinadas; Orações independentes coordenadas entre si;
+Orações ou período interferentes; Orações subordinadas&lt;/p&gt;
+
+&lt;h3 id=&quot;legislao-municipal-1&quot;&gt;Legislação Municipal&lt;/h3&gt;
+&lt;p&gt;Lei Complementar Nº 4.255, de 4 de Abril de 2012 Institui o Plano de Cargos, Carreira e Salário para os
+empregados públicos efetivos, integrantes do quadro de pessoal da Empresa Teresinense de Processamento de
+Dados PRODATER, Lei Nº 2.135 de 02.07.1992 Dispõe sobre a criação da PRODATER e Regimento Interno
+da PRODATER.&lt;/p&gt;
+
+&lt;h3 id=&quot;especfico---analista-de-negcios&quot;&gt;Específico - Analista de Negócios&lt;/h3&gt;
+&lt;p&gt;GOVERNANÇA DE TI: Planejamento estratégico de TI - PETI. Alinhamento estratégico entre área de TI e
+negócios. Estrutura organizacional e responsabilidades de TI. Responsabilidade e papéis de TI. Processos de
+definição, implantação e gestão de políticas organizacionais. Práticas de gestão de TI. Gestão de pessoal. Terceirização de TI. Gestão de mudanças organizacionais. Gestão de riscos. Processo de gestão de riscos. ITIL - Estrutura, objetivos e conceitos gerais.Gestão da continuidade do negócio.Modelos para Outsourcing de TI. Balanced Scorecard. Outros modelos (ISO 9001:2000, ISO/IEC 12207, ISO/IEC 9126, MR mps e modelos de
+fornecedores. Segurança da informação: gestão de segurança da informação: classificação e controle de ativos de
+informação, segurança de ambientes físicos e lógicos, controles de acesso, segurança de serviços terceirizados;
+gestão de risco: planejamento, identificação e análise de risco, plano de continuidade de negócio; política de
+segurança da informação: processos de definição, implantação e gestão de políticas de segurança e auditoria. Direito Administrativo - Estado, governo e administração pública: conceitos, elementos, poderes e organização;
+natureza, fins e princípios. Agentes públicos: espécies e classificação; poderes, deveres e prerrogativas; cargo, emprego e função públicos; regime jurídico único: provimento, vacância, remoção, redistribuição e substituição;
+direitos e vantagens; regime disciplinar; responsabilidade civil, criminal e administrativa. Poderes administrativos:
+poder hierárquico; poder disciplinar; poder regulamentar; poder de polícia; uso e abuso do poder. Serviços
+públicos: conceito, classificação, regulamentação e controle; forma, meios e requisitos; delegação: concessão, permissão, autorização. Controle e responsabilização da administração: controle administrativo; controle judicial;
+controle legislativo; responsabilidade civil do Estado. Licitações (Lei nº 8666/1993 e suas alterações e Lei
+10.520/2002): conceito, objeto, finalidades e princípios, obrigatoriedade, dispensa, inexigibilidade, vedação, modalidades, procedimentos e fases, revogação, invalidação, desistência e controle. Administração Pública - Características básicas das organizações formais modernas: tipos de estrutura organizacional, natureza,
+finalidades e critérios de departamentalização. Processo organizacional: planejamento, direção, comunicação, controle e avaliação. Gestão de processos. Gestão da Qualidade. Gestão de Projetos. Planejamento Estratégico. Excelência nos serviços públicos. Empreendedorismo governamental e novas lideranças no setor público. Gestão
+de resultados na produção de serviços públicos. Convergências e diferenças entre a gestão pública e a gestão
+privada. O paradigma do cliente na gestão pública. Comportamento Organizacional: relações
+indivíduo/organização, motivação, liderança, desempenho. Competência interpessoal. Gerenciamento de conflitos.
+Clima e cultura organizacional. Gestão por competência. Administração de Recursos Materiais: funções e
+objetivos da administração de materiais; classificação e especificação de materiais. Administração Financeira e
+Orçamentária - Orçamento público. Conceitos e princípios orçamentários. Ciclo Orçamentário. Elaboração da
+proposta. Estudo e aprovação. Execução. Avaliação. Orçamento-programa: fundamentos e técnicas. Títulos I, IV, V e VI da Lei Federal nº 4.320/1964. Orçamento na Constituição Federal de 1988. Plano Plurianual. Lei de
+Diretrizes Orçamentárias. Lei Orçamentária Anual. Créditos orçamentários iniciais e adicionais. Estágios da
+despesa orçamentária. Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal): Disposições
+preliminares. Planejamento. Despesa Pública. Transparência, controle e fiscalização. Disposições finais e
+transitórias.&lt;/p&gt;
+
+&lt;h3 id=&quot;especfico---analista-de-sistema&quot;&gt;Específico - Analista de Sistema&lt;/h3&gt;
+&lt;p&gt;FUNDAMENTOS: Componentes e arquiteturas de sistemas computacionais (hardware e software); Linguagens de
+programação, compiladores e interpretadores; Representação de dados: binário, hexadecimal e decimal;
+Processamento paralelo e distribuído; Componentes e arquiteturas de processadores; Conjuntos de instrução;
+Aritmética computacional; Pipeline; Hierarquia de memória; Interface entre processadores e periféricos;
+Multiprocessamento simétrico e assimétrico; Fundamentos de sistemas operacionais; Gerenciamento de
+processos e fluxos de execução (threads): alocação de CPU, comunicação e sincronização entre processos,
+impasses (deadlocks) e esgotamento de recursos (starvation); Gerenciamento de memória: alocação, segmentação, memória virtual, e paginação; Sistemas de entrada e saída: estruturas de armazenamento
+secundário e terciário, análise de desempenho e confiabilidade; Virtualização; Web Services; inglês técnico;
+redação técnica; sistema operacional Windows XP e superiores; conhecimento dos pacotes de automação de
+escritórios Microsoft Office 2003 (Word e Excel) e BrOffice 2.0 (Writer e Calc). - SERVIDORES DE APLICAÇÃO
+JAVA ENTERPRISE EDITION (JEE) 5: Fundamentos de servidores de aplicação JEE5; Conceitos de
+clusterização; Topologias típicas de ambientes com alta disponibilidade e escalabilidade. - JAVA: conhecimentos
+básicos da linguagem JAVA; funcionamento da JVM - JAVA Virtual Machine: Memória HEAP e STATIC; objetos e
+classes (tipos abstratos de dados; polimorfismo, sobrecarga e herança); divisão de classes em subclasses;
+subscrição de métodos; agrupamento de classes; utilização de THREADS em JAVA; utilização de redes com
+JAVA (TCP/IP e soquetes UDP); bibliotecas gráficas (SWING); comandos de acesso a dados (JDBC); comandos
+de manipulação de erros; programação e distribuição de componentes; JAVADOC; programação de JAVA
+SERVLETS; Applets JAVA; conceitos e características de: JSP, XML, EJB, JPA, JSF. - BANCO DE DADOS:
+Conceitos e fundamentos de Sistemas Gerenciadores de Banco de Dados (SGBD); Bancos de dados distribuídos,
+relacionais e orientados a objeto; Conceitos de alta disponibilidade; Conceitos de backup e restauração; Modelos
+de banco de dados: hierárquico, rede e relacional; Independência de dados; Dicionário de dados; Modelagem
+entidade-relacionamento (ER); Normalização; Gerência de transações; Gerência de bloqueios; Gerência de
+desempenho; Linguagens de definição e manipulação de dados (ANSI SQL). - ORACLE PL/SQL: conhecimentos
+básicos de Oracle PL/SQL; comandos de acesso a dados; comandos de manipulação e tratamento de erros;
+desenvolvimento de triggers, functions, procedures e packages, conhecimento de Oracle SQL Functions. - ARMAZENAMENTO DE DADOS: Conceitos de Storage Area Networks (SAN) e Network Attached Storage (NAS);
+Fibre Channel (FC): protocolo Fibre Channel Protocol (FCP), camadas e topologias padrão; Protocolos Common
+Internet File System (CIFS) e Network File System (NFS); Redundant Array of Inexpensive Disks (RAID): níveis 0, 1, 5, 6, 1+0 e 0+1; Backup: Políticas de backup; Tipos de backup (completo, incremental e diferencial) e
+arquiteturas (LAN free, server free e client free). - SEGURANÇA: Conceitos básicos Confidencialidade,
+disponibilidade e integridade; Segregação de funções; Gestão de mudanças; Vulnerabilidade, risco e ameaça;
+Política de segurança da informação; Gestão de ativos; Classificação da informação. Códigos maliciosos Vírus,
+vermes (worm), cavalos de Tróia, programas espiões (spyware e adware), capturadores de teclas (keyloggers), backdoors, rootkits. Criptografia Criptografia de chave pública (assimétrica); Criptografia de chave secreta
+(simétrica); Certificados digitais; Assinaturas digitais; Hashes criptográficos. Controle de acesso Autenticação,
+autorização e auditoria; Ataques de negação de serviço (Denial of Service DoS) e ataques distribuídos de
+negação de serviço (Distributed Denial of Service DDoS); Comunicação segura com Secure Sockets Layer
+SSL e Transport Layer Security TLS. - GESTÃO DE INFRAESTRUTURA DE TECNOLOGIA DA INFORMAÇÃO
+(TI): ITIL versão 3 (ITILv3): Operação de Serviços (Gerenciamento de Eventos, Gerenciamento de Incidentes, Gerenciamento de Problemas, Cumprimento de Requisições, Gerenciamento de Acessos), Desenho de Serviços
+(Gerenciamento de Níveis de Serviço, Gerenciamento de Capacidade, Gerenciamento de Disponibilidade, Gerenciamento de Continuidade de Serviços de TI, Gerenciamento de Continuidade de Negócio), Transição de
+Serviços (Gerenciamento de Configuração e Ativos de Serviços de TI, Gerenciamento de Liberação e
+Implantação, Gerenciamento de Mudanças), Melhoria Contínua de Serviços. - TELECOMUNICAÇÕES: Redes
+Locais Arquiteturas e topologias: conceitos, Modelo OSI; Infraestrutura: Cabeamento estruturado categorias 3, 5,
+5e, 6 e 6a, de acordo com a NBR 14.565; Padrões: IEEE 802.1D, IEEE 802.1Q/p, IEEE 802.1w, IEEE 802.1s,
+IEEE 802.1X, IEEE 802.3, IEEE 802.3u, IEEE 802.3z, IEEE 802.3ae, IEEE 802.3af; Rede sem fio (Wireless);
+padrões IEEE 802.11b/g/n; Protocolos: IPv4, TCP, UDP, IPSec, ARP, SNMP, SSH, DNS, DHCP, SMTP, HTTP, FTP, LDAP, H.323, SIP; Gateways de aplicação; NAT; Roteadores; Switches; Concentradores; Multiplexadores;
+Qualidade de serviço (QoS). - SEGURANÇA: Conceitos básicos Confidencialidade, disponibilidade e
+integridade; Segregação de funções; Gestão de mudanças; Vulnerabilidade, risco e ameaça; Política de
+segurança da informação; Gestão de ativos; Classificação da informação. Códigos maliciosos Vírus, vermes
+(worm), cavalos de Tróia, programas espiões (spyware e adware), capturadores de teclas (keyloggers), backdoors, rootkits. Criptografia Criptografia de chave pública (assimétrica); Criptografia de chave secreta
+(simétrica); Certificados digitais; Assinaturas digitais; Hashes criptográficos. Controle de acesso Autenticação,
+autorização e auditoria; Controle de acesso baseado em papéis (Role Based Access Control RBAC);
+Autenticação forte (baseada em dois ou mais fatores); Single sign-on. Noções de Segurança em Redes
+Filtragem de tráfego com firewalls ou listas de controle de acesso (ACLs), proxy e proxy reverso; Ataques de negação de serviço (Denial of Service DoS) e ataques distribuídos de negação de serviço (Distributed Denial of
+Service DDoS); Sistemas de detecção de intrusão (Intrusion Detection Systems IDS) e sistemas de prevenção
+de intrusão (Intrusion Prevention Systems IPS); Comunicação segura com Secure Sockets Layer SSL e
+Transport Layer Security TLS. Ética profissional. Noções de Administração Pública, de acordo com a Lei
+Orgânica Municipal.&lt;/p&gt;
+
+&lt;h3 id=&quot;especfico----analista-de-suporte-tcnico&quot;&gt;Específico – Analista de Suporte técnico&lt;/h3&gt;
+&lt;p&gt;Sistema operacional: gerência de memória; sistema de E/S, sistemas de arquivos. Lógica de programação e
+estrutura de dados: algoritmos; raciocínio lógico; tipos de variáveis; expressões aritméticas, lógicas e relacionais;
+comandos de atribuição; comandos de entrada e saída; estrutura condicional; estrutura de repetição; matrizes e
+vetores; funções e procedimentos; arquivos; modularização e desenvolvimento TOP-DOWN; orientação a objetos:
+conceitos fundamentais, princípios de programação orientada a objetos; arquivo; registro; campo; chave primária, secundária, de acesso, de ordenação; tipos de arquivo: permanente, de transação, intermediário; organização de
+arquivos; métodos de acesso arquivos; conceitos de estrutura de dados: divisão esquemática das estruturas de
+dados, alocação estática, alocação dinâmica, listas lineares, pilha, fila; estruturas hierárquicas: árvore (definição, representação, caminhamento em árvore binária, transformação de árvore em árvore binária); implementação de
+hierarquias; e implementação de redes. Segurança da informação: gestão de segurança da informação:
+classificação e controle de ativos de informação, segurança de ambientes físicos e lógicos, controles de acesso, segurança de serviços terceirizados; gestão de risco: planejamento, identificação e análise de risco, plano de
+continuidade de negócio; política de segurança da informação: processos de definição, implantação e gestão de
+políticas de segurança e auditoria; sistemas de backup: tipos de backups, planos de contingência e meios de
+armazenamento para backups; dispositivos de segurança de redes de computadores: firewalls, conceito de DMZ, detectores de intrusão (IDS e IPS), proxies, NAT, sniffers; ataques a redes de computadores: prevenção e
+tratamento de incidentes, tipos de ataques (spoofing, flood, DoS, DDoS, phishing); malwares: vírus de
+computador, cavalo de tróia, adware, spyware, backdoors, keylogger, worm8; segurança na internet: virtual private
+networks, segurança em servidores WWW, SMTP, POP, FTP e DNS. Banco de dados: fundamentos;
+características; funcionalidades; modelos de bancos de dados; projeto lógico e físico de banco de dados; modelos
+relacionais e de entidade-relacionamentos; linguagem SQL; sistemas Gerenciadores de Bancos de Dados: Oracle
+9i, MS-SQL Server 7.0/2000, PostgreSQL, MySQL; fundamentos de Datawarehouse. Modelagem dimensional. Redes de computadores: princípios e fundamentos de comunicação de dados; meios de transmissão; topologias
+de redes de computadores; arquitetura e protocolos de rede de comunicação; modelos de referência OSI e
+principais padrões internacionais; arquitetura cliente-servidor; elementos de interconexão de redes de
+computadores (gateways, hubs, repetidores, bridges, switches, roteadores; internet; protocolo TCS/IP. Servidores
+WEB / APLICAÇÃO / CONTAINERS: características, funcionalidades e conhecimentos básicos de JBoss, Apache,
+Tomcat e IIS. Administração de serviços para Mainframe: JES2 e JES Print Facility; VTAM; CICS; TCP/IP; ISPF;
+Linguagens de programação para mainframe: Cobol, Assembler e Natural; REDES DE COMUNICAÇÃO - Redes
+de computadores: princípios e fundamentos de comunicação de dados; Modelo de referência OSI e principais
+padrões internacionais; Elementos de interconexão de redes de computadores (gateways, hubs, repetidores,
+bridges, switches, roteadores); Redes de longa distância. Redes Frame-Relay e DSL; Internet. Protocolo TCP/IP, SNA. Conceitos de serviços de Nomes de Domínios (DNS), HTTP, SSL, SSH, FTP, DHCP, SMTP; Proxy cache. Proxy reverso. NAT; Conceito de VPN.&lt;/p&gt;
+
+&lt;h1 id=&quot;cronograma&quot;&gt;Cronograma&lt;/h1&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;/images/concursos/prodater-cronograma.png&quot; /&gt;
+&lt;/figure&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/articles/IFMA/&quot;&gt;IFMA&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on September 15, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[PRODATER]]></title>
+  <link rel="alternate" type="text/html" href="http://lailson.github.io/articles/Prodater/"/>
+  <id>http://lailson.github.io/articles/Prodater</id>
+  <updated>2015-09-14T00:00:00-00:00</updated>
+  <published>2015-09-14T00:00:00-03:00</published>
+  
+  <author>
+    <name>Lailson Henrique</name>
+    <uri>http://lailson.github.io</uri>
+    <email>lailson.pi@gmail.com</email>
+  </author>
+  <category scheme="http://lailson.github.io/tags/#prodater" term="prodater" /><category scheme="http://lailson.github.io/tags/#piau%C3%AD" term="piauí" /><category scheme="http://lailson.github.io/tags/#teresina" term="teresina" /><category scheme="http://lailson.github.io/tags/#concurso" term="concurso" /><category scheme="http://lailson.github.io/tags/#ti" term="ti" /><category scheme="http://lailson.github.io/tags/#inform%C3%A1tica" term="informática" /><category scheme="http://lailson.github.io/tags/#tecnologia" term="tecnologia" /><category scheme="http://lailson.github.io/tags/#informa%C3%A7%C3%A3o" term="informação" />
+  <content type="html">
+  
+    &lt;p&gt;Concurso para técnico e Analista da Empresa Teresinense de Processamento de Dados&lt;/p&gt;
+
+&lt;h1 id=&quot;remunerao&quot;&gt;Remuneração&lt;/h1&gt;
+&lt;p&gt;Analista: R$ 4.575,16. &lt;br /&gt; 
+Técnico (programador): R$ 2.954,62 &lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;taxa-de-inscrio&quot;&gt;Taxa de Inscrição&lt;/h1&gt;
+&lt;p&gt;Analista: R$ 120,00&lt;br /&gt;
+Técnico : R$ 80,00 &lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;data-de-inscrio&quot;&gt;Data de Inscrição&lt;/h1&gt;
+&lt;p&gt;Inscrição: 18 de Setembro á 02 de outubro de 2015.&lt;/p&gt;
+
+&lt;h1 id=&quot;banca&quot;&gt;Banca&lt;/h1&gt;
+&lt;p&gt;CONSEP - Consultoria e Estudos Pedagógicos Ltda.&lt;/p&gt;
+
+&lt;h1 id=&quot;data-da-prova&quot;&gt;Data da prova&lt;/h1&gt;
+&lt;p&gt;08 de novembro de 2015, a partir das 9:00 h (horário local) com 04 horas de duração&lt;/p&gt;
+
+&lt;h1 id=&quot;programador&quot;&gt;Programador&lt;/h1&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;/images/concursos/prodater-programador.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;analista&quot;&gt;Analista&lt;/h1&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;/images/concursos/prodater-analista.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;vagas&quot;&gt;Vagas&lt;/h1&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;/images/concursos/prodater-vagas.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;programador-1&quot;&gt;Programador&lt;/h1&gt;
+&lt;p&gt;###Lingua portuguesa&lt;/p&gt;
+
+&lt;p&gt;Interpretação de textos de diferentes gêneros. Comunicação verbal e não verbal, elementos da comunicação
+verbal e funções da linguagem. Fonética e fonologia: fonemas, vogais, consoantes e semivogais; encontros
+vocálicos, consonantais e dígrafos, classificação das palavras quanto à sílaba tônica, paronímia e homonímia;
+ortoépia e prosódia. As classes de palavras - definições, classificações, formas e flexões, emprego: substantivos, adjetivos, pronomes, verbos, advérbios, preposições e conjunções. Concordância verbal e concordância nominal. Regência verbal e regência nominal. Ortografia: acentuação gráfica, uso da crase, emprego do hífen e divisão
+silábica. Pontuação: sinais de pontuação. Estilística: figuras de linguagem, figuras de palavras, figuras de sintaxe,
+figuras de pensamento. Variação linguística: as diversas modalidades do uso da língua. Semântica: denotação e
+conotação, significação das palavras (sinônimo, antônimo, homônimo e parônimo), polissemia e homonímia.
+Interpretação e análise de textos: compreensão de texto literário ou não-literário&lt;/p&gt;
+
+&lt;h3 id=&quot;legislao-municipal&quot;&gt;Legislação Municipal&lt;/h3&gt;
+&lt;p&gt;Lei Complementar Nº 4.255, de 4 de Abril de 2012 Institui o Plano de Cargos, Carreira e Salário para os empregados públicos efetivos, integrantes do quadro de pessoal da Empresa Teresinense de Processamento de Dados PRODATER, Lei Nº 2.135 de 02.07.1992 Dispõe sobre a criação da PRODATER e Regimento Interno da PRODATER.&lt;/p&gt;
+
+&lt;h3 id=&quot;conhecimento-especfico&quot;&gt;Conhecimento Específico&lt;/h3&gt;
+&lt;p&gt;Organização básica de computadores. Componentes de um computador (hardware e software). Linguagens de
+programação; compiladores e interpretadores; sistemas de numeração e representação de dados numéricos,
+textuais e estruturados; aritmética computacional. Conhecimentos de C, C++, Java, C#, Visual Basic .NET, Python. Sistemas operacionais: funções básicas; sistemas de arquivos e gerenciamento de memória. Windows e
+Linux. Redes de computadores: fundamentos de comunicação de dados; meios físicos; serviços de comunicação;
+redes locais e redes geograficamente distribuídas; TCP/IP; protocolos e serviços. Orientação a objetos: Classes e
+objetos; Herança e polimorfismo; Encapsulamento. Programação para WEB. PHP e Javascript. ASP,JSP, Servlets. Arquitetura MVC. XML, HTML e CSS. Integração com bancos de dados. Bancos de dados. Linguagem
+SQL. Consultas e subconsultas. Comandos de manipulação de dados. Outros comandos para manipulação
+(DML), controle (DCL) e descrição de dados (DDL). ODBC. Interfaces de utilização: principais propriedades e
+características das bibliotecas mais difundidas. ODBC. Estruturas de dados. Algoritmos fundamentais: busca,
+inserção, atualização e remoção em diversas estruturas (listas, árvores, árvores balanceadas, heaps). Algoritmos
+de ordenação. Tabelas de dispersão (hashing). Análise e projeto orientados a objetos. UML: visão geral, modelos
+e diagramas. Padrões de projeto. Desenvolvimento baseado em componentes. Desenvolvimento baseado em
+serviços. Princípios de interface com o usuário. Segurança no desenvolvimento: práticas de programação segura e revisão de código; controles e testes de segurança para aplicações web; controles e testes de segurança para
+Web Services.- Fundamento de computação. Algoritmos. Iterativos. Recursivos. Teste de mesa. Lógica de
+programação. Tabela verdade. Operações lógicas: negação; conjunção; disjunção; operação condicional;
+operação bicondicional; contradição. Estruturas de dados: vetores e matrizes; listas; pilhas; filas; árvores binárias;
+grafos; tabelas de hashing (tabelas de dispersão). Estruturas de repetição: repetição pré-testada; repetição póstestada;
+repetição com variável de controle; iteração de coleção. Estruturas de decisão: condições; operadores
+relacionais; operadores lógicos; seleção. Compilador, interpretador, montador e link-editor. Programação
+Orientada a Objetos (POO). Fundamentos: abstração; classe, objeto, atributo e método; interface; associação e
+mensagem; herança; polimorfismo; encapsulamento; coesão; pacotes. Construção de algoritmos. Mapeamento
+objetorelacional (ORM). - Linguagens de programação. Java. Construção de programas. Estrutura da linguagem:
+JVM e bytecode; anotações; coleções; serialização; reflexão; Swing; operadores; estruturas de decisão e de
+repetição; tipos; enumeradores; matrizes. J2EE: JDBC; Servlets; JSP; JSF; JTA; EJBs; JCA; JPA; Web Services;
+noções de uso e administração de contêineres (Tomcat, JBoss AS). SWT. Eclipse. Delphi. Construção de
+programas. Estrutura da linguagem - Object Pascal: estruturas de decisão e de repetição; tipos; enumeradores;
+matrizes. IDE. Acesso a bancos de dados. - PL/SQL. Estrutura da linguagem. Stored Procedures. Tratamento de
+erros. Cursores. SQL dinâmico. Package. Function. Array. - Desenvolvimento para web. HTML. CSS. Javascript. XML. Estrutura da linguagem. Transformação XSLT. DTD. XML Schema. Web Services. - Noções de Engenharia
+de Software. Conceitos. Ciclo de vida. Ciclo de desenvolvimento. Modelos de processo de software. Métodos e
+modelos de desenvolvimento. Modelagem. Processos de software. Requisitos, qualidade do software, métricas e
+prototipagem. RUP. Métricas de Processo e Projeto. Análise de pontos de função. Arquitetura de aplicações para
+o ambiente Web. Sistemas Legados. Mudança de software. - UML. Conceitos gerais. Diagramas. Casos de Uso. Sequência. Classes. Estados. Atividades. Análise e Deployment. - Testes de Software. Tipos de Testes. Planos de
+Testes. JUnit. - Banco de Dados. Projeto e modelagem de banco de dados relacional. Conceitos da modelagem
+dimensional. SQL: definição de dados (DDL); manipulação de dados (DML); controle de dados (DCL); transação
+de dados (DTL); expressões regulares; gatilho (trigger); visão (view). - Noções de Governança de TI. Conceito. Noções de COBIT 4: conceito; domínios. - Noções de boas práticas de TI. Conceito. Noções de ITIL 3: conceito;
+estrutura; terminologia (em inglês e português). - Noções de gerenciamento de projetos. Conceito. Papéis. Patrocinador. Gerente de projeto. Membro da equipe. Noções do Guia PMBOK 3: conceito; áreas de
+conhecimento. - Noções de Gerenciamento de Processos. Conceito. Terminologia: atividade; tarefa; responsável;
+proprietário. - Noções de Segurança da Informação. - Hibernate. - XP (extreme programming) e Scrum. - Conceitos da linguagem de programação PHP.&lt;/p&gt;
+
+&lt;h1 id=&quot;analista-1&quot;&gt;Analista&lt;/h1&gt;
+&lt;p&gt;###Lingua Portuguesa
+Língua, Linguagem e fala - signos, índices, ícones e símbolos. Os signos linguísticos, significantes e significados, os conceitos de gramática. Estrutura e elementos de textos normativos, descritivos e dissertativos. Coesão e
+coerência textuais. A coerência e o texto da relação entre coerência e coesão. Coerência narrativa, figurativa, argumentativa. Coesão no período composto, o papel dos elementos de coesão; A coesão referencial. Formas
+remissivos gramaticais presos; Formas remissivos gramaticais livres; Formas remissivos lexicais e
+nominalizações; Coesão sequencial; Sequênciação Parafrástica; Recorrência de termos; Recorrência de
+conteúdos semânticos - paráfrase; Recorrência de tempo e os aspectos verbal; Sequênciação frástica;
+Procedimentos de manutenção temática; Progressão temática. O vocábulo formal, análise mórfica: princípios
+Básicos e Auxiliares; Tipos de morfemas. Estrutura: Formação do vocábulo; Tipos de derivação; Processos de
+Composição; Outros processos de formação de palavras; Flexão nominal e verbal; Concordâncias verbal e
+nominal; Período simples e composto; Termos da oração: Essenciais integrantes e acessórios. Tipos de orações;
+Sintagma e seus tipos; Orações coordenadas e subordinadas; Orações independentes coordenadas entre si;
+Orações ou período interferentes; Orações subordinadas&lt;/p&gt;
+
+&lt;h3 id=&quot;legislao-municipal-1&quot;&gt;Legislação Municipal&lt;/h3&gt;
+&lt;p&gt;Lei Complementar Nº 4.255, de 4 de Abril de 2012 Institui o Plano de Cargos, Carreira e Salário para os
+empregados públicos efetivos, integrantes do quadro de pessoal da Empresa Teresinense de Processamento de
+Dados PRODATER, Lei Nº 2.135 de 02.07.1992 Dispõe sobre a criação da PRODATER e Regimento Interno
+da PRODATER.&lt;/p&gt;
+
+&lt;h3 id=&quot;especfico---analista-de-negcios&quot;&gt;Específico - Analista de Negócios&lt;/h3&gt;
+&lt;p&gt;GOVERNANÇA DE TI: Planejamento estratégico de TI - PETI. Alinhamento estratégico entre área de TI e
+negócios. Estrutura organizacional e responsabilidades de TI. Responsabilidade e papéis de TI. Processos de
+definição, implantação e gestão de políticas organizacionais. Práticas de gestão de TI. Gestão de pessoal. Terceirização de TI. Gestão de mudanças organizacionais. Gestão de riscos. Processo de gestão de riscos. ITIL - Estrutura, objetivos e conceitos gerais.Gestão da continuidade do negócio.Modelos para Outsourcing de TI. Balanced Scorecard. Outros modelos (ISO 9001:2000, ISO/IEC 12207, ISO/IEC 9126, MR mps e modelos de
+fornecedores. Segurança da informação: gestão de segurança da informação: classificação e controle de ativos de
+informação, segurança de ambientes físicos e lógicos, controles de acesso, segurança de serviços terceirizados;
+gestão de risco: planejamento, identificação e análise de risco, plano de continuidade de negócio; política de
+segurança da informação: processos de definição, implantação e gestão de políticas de segurança e auditoria. Direito Administrativo - Estado, governo e administração pública: conceitos, elementos, poderes e organização;
+natureza, fins e princípios. Agentes públicos: espécies e classificação; poderes, deveres e prerrogativas; cargo, emprego e função públicos; regime jurídico único: provimento, vacância, remoção, redistribuição e substituição;
+direitos e vantagens; regime disciplinar; responsabilidade civil, criminal e administrativa. Poderes administrativos:
+poder hierárquico; poder disciplinar; poder regulamentar; poder de polícia; uso e abuso do poder. Serviços
+públicos: conceito, classificação, regulamentação e controle; forma, meios e requisitos; delegação: concessão, permissão, autorização. Controle e responsabilização da administração: controle administrativo; controle judicial;
+controle legislativo; responsabilidade civil do Estado. Licitações (Lei nº 8666/1993 e suas alterações e Lei
+10.520/2002): conceito, objeto, finalidades e princípios, obrigatoriedade, dispensa, inexigibilidade, vedação, modalidades, procedimentos e fases, revogação, invalidação, desistência e controle. Administração Pública - Características básicas das organizações formais modernas: tipos de estrutura organizacional, natureza,
+finalidades e critérios de departamentalização. Processo organizacional: planejamento, direção, comunicação, controle e avaliação. Gestão de processos. Gestão da Qualidade. Gestão de Projetos. Planejamento Estratégico. Excelência nos serviços públicos. Empreendedorismo governamental e novas lideranças no setor público. Gestão
+de resultados na produção de serviços públicos. Convergências e diferenças entre a gestão pública e a gestão
+privada. O paradigma do cliente na gestão pública. Comportamento Organizacional: relações
+indivíduo/organização, motivação, liderança, desempenho. Competência interpessoal. Gerenciamento de conflitos.
+Clima e cultura organizacional. Gestão por competência. Administração de Recursos Materiais: funções e
+objetivos da administração de materiais; classificação e especificação de materiais. Administração Financeira e
+Orçamentária - Orçamento público. Conceitos e princípios orçamentários. Ciclo Orçamentário. Elaboração da
+proposta. Estudo e aprovação. Execução. Avaliação. Orçamento-programa: fundamentos e técnicas. Títulos I, IV, V e VI da Lei Federal nº 4.320/1964. Orçamento na Constituição Federal de 1988. Plano Plurianual. Lei de
+Diretrizes Orçamentárias. Lei Orçamentária Anual. Créditos orçamentários iniciais e adicionais. Estágios da
+despesa orçamentária. Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal): Disposições
+preliminares. Planejamento. Despesa Pública. Transparência, controle e fiscalização. Disposições finais e
+transitórias.&lt;/p&gt;
+
+&lt;h3 id=&quot;especfico---analista-de-sistema&quot;&gt;Específico - Analista de Sistema&lt;/h3&gt;
+&lt;p&gt;FUNDAMENTOS: Componentes e arquiteturas de sistemas computacionais (hardware e software); Linguagens de
+programação, compiladores e interpretadores; Representação de dados: binário, hexadecimal e decimal;
+Processamento paralelo e distribuído; Componentes e arquiteturas de processadores; Conjuntos de instrução;
+Aritmética computacional; Pipeline; Hierarquia de memória; Interface entre processadores e periféricos;
+Multiprocessamento simétrico e assimétrico; Fundamentos de sistemas operacionais; Gerenciamento de
+processos e fluxos de execução (threads): alocação de CPU, comunicação e sincronização entre processos,
+impasses (deadlocks) e esgotamento de recursos (starvation); Gerenciamento de memória: alocação, segmentação, memória virtual, e paginação; Sistemas de entrada e saída: estruturas de armazenamento
+secundário e terciário, análise de desempenho e confiabilidade; Virtualização; Web Services; inglês técnico;
+redação técnica; sistema operacional Windows XP e superiores; conhecimento dos pacotes de automação de
+escritórios Microsoft Office 2003 (Word e Excel) e BrOffice 2.0 (Writer e Calc). - SERVIDORES DE APLICAÇÃO
+JAVA ENTERPRISE EDITION (JEE) 5: Fundamentos de servidores de aplicação JEE5; Conceitos de
+clusterização; Topologias típicas de ambientes com alta disponibilidade e escalabilidade. - JAVA: conhecimentos
+básicos da linguagem JAVA; funcionamento da JVM - JAVA Virtual Machine: Memória HEAP e STATIC; objetos e
+classes (tipos abstratos de dados; polimorfismo, sobrecarga e herança); divisão de classes em subclasses;
+subscrição de métodos; agrupamento de classes; utilização de THREADS em JAVA; utilização de redes com
+JAVA (TCP/IP e soquetes UDP); bibliotecas gráficas (SWING); comandos de acesso a dados (JDBC); comandos
+de manipulação de erros; programação e distribuição de componentes; JAVADOC; programação de JAVA
+SERVLETS; Applets JAVA; conceitos e características de: JSP, XML, EJB, JPA, JSF. - BANCO DE DADOS:
+Conceitos e fundamentos de Sistemas Gerenciadores de Banco de Dados (SGBD); Bancos de dados distribuídos,
+relacionais e orientados a objeto; Conceitos de alta disponibilidade; Conceitos de backup e restauração; Modelos
+de banco de dados: hierárquico, rede e relacional; Independência de dados; Dicionário de dados; Modelagem
+entidade-relacionamento (ER); Normalização; Gerência de transações; Gerência de bloqueios; Gerência de
+desempenho; Linguagens de definição e manipulação de dados (ANSI SQL). - ORACLE PL/SQL: conhecimentos
+básicos de Oracle PL/SQL; comandos de acesso a dados; comandos de manipulação e tratamento de erros;
+desenvolvimento de triggers, functions, procedures e packages, conhecimento de Oracle SQL Functions. - ARMAZENAMENTO DE DADOS: Conceitos de Storage Area Networks (SAN) e Network Attached Storage (NAS);
+Fibre Channel (FC): protocolo Fibre Channel Protocol (FCP), camadas e topologias padrão; Protocolos Common
+Internet File System (CIFS) e Network File System (NFS); Redundant Array of Inexpensive Disks (RAID): níveis 0, 1, 5, 6, 1+0 e 0+1; Backup: Políticas de backup; Tipos de backup (completo, incremental e diferencial) e
+arquiteturas (LAN free, server free e client free). - SEGURANÇA: Conceitos básicos Confidencialidade,
+disponibilidade e integridade; Segregação de funções; Gestão de mudanças; Vulnerabilidade, risco e ameaça;
+Política de segurança da informação; Gestão de ativos; Classificação da informação. Códigos maliciosos Vírus,
+vermes (worm), cavalos de Tróia, programas espiões (spyware e adware), capturadores de teclas (keyloggers), backdoors, rootkits. Criptografia Criptografia de chave pública (assimétrica); Criptografia de chave secreta
+(simétrica); Certificados digitais; Assinaturas digitais; Hashes criptográficos. Controle de acesso Autenticação,
+autorização e auditoria; Ataques de negação de serviço (Denial of Service DoS) e ataques distribuídos de
+negação de serviço (Distributed Denial of Service DDoS); Comunicação segura com Secure Sockets Layer
+SSL e Transport Layer Security TLS. - GESTÃO DE INFRAESTRUTURA DE TECNOLOGIA DA INFORMAÇÃO
+(TI): ITIL versão 3 (ITILv3): Operação de Serviços (Gerenciamento de Eventos, Gerenciamento de Incidentes, Gerenciamento de Problemas, Cumprimento de Requisições, Gerenciamento de Acessos), Desenho de Serviços
+(Gerenciamento de Níveis de Serviço, Gerenciamento de Capacidade, Gerenciamento de Disponibilidade, Gerenciamento de Continuidade de Serviços de TI, Gerenciamento de Continuidade de Negócio), Transição de
+Serviços (Gerenciamento de Configuração e Ativos de Serviços de TI, Gerenciamento de Liberação e
+Implantação, Gerenciamento de Mudanças), Melhoria Contínua de Serviços. - TELECOMUNICAÇÕES: Redes
+Locais Arquiteturas e topologias: conceitos, Modelo OSI; Infraestrutura: Cabeamento estruturado categorias 3, 5,
+5e, 6 e 6a, de acordo com a NBR 14.565; Padrões: IEEE 802.1D, IEEE 802.1Q/p, IEEE 802.1w, IEEE 802.1s,
+IEEE 802.1X, IEEE 802.3, IEEE 802.3u, IEEE 802.3z, IEEE 802.3ae, IEEE 802.3af; Rede sem fio (Wireless);
+padrões IEEE 802.11b/g/n; Protocolos: IPv4, TCP, UDP, IPSec, ARP, SNMP, SSH, DNS, DHCP, SMTP, HTTP, FTP, LDAP, H.323, SIP; Gateways de aplicação; NAT; Roteadores; Switches; Concentradores; Multiplexadores;
+Qualidade de serviço (QoS). - SEGURANÇA: Conceitos básicos Confidencialidade, disponibilidade e
+integridade; Segregação de funções; Gestão de mudanças; Vulnerabilidade, risco e ameaça; Política de
+segurança da informação; Gestão de ativos; Classificação da informação. Códigos maliciosos Vírus, vermes
+(worm), cavalos de Tróia, programas espiões (spyware e adware), capturadores de teclas (keyloggers), backdoors, rootkits. Criptografia Criptografia de chave pública (assimétrica); Criptografia de chave secreta
+(simétrica); Certificados digitais; Assinaturas digitais; Hashes criptográficos. Controle de acesso Autenticação,
+autorização e auditoria; Controle de acesso baseado em papéis (Role Based Access Control RBAC);
+Autenticação forte (baseada em dois ou mais fatores); Single sign-on. Noções de Segurança em Redes
+Filtragem de tráfego com firewalls ou listas de controle de acesso (ACLs), proxy e proxy reverso; Ataques de negação de serviço (Denial of Service DoS) e ataques distribuídos de negação de serviço (Distributed Denial of
+Service DDoS); Sistemas de detecção de intrusão (Intrusion Detection Systems IDS) e sistemas de prevenção
+de intrusão (Intrusion Prevention Systems IPS); Comunicação segura com Secure Sockets Layer SSL e
+Transport Layer Security TLS. Ética profissional. Noções de Administração Pública, de acordo com a Lei
+Orgânica Municipal.&lt;/p&gt;
+
+&lt;h3 id=&quot;especfico----analista-de-suporte-tcnico&quot;&gt;Específico – Analista de Suporte técnico&lt;/h3&gt;
+&lt;p&gt;Sistema operacional: gerência de memória; sistema de E/S, sistemas de arquivos. Lógica de programação e
+estrutura de dados: algoritmos; raciocínio lógico; tipos de variáveis; expressões aritméticas, lógicas e relacionais;
+comandos de atribuição; comandos de entrada e saída; estrutura condicional; estrutura de repetição; matrizes e
+vetores; funções e procedimentos; arquivos; modularização e desenvolvimento TOP-DOWN; orientação a objetos:
+conceitos fundamentais, princípios de programação orientada a objetos; arquivo; registro; campo; chave primária, secundária, de acesso, de ordenação; tipos de arquivo: permanente, de transação, intermediário; organização de
+arquivos; métodos de acesso arquivos; conceitos de estrutura de dados: divisão esquemática das estruturas de
+dados, alocação estática, alocação dinâmica, listas lineares, pilha, fila; estruturas hierárquicas: árvore (definição, representação, caminhamento em árvore binária, transformação de árvore em árvore binária); implementação de
+hierarquias; e implementação de redes. Segurança da informação: gestão de segurança da informação:
+classificação e controle de ativos de informação, segurança de ambientes físicos e lógicos, controles de acesso, segurança de serviços terceirizados; gestão de risco: planejamento, identificação e análise de risco, plano de
+continuidade de negócio; política de segurança da informação: processos de definição, implantação e gestão de
+políticas de segurança e auditoria; sistemas de backup: tipos de backups, planos de contingência e meios de
+armazenamento para backups; dispositivos de segurança de redes de computadores: firewalls, conceito de DMZ, detectores de intrusão (IDS e IPS), proxies, NAT, sniffers; ataques a redes de computadores: prevenção e
+tratamento de incidentes, tipos de ataques (spoofing, flood, DoS, DDoS, phishing); malwares: vírus de
+computador, cavalo de tróia, adware, spyware, backdoors, keylogger, worm8; segurança na internet: virtual private
+networks, segurança em servidores WWW, SMTP, POP, FTP e DNS. Banco de dados: fundamentos;
+características; funcionalidades; modelos de bancos de dados; projeto lógico e físico de banco de dados; modelos
+relacionais e de entidade-relacionamentos; linguagem SQL; sistemas Gerenciadores de Bancos de Dados: Oracle
+9i, MS-SQL Server 7.0/2000, PostgreSQL, MySQL; fundamentos de Datawarehouse. Modelagem dimensional. Redes de computadores: princípios e fundamentos de comunicação de dados; meios de transmissão; topologias
+de redes de computadores; arquitetura e protocolos de rede de comunicação; modelos de referência OSI e
+principais padrões internacionais; arquitetura cliente-servidor; elementos de interconexão de redes de
+computadores (gateways, hubs, repetidores, bridges, switches, roteadores; internet; protocolo TCS/IP. Servidores
+WEB / APLICAÇÃO / CONTAINERS: características, funcionalidades e conhecimentos básicos de JBoss, Apache,
+Tomcat e IIS. Administração de serviços para Mainframe: JES2 e JES Print Facility; VTAM; CICS; TCP/IP; ISPF;
+Linguagens de programação para mainframe: Cobol, Assembler e Natural; REDES DE COMUNICAÇÃO - Redes
+de computadores: princípios e fundamentos de comunicação de dados; Modelo de referência OSI e principais
+padrões internacionais; Elementos de interconexão de redes de computadores (gateways, hubs, repetidores,
+bridges, switches, roteadores); Redes de longa distância. Redes Frame-Relay e DSL; Internet. Protocolo TCP/IP, SNA. Conceitos de serviços de Nomes de Domínios (DNS), HTTP, SSL, SSH, FTP, DHCP, SMTP; Proxy cache. Proxy reverso. NAT; Conceito de VPN.&lt;/p&gt;
+
+&lt;h1 id=&quot;cronograma&quot;&gt;Cronograma&lt;/h1&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;/images/concursos/prodater-cronograma.png&quot; /&gt;
+&lt;/figure&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/articles/Prodater/&quot;&gt;PRODATER&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on September 14, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[Sefaz PI]]></title>
-  <link rel="alternate" type="text/html" href="http://lailson.github.io/concursos/Sefaz-PI/"/>
-  <id>http://lailson.github.io/concursos/Sefaz-PI</id>
+  <link rel="alternate" type="text/html" href="http://lailson.github.io/articles/Sefaz-PI/"/>
+  <id>http://lailson.github.io/articles/Sefaz-PI</id>
   <updated>2014-11-07T00:00:00-00:00</updated>
   <published>2014-11-07T00:00:00-03:00</published>
   
@@ -37,7 +531,7 @@
 
 &lt;h1 id=&quot;remunerao&quot;&gt;Remuneração&lt;/h1&gt;
 &lt;p&gt;Auditor: R$ 11.020,91. &lt;br /&gt; 
-Analista: R$ 8.088,20 &lt;br /&gt; &lt;/p&gt;
+Analista: R$ 8.088,20 &lt;br /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;taxa-de-inscrio&quot;&gt;Taxa de Inscrição&lt;/h1&gt;
 &lt;p&gt;Auditor: R$ 180,00&lt;br /&gt;
@@ -139,7 +633,7 @@ Analista: 08/02/2015.&lt;br /&gt;&lt;/p&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/concursos/Sefaz-PI/&quot;&gt;Sefaz PI&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on November 07, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/articles/Sefaz-PI/&quot;&gt;Sefaz PI&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on November 07, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -155,7 +649,7 @@ Analista: 08/02/2015.&lt;br /&gt;&lt;/p&gt;
     <uri>http://lailson.github.io</uri>
     <email>lailson.pi@gmail.com</email>
   </author>
-  <category scheme="http://lailson.github.io/tags/#vulnerabilidade%20shell%20shock%20osx%20linux" term="vulnerabilidade shell shock osx linux" />
+  <category scheme="http://lailson.github.io/tags/#vulnerabilidade" term="vulnerabilidade" /><category scheme="http://lailson.github.io/tags/#shell%20shock" term="shell shock" /><category scheme="http://lailson.github.io/tags/#osx" term="osx" /><category scheme="http://lailson.github.io/tags/#linux" term="linux" />
   <content type="html">
   
     &lt;h1 id=&quot;vulnerabilidade&quot;&gt;Vulnerabilidade&lt;/h1&gt;
@@ -172,7 +666,7 @@ Analista: 08/02/2015.&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Abre o seu terminal Bash  e digite a linha de comando:&lt;br /&gt;
 &lt;code&gt;env x=&#39;() { :;}; echo vulnerable&#39; bash -c &#39;echo hello&#39;&lt;/code&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;console&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;go&quot;&gt;env x=&amp;#39;() { :;}; echo vulnerable&amp;#39; bash -c &amp;#39;echo hello&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;go&quot;&gt;env x=&amp;#39;() { :;}; echo vulnerable&amp;#39; bash -c &amp;#39;echo hello&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;figure&gt;
 	&lt;img src=&quot;/images/ShellShock/vulnerabilidade.png&quot; /&gt;
@@ -183,13 +677,13 @@ Analista: 08/02/2015.&lt;br /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;corrigindo-a-vulnerabilidade&quot;&gt;Corrigindo a vulnerabilidade&lt;/h2&gt;
 &lt;p&gt;Verificando a versão do bash&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bash --version
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bash --version
 &lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt; GNU bash, version 3.2.51&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;-release &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;x86_64-apple-darwin13&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt; Copyright &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 2007 Free Software Foundation, Inc.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt; Copyright &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2007&lt;/span&gt; Free Software Foundation, Inc.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Atualizando e recompilando o bash - Caso tenha o XCode instalado&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;mkdir bash-fix
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;mkdir bash-fix
 &lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;bash-fix
 &lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;curl https://opensource.apple.com/tarballs/bash/bash-92.tar.gz &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; tar zxf -
 &lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;bash-92/bash-3.2
@@ -208,13 +702,13 @@ Analista: 08/02/2015.&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Verificando a nova versão do Bash&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bash --version
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bash --version
 &lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt; GNU bash, version 3.2.53&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;-release &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;x86_64-apple-darwin13&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt; Copyright &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 2007 Free Software Foundation, Inc.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt; Copyright &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2007&lt;/span&gt; Free Software Foundation, Inc.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Para melhorar a segurança devemos utilizar o comando &lt;em&gt;chmod -x&lt;/em&gt; na pasta da versão do bash anterior para que não possa ser executado&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;sudo chmod a-x /bin/bash.old /bin/sh.old&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;sudo chmod a-x /bin/bash.old /bin/sh.old&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Digite o comando novamente e seu sistema mostara a mensagem abaixo, assim, seu sistema está protegido de uma das maiores falhas ja divulgadas&lt;/p&gt;
 
@@ -232,8 +726,8 @@ Analista: 08/02/2015.&lt;br /&gt;&lt;/p&gt;
 
 <entry>
   <title type="html"><![CDATA[POSCOMP]]></title>
-  <link rel="alternate" type="text/html" href="http://lailson.github.io/concursos/Poscomp/"/>
-  <id>http://lailson.github.io/concursos/Poscomp</id>
+  <link rel="alternate" type="text/html" href="http://lailson.github.io/articles/Poscomp/"/>
+  <id>http://lailson.github.io/articles/Poscomp</id>
   <updated>2014-09-16T00:00:00-00:00</updated>
   <published>2014-09-16T00:00:00-03:00</published>
   
@@ -242,7 +736,7 @@ Analista: 08/02/2015.&lt;br /&gt;&lt;/p&gt;
     <uri>http://lailson.github.io</uri>
     <email>lailson.pi@gmail.com</email>
   </author>
-  <category scheme="http://lailson.github.io/tags/#prova%20poscomp" term="prova poscomp" />
+  <category scheme="http://lailson.github.io/tags/#prova" term="prova" /><category scheme="http://lailson.github.io/tags/#poscomp" term="poscomp" /><category scheme="http://lailson.github.io/tags/#concurso" term="concurso" /><category scheme="http://lailson.github.io/tags/#computa%C3%A7%C3%A3o" term="computação" />
   <content type="html">
   
     &lt;p&gt;A Sociedade Brasileira de Computação usando de suas atribuições legais, resolve divulgar a abertura das inscrições e estabelecer normas para a realização do Exame Nacional para Ingresso na Pós-Graduação em Computação. &lt;/p&gt;
@@ -256,7 +750,7 @@ Horário (Teresina-PI): 15h&lt;/p&gt;
 
 &lt;h1 id=&quot;contedos-programticos&quot;&gt;Conteúdos Programáticos&lt;/h1&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;Área de Matemática&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;Área de Matemática&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;code&gt;Álgebra Linear&lt;/code&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Sistemas de Equações Lineares: método de eliminação de Gauss para sistemas lineares. Espaços 
@@ -270,7 +764,7 @@ Normais. O Teorema Espectral. Formas Canônicas.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Análise Combinatória&lt;/code&gt;&lt;br /&gt;
 Distribuição. Permutações. Combinações. Funções Geradoras Ordinárias e Exponenciais. Princípio 
 de Inclusão e Exclusão. Enumeração de Partições, Grafos, Árvores e Redes. Enumeração por 
-Recursão. Permutações com Posições Restritas. &lt;/p&gt;
+Recursão. Permutações com Posições Restritas.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Cálculo Diferencial e Integral&lt;/code&gt;&lt;br /&gt;
 Limites de Funções e de Sequências. Funções Reais de uma Variável: Continuidade e 
@@ -280,18 +774,18 @@ Variável. Métodos de Integração. Integração Aproximada. Regras dos Trapéz
 Generalizadas. Funções de Várias Variáveis: Continuidade e Diferenciabilidade. Gradiente. Máximos 
 e Mínimos. Multiplicadores de Lagrange. Transformações. Matrizes Jacobianas. Teorema da Função 
 Inversa. Diferenciação Implícita. Integração de Funções de Várias Variáveis. Mudanças de 
-Coordenadas em Integrais. Integral de Linha. &lt;/p&gt;
+Coordenadas em Integrais. Integral de Linha.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Geometria Analítica&lt;/code&gt;&lt;br /&gt;
 Matrizes. Sistemas de Equações Lineares. Vetores. Produtos: escalar, vetorial e misto. Álgebra 
 Vetorial. Reta no plano e no espaço. Planos. Posições Relativas, Interseções, Distâncias e Ângulos. 
-Círculo e Esfera. Coordenadas Polares, Cilíndricas e Esféricas. &lt;/p&gt;
+Círculo e Esfera. Coordenadas Polares, Cilíndricas e Esféricas.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Lógica Matemática&lt;/code&gt;&lt;br /&gt;
 Lógica Proposicional e de Predicados. Linguagem Proposicional e de Primeira Ordem. Sistemas 
 Dedutivos. Tabelas Verdade e Estruturas de Primeira Ordem. Relações de Consequência. Corretude. 
 Completude. Compacidade. Lowemhein-Skolem. Decidibilidade. Prova Automática de Teoremas. 
-Lógicas não clássicas. &lt;/p&gt;
+Lógicas não clássicas.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Matemática Discreta&lt;/code&gt;&lt;br /&gt;
 Iteração, Indução e Recursão. Conjuntos e Álgebra de Conjuntos como uma Teoria Axiomática. Par 
@@ -299,7 +793,7 @@ Ordenado. Funções. Funções e Formas Booleanas, Álgebra Booleana, Minimizaç
 Booleanas. Relações sobre Conjuntos, Relações de Equivalência e Ordem. Reticulados, Monóides, 
 Grupos, Anéis. Teoria dos Códigos, Canal Binário, Canal Simétrico, Código de Blocos, Matrizes 
 Geradoras e Verificadoras, Códigos de Grupo, Códigos de Hamming. Teoria dos Domínios: Ordens 
-Parciais Completas, Continuidade, Ponto Fixo, Domínios, Espaço das Funções. &lt;/p&gt;
+Parciais Completas, Continuidade, Ponto Fixo, Domínios, Espaço das Funções.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Probabilidade e Estatística&lt;/code&gt;&lt;br /&gt;
 Eventos. Experimentos Aleatórios. Análise Exploratória de Dados. Descrição Estatística dos Dados. 
@@ -307,15 +801,15 @@ Espaços Amostrais. Probabilidades em Espaços Amostrais Discretos. Distribuiç�
 de Variáveis Aleatórias Unidimensionais e Bidimensionais. Esperança Matemática. Variância e 
 Coeficientes de Correlação. Aproximação Normal. Estimação Pontual e por Intervalo. Teste de 
 Hipóteses para Médias. Testes do Qui-Quadrado. Testes de Comparações de Médias. Regressão e 
-Correlação. &lt;/p&gt;
+Correlação.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;Área de de Fundamentos da Computação&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;Área de de Fundamentos da Computação&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;code&gt;Análise de Algoritmos&lt;/code&gt;&lt;br /&gt;
 Medidas de Complexidade, Análise Assintótica de Limites de Complexidade, Técnicas de Prova de 
 Cotas Inferiores. Notação “Big O”, “Little o”, “Omega” e “Theta”. Medidas Empíricas de Performance. 
 O Uso de Relações de Recorrência para Análise de Algoritmos Recursivos. Análise de Algoritmos 
-Iterativos e Recursivos. &lt;/p&gt;
+Iterativos e Recursivos.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Algoritmos e Estrutura de Dados&lt;/code&gt;&lt;br /&gt;
 Metodologia de Desenvolvimento de Algoritmos. Tipos de Dados Básicos e Estruturados. Comandos 
@@ -325,7 +819,7 @@ Lineares e suas Generalizações: Listas Ordenadas, Listas Encadeadas, Pilhas e 
 suas Generalizações: Árvores Binárias, Árvores de Busca e Árvores Balanceadas. Tabelas Hash. 
 Algoritmos para Pesquisa e Ordenação. Algoritmos para “Garbage Collection”. Técnicas de Projeto de 
 Algoritmos: Método da Força Bruta, Pesquisa Exaustiva, Algoritmo Guloso, Dividir e Conquistar, 
-“Backtracking” e Heurísticas. &lt;/p&gt;
+“Backtracking” e Heurísticas.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Arquitetura e Organização de Computadores&lt;/code&gt;&lt;br /&gt;
 Organização de Computadores: Memórias, Unidades Centrais de Processamento, Entrada e Saída. 
@@ -333,7 +827,7 @@ Linguagens de Montagem. Modos de Endereçamento, Conjunto de Instruções. Mecan
 Interrupção e de Exceção. Barramento, Comunicações, Interfaces e Periféricos. Organização de 
 Memória. Memória Auxiliar. Arquiteturas RISC e CISC. Pipeline. Paralelismo de Baixa Granularidade. 
 Processadores Superescalares e Superpipeline. Multiprocessadores. Multicomputadores. Arquiteturas 
-Paralelas e não Convencionais. &lt;/p&gt;
+Paralelas e não Convencionais.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Circuitos Digitais&lt;/code&gt;&lt;br /&gt;
 Sistemas de Numeração e Códigos. Aritmética Binária. Representação e Manipulação de Circuitos 
@@ -342,11 +836,11 @@ Combinatórios. Análise e Síntese de Componentes Sequenciais e de Memória. Pr
 Sequenciais. Modelo de Máquinas de Estado Finito (FSM). Circuitos Sequenciais Síncronos e 
 Assíncronos. Componentes de Armazenamento. Projeto de Sistemas Digitais: Hierárquico e Modular. 
 Princípios e Técnicas de Projeto. Conceitos de Controle e de Tempo. Famílias Lógicas. Dispositivos 
-Lógicos Programáveis (PLD). &lt;/p&gt;
+Lógicos Programáveis (PLD).&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Linguagens de Programação&lt;/code&gt;&lt;br /&gt;
 Conceitos. Paradigmas de Linguagens de Programação. Semântica Formal. Teoria dos Tipos: 
-Sistemas de Tipos, Polimorfismo. Verificação e Inferência de Tipos. &lt;/p&gt;
+Sistemas de Tipos, Polimorfismo. Verificação e Inferência de Tipos.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Linguagens Formais, Autômatos e Computabilidade&lt;/code&gt;&lt;br /&gt;
 Gramáticas. Linguagens Regulares, Livres-de-Contexto e Sensíveis-ao-Contexto. Tipos de 
@@ -354,42 +848,42 @@ Reconhecedores. Operações com Linguagens. Propriedades das Linguagens. Autôma
 Finitos Determinístico e não Determinístico. Autômatos de Pilha. Máquina de Turing. Hierarquia de 
 Chomsky. Funções Recursivas. Tese de Church. Problemas Indecidíveis. Teorema da Incompletude 
 de Godel. Classes de Problemas P, NP, NP Completo e NP-Difícil. Métodos de Redução de 
-Problemas. &lt;/p&gt;
+Problemas.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Organização de Arquivos e Dados&lt;/code&gt;&lt;br /&gt;
 Organização, Estrutura e Operação de Arquivos. Diretórios: Conteúdo e Estrutura. Arquivos do 
 Sistema e Sistema de Arquivos Virtuais. Técnicas de Pesquisa. Dados e Metadados. Representação 
 Digital e Analógica. Algoritmos de Codificação e Decodificação. Compressão de Dados, Áudio, 
-Imagem e Vídeo. &lt;/p&gt;
+Imagem e Vídeo.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Sistemas Operacionais&lt;/code&gt;&lt;br /&gt;
 Conceito de Processo. Gerência de Processos/Processador. Comunicação, Concorrência e 
 Sincronização de Processos. Gerenciamento de Memória: Memória Virtual, Paginação, Segmentação 
 e “Swap”. Gerenciamento de Arquivos. Gerenciamento de Dispositivos de Entrada/Saída. Alocação 
-de Recursos. &lt;/p&gt;
+de Recursos.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Técnicas de Programação &lt;/code&gt;&lt;br /&gt;
 Desenvolvimento de algoritmos. Tipos de dados básicos e estruturados. Comandos de uma 
 Linguagem de programação. Metodologia de desenvolvimento de programas. Modularidade e 
-abstração. &lt;/p&gt;
+abstração.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Teoria dos Grafos&lt;/code&gt;&lt;br /&gt;
 Grafos orientados e não-orientados. Caminhos. Planaridade. Conectividade. Coloração. Grafos 
 Infinitos. Algoritmos em grafos. Problemas intratáveis. Busca em Largura e Profundidade. Algoritmos 
-do Menor Caminho. Árvore Geradora. Ordenação Topológica. &lt;/p&gt;
+do Menor Caminho. Árvore Geradora. Ordenação Topológica.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;Área de Tecnologia da Computação&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;Área de Tecnologia da Computação&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;code&gt;Banco de Dados&lt;/code&gt;&lt;br /&gt;
 Modelo de Dados. Modelagem e Projeto de Banco de Dados. Sistemas de Gerenciamento de Bancos 
 de Dados (SGBD): Arquitetura, Segurança, Integridade, Concorrência, Recuperação após Falha, 
 Gerenciamento de Transações. Linguagens de Consulta. Bancos de Dados Distribuídos. Mineração 
-de Dados. &lt;/p&gt;
+de Dados.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Compiladores&lt;/code&gt;&lt;br /&gt;
 Compiladores e Interpretadores. Análise Léxica e Sintática. Tabelas de Símbolos. Esquemas de 
 Tradução. Ambientes de Tempo de Execução. Representação Intermediária. Análise Semântica. 
-Geração de Código. Otimização de Código. Bibliotecas e Compilação em Separado. &lt;/p&gt;
+Geração de Código. Otimização de Código. Bibliotecas e Compilação em Separado.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Computação Gráfica &lt;/code&gt;&lt;br /&gt;
 Transformações Geométricas em Duas e Três Dimensões: Coordenadas Homogêneas e Matrizes de 
@@ -398,7 +892,7 @@ Projeção Paralela e Perspectiva. Câmera Virtual. Transformação entre Sistem
 Definição de Objetos e Cenas Tridimensionais: Modelos Poliedrais e Malhas de Polígonos. O 
 Processo de “Rendering”: Fontes de Luz, Remoção de Linhas e Superfícies Ocultas, Modelos de 
 Tonalização (“Shading”). Aplicação de Texturas. O problema do Serrilhado (“Aliasing”) e Técnicas de 
-Anti-Serrilhado (“Antialiasing”). Visualização. &lt;/p&gt;
+Anti-Serrilhado (“Antialiasing”). Visualização.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Engenharia de Software&lt;/code&gt;&lt;br /&gt;
 Processo de Desenvolvimento de Software. Ciclo de Vida de Desenvolvimento de Software. 
@@ -406,7 +900,7 @@ Qualidade de Software. Técnicas de Planejamento e Gerenciamento de Software. Ge
 Configuração de Software. Engenharia de Requisitos. Métodos de Análise e de Projeto de Software. 
 Garantia de Qualidade de Software. Verificação, Validação e Teste. Manutenção. Documentação. 
 Padrões de Desenvolvimento. Reuso. Engenharia Reversa. Reengenharia. Ambientes de 
-Desenvolvimento de Software. &lt;/p&gt;
+Desenvolvimento de Software.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Inteligência Artificial&lt;/code&gt;&lt;br /&gt;
 Linguagens Simbólicas. Programação em Lógica. Resolução de Problemas como Busca. Estratégias 
@@ -417,19 +911,19 @@ Encadeamento para a Frente e Encadeamento para trás. Raciocínio Não-Monotôni
 para a Representação de Conhecimento Incerto. A Regra de Bayes. Conjuntos e Lógica Fuzzy. 
 Aprendizado de Máquina. Aprendizado Indutivo. Árvores de Decisão, Redes Neurais e Algoritmos 
 Genéticos. Sistemas Especialistas. Processamento de Linguagem Natural. Agentes Inteligentes. 
-Robótica. &lt;/p&gt;
+Robótica.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Processamento de Imagens&lt;/code&gt;&lt;br /&gt;
 Introdução aos Filtros Digitais. Métodos de Espaço de Estados. Noções de Percepção Visual 
 Humana. Amostragem e Quantização de Imagens. Transformadas de Imagens. Realce. Filtragem e 
 Restauração. Reconstrução Tomográfica de Imagens. Codificação. Análise de Imagens e Noções de 
-Visão Computacional. Reconhecimento de Padrões. &lt;/p&gt;
+Visão Computacional. Reconhecimento de Padrões.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Redes de Computadores&lt;/code&gt;&lt;br /&gt;
 Tipos de Enlace, Códigos, Modos e Meios de Transmissão. Protocolos e Serviços de Comunicação. 
 Terminologia, Topologias, Modelos de Arquitetura e Aplicações. Especificação de Protocolos. Internet 
 e Intranets. Interconexão de Redes. Redes de Banda Larga. Segurança e Autenticação. Avaliação de 
-Desempenho. &lt;/p&gt;
+Desempenho.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Sistemas Distribuídos&lt;/code&gt;&lt;br /&gt;
 Problemas Básicos em Computação Distribuída: Coordenação e Sincronização de Processos, 
@@ -440,7 +934,7 @@ Compartilhada, Segurança.&lt;/p&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/concursos/Poscomp/&quot;&gt;POSCOMP&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on September 16, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/articles/Poscomp/&quot;&gt;POSCOMP&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on September 16, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -456,18 +950,18 @@ Compartilhada, Segurança.&lt;/p&gt;
     <uri>http://lailson.github.io</uri>
     <email>lailson.pi@gmail.com</email>
   </author>
-  <category scheme="http://lailson.github.io/tags/#seguran%C3%A7a%20linux%20antivirus%20boot%20grub%20log%20kaspersky%20clamav%20mysql%20pati%C3%A7%C3%B5es" term="segurança linux antivirus boot grub log kaspersky clamav mysql patições" />
+  <category scheme="http://lailson.github.io/tags/#seguran%C3%A7a" term="segurança" /><category scheme="http://lailson.github.io/tags/#linux" term="linux" /><category scheme="http://lailson.github.io/tags/#antivirus" term="antivirus" /><category scheme="http://lailson.github.io/tags/#boot" term="boot" /><category scheme="http://lailson.github.io/tags/#grub" term="grub" /><category scheme="http://lailson.github.io/tags/#log" term="log" /><category scheme="http://lailson.github.io/tags/#kaspersky" term="kaspersky" /><category scheme="http://lailson.github.io/tags/#clamav" term="clamav" /><category scheme="http://lailson.github.io/tags/#mysql" term="mysql" /><category scheme="http://lailson.github.io/tags/#pati%C3%A7%C3%B5es" term="patições" />
   <content type="html">
   
     &lt;h1 id=&quot;limitando-recursos&quot;&gt;Limitando recursos&lt;/h1&gt;
 &lt;p&gt;No sistema operacional Linux é possível limitar a utilização de recursos como memória, processador e logins
 Estes recursos são controlados pelo Kernel e configurados no arquivo limits.conf para todos os serviços que utilizam PAM&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;find /etc/pam.d/ \! -name &amp;quot;*.dpkg*&amp;quot; | xargs -- grep limits |grep -v &amp;quot;:#&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;find /etc/pam.d/ \! -name &amp;quot;*.dpkg*&amp;quot; | xargs -- grep limits |grep -v &amp;quot;:#&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;A primeira ação é derrubar o sistema com um comando simples chamado &lt;em&gt;fork bomb&lt;/em&gt;. Como usuário comum, entre no Linux e digite o código abaixo:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;:(){ :|:&amp;amp; };&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;:(){ :|:&amp;amp; };&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Com esse comando o sistema vai parar então caso tenha executado o comando reinicie a máquina.&lt;br /&gt;
 Vamos verificar quais os limites do usuário: &lt;code&gt;ulimit -a&lt;/code&gt;&lt;/p&gt;
@@ -476,7 +970,7 @@ Vamos verificar quais os limites do usuário: &lt;code&gt;ulimit -a&lt;/code&gt
  &lt;/figure&gt;
 &lt;p&gt;Para definirmos os limites, temos que separar o usuário ROOT em um grupo especial, assim como todos os usuários que tenham perfil de administrador.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;groupadd adm&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;groupadd adm&lt;/span&gt;
 &lt;span class=&quot;l-Scalar-Plain&quot;&gt;gpasswd -a root adm&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Editando os limites dos usuários:&lt;br /&gt;
@@ -490,7 +984,7 @@ Vamos verificar quais os limites do usuário: &lt;code&gt;ulimit -a&lt;/code&gt
 &lt;p&gt;O arquivo &lt;code&gt;/etc/login.defs&lt;/code&gt; controla as opções de senha e mais algumas coisas que são configuradas no momento da criação do usuário.
 No exemplo abaixo vamos configurar o tempo máximo de uma senha e quanto tempo antes da senha do usuário expirar o sistema vai avisar.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;vim /etc/login.defs&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;vim /etc/login.defs&lt;/span&gt;
      &lt;span class=&quot;l-Scalar-Plain&quot;&gt;PASS_MAX_DAYS 60&lt;/span&gt;
      &lt;span class=&quot;l-Scalar-Plain&quot;&gt;PASS_MIN_DAYS 0&lt;/span&gt;
      &lt;span class=&quot;l-Scalar-Plain&quot;&gt;PASS_WARN_AGE 10&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -512,7 +1006,7 @@ No exemplo abaixo vamos configurar o tempo máximo de uma senha e quanto tempo 
     <uri>http://lailson.github.io</uri>
     <email>lailson.pi@gmail.com</email>
   </author>
-  <category scheme="http://lailson.github.io/tags/#seguran%C3%A7a%20linux%20antivirus%20boot%20grub%20log%20kaspersky%20clamav%20mysql%20pati%C3%A7%C3%B5es" term="segurança linux antivirus boot grub log kaspersky clamav mysql patições" />
+  <category scheme="http://lailson.github.io/tags/#seguran%C3%A7a" term="segurança" /><category scheme="http://lailson.github.io/tags/#linux" term="linux" /><category scheme="http://lailson.github.io/tags/#antivirus" term="antivirus" /><category scheme="http://lailson.github.io/tags/#boot" term="boot" /><category scheme="http://lailson.github.io/tags/#grub" term="grub" /><category scheme="http://lailson.github.io/tags/#log" term="log" /><category scheme="http://lailson.github.io/tags/#kaspersky" term="kaspersky" /><category scheme="http://lailson.github.io/tags/#clamav" term="clamav" /><category scheme="http://lailson.github.io/tags/#mysql" term="mysql" /><category scheme="http://lailson.github.io/tags/#pati%C3%A7%C3%B5es" term="patições" />
   <content type="html">
   
     &lt;p&gt;Hoje, o cenário da segurança digital não é um dos melhores. Sendo a informação o principal ativo de uma empresa, esta passa a ser bastante requisitada. A empresa &lt;a href=&quot;http://imprima.com&quot;&gt;imprima&lt;/a&gt; mostrou uma imagem dos 20 paies que mais sofrem com ataques digitais. 
@@ -522,18 +1016,18 @@ Tomar medidas para aumentar a segurança do seu servidor linux é primordial nos
  &lt;/figure&gt;
 
 &lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#instalando-antivirus&quot;&gt;Instalando antivirus&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#kaspersky&quot;&gt;Kaspersky&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#instalando-antivirus&quot; id=&quot;markdown-toc-instalando-antivirus&quot;&gt;Instalando antivirus&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#kaspersky&quot; id=&quot;markdown-toc-kaspersky&quot;&gt;Kaspersky&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#segurana-no-gestor-de-boot-grub&quot;&gt;Segurança no gestor de boot: GRUB&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#gerenciando-logs&quot;&gt;Gerenciando Logs&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#configuraes-do-servidor-de-log&quot;&gt;Configurações do servidor de log&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#configurando-o-cliente-de-log&quot;&gt;Configurando o cliente de log&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#gravando-os-logs-no-mysql&quot;&gt;Gravando os logs no MySQL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#segurana-no-gestor-de-boot-grub&quot; id=&quot;markdown-toc-segurana-no-gestor-de-boot-grub&quot;&gt;Segurança no gestor de boot: GRUB&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#gerenciando-logs&quot; id=&quot;markdown-toc-gerenciando-logs&quot;&gt;Gerenciando Logs&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#configuraes-do-servidor-de-log&quot; id=&quot;markdown-toc-configuraes-do-servidor-de-log&quot;&gt;Configurações do servidor de log&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#configurando-o-cliente-de-log&quot; id=&quot;markdown-toc-configurando-o-cliente-de-log&quot;&gt;Configurando o cliente de log&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#gravando-os-logs-no-mysql&quot; id=&quot;markdown-toc-gravando-os-logs-no-mysql&quot;&gt;Gravando os logs no MySQL&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#configurando-parties&quot;&gt;Configurando Partições&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#configurando-parties&quot; id=&quot;markdown-toc-configurando-parties&quot;&gt;Configurando Partições&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;instalando-antivirus&quot;&gt;Instalando antivirus&lt;/h1&gt;
@@ -541,18 +1035,18 @@ Tomar medidas para aumentar a segurança do seu servidor linux é primordial nos
 &lt;p&gt;##ClamAV
 Instalando o ClamAV&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;apt-get install clamav&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;apt-get install clamav&lt;/span&gt;
 &lt;span class=&quot;l-Scalar-Plain&quot;&gt;apt-get install arc bzip2 cabextract p7zip unzip unrar-free&lt;/span&gt;
 &lt;span class=&quot;l-Scalar-Plain&quot;&gt;/etc/init.d/clamav-freshclam status&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;O EICAR test file(arquivo de teste, em português) é um arquivo de 68 bytes que possui uma linha de caracteres, desenvolvido pelo European Institute of Computer Anti-Virus Research (Instituto Europeu para Pesquisa de Antivírus de Computador), é usado para testar a eficiência dos antivírus na detecção de vírus conhecidos sem qualquer risco ao computador. Usar o EICAR ao invés de um vírus real para testar um antivírus, é a garantia de que o computador não será infectado.
 Baixar o &lt;a href=&quot;http://www.eicar.org/&quot;&gt;Eicar&lt;/a&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;wget http://www.eicar.org/download/eicar.com&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;wget http://www.eicar.org/download/eicar.com&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Testando o ClamAv:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;clamscan eicar.com&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;clamscan eicar.com&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Testando o ClamAV&lt;/p&gt;
 &lt;figure&gt;
@@ -563,7 +1057,7 @@ Baixar o &lt;a href=&quot;http://www.eicar.org/&quot;&gt;Eicar&lt;/a&gt;:&lt;/p&
 &lt;p&gt;Efetuar o download do pacote no site &lt;a href=&quot;http://kaspersky.com/&quot;&gt;kaspersky.com&lt;/a&gt;:
 Baixando e intalando o pacote mais atual (8.0.2):&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;wget http://products.kaspersky-labs.com/products/multilanguage/file_servers/kavlinuxserver8.0/linux/kav4fs_8.0.2-172_i386.deb&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;wget http://products.kaspersky-labs.com/products/multilanguage/file_servers/kavlinuxserver8.0/linux/kav4fs_8.0.2-172_i386.deb&lt;/span&gt;
 &lt;span class=&quot;l-Scalar-Plain&quot;&gt;dpkg -i kav4fs_8.0.2-172_i386.deb&lt;/span&gt;
 &lt;span class=&quot;l-Scalar-Plain&quot;&gt;/opt/kaspersky/kav4fs/bin/kav4fs-setup.pl&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
@@ -576,7 +1070,7 @@ Baixando e intalando o pacote mais atual (8.0.2):&lt;/p&gt;
   &lt;li&gt;Proteção do kernel em tempo real: yes&lt;/li&gt;
   &lt;li&gt;Proteção do SAMBA: yes&lt;/li&gt;
   &lt;li&gt;locale: pt_BR.utf8&lt;/li&gt;
-  &lt;li&gt;diretório do arquivo da licença trial: &lt;/li&gt;
+  &lt;li&gt;diretório do arquivo da licença trial:&lt;/li&gt;
   &lt;li&gt;senha : Yes &lt;em&gt;**&lt;/em&gt;
 Ao final abra seu navegador e digite http://SEU_IP:9080&lt;/li&gt;
 &lt;/ul&gt;
@@ -589,7 +1083,7 @@ Ao final abra seu navegador e digite http://SEU_IP:9080&lt;/li&gt;
 
 &lt;p&gt;Instalando o pbkdf2&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;grub-mkpasswd-pbkdf2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;grub-mkpasswd-pbkdf2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;figure&gt;
  	&lt;img src=&quot;/images/seguranca_linux/pbkdf2.png&quot; /&gt;
@@ -620,12 +1114,12 @@ Ao reiniciar o sistema verá que se solicitar a tecla de edição “e” será 
 &lt;p&gt;Neste exemplo o servidor vai ser a maquina que irá receber os log e tem o ip=192.168.0.17. &lt;/p&gt;
 &lt;p&gt;Devemos alterar o arquivo &lt;code&gt;vim /etc/rsyslog.conf&lt;/code&gt; e descomentar as linhas:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;$ModLoad imudp&lt;/span&gt; 
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;$ModLoad imudp&lt;/span&gt; 
 &lt;span class=&quot;l-Scalar-Plain&quot;&gt;$UDPServerRun 514&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;No arquivo &lt;code&gt;vim /etc/default/rsyslog&lt;/code&gt; devemos adiconar ao final do arquivo:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;RSYSLOGD_OPTIONS=&amp;quot;-c0 -r&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;RSYSLOGD_OPTIONS=&amp;quot;-c0 -r&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Reiniciando o serviço com o comando &lt;code&gt;/etc/init.d/rsyslog restart&lt;/code&gt;. Para visualizar os logs utilizaremos o comando &lt;code&gt;tail -f /var/log/auth.log&lt;/code&gt;. 
 Agora vamos configurar o cliente que irá enviar os logs para o servidor.&lt;/p&gt;
@@ -633,11 +1127,11 @@ Agora vamos configurar o cliente que irá enviar os logs para o servidor.&lt;/p&
 &lt;h2 id=&quot;configurando-o-cliente-de-log&quot;&gt;Configurando o cliente de log&lt;/h2&gt;
 &lt;p&gt;Vamos alterar o arquivo de hosts do cliente.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;192.168.0.17     lailson&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;192.168.0.17     lailson&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Agora vamos alterar o arquivo de configuração `vim /etc/rsyslog.conf`&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;err&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;.*       @lailson&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;err&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;.*       @lailson&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Adicionando isso ao final do arquivo podmos reiniciar o serviço `/etc/init.d/rsyslog restart`. Pronto! Se logarmos novamente no cliente o log de  &lt;/p&gt;
 &lt;figure&gt;
@@ -648,7 +1142,7 @@ Agora vamos configurar o cliente que irá enviar os logs para o servidor.&lt;/p&
 &lt;h2 id=&quot;gravando-os-logs-no-mysql&quot;&gt;Gravando os logs no MySQL&lt;/h2&gt;
 &lt;p&gt;No servidor de log:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;apt-get install rsyslog-mysql mysql-server&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;apt-get install rsyslog-mysql mysql-server&lt;/span&gt;
 &lt;span class=&quot;l-Scalar-Plain&quot;&gt;mysql -p&lt;/span&gt;
     &lt;span class=&quot;l-Scalar-Plain&quot;&gt;mysql&amp;gt; grant ALL ON Syslog.* to rsyslog@localhost identified by &amp;#39;secret&amp;#39;;&lt;/span&gt;
     &lt;span class=&quot;l-Scalar-Plain&quot;&gt;mysql&amp;gt; flush privileges;&lt;/span&gt;
@@ -686,11 +1180,11 @@ Alterações no &lt;code&gt;/etc/fstab&lt;/code&gt;&lt;/p&gt;
     <uri>http://lailson.github.io</uri>
     <email>lailson.pi@gmail.com</email>
   </author>
-  <category scheme="http://lailson.github.io/tags/#malware%20analise%20estatica%20dinamica%20linux%20wireshark%20botnet%20rxbot" term="malware analise estatica dinamica linux wireshark botnet rxbot" />
+  <category scheme="http://lailson.github.io/tags/#malware" term="malware" /><category scheme="http://lailson.github.io/tags/#analise%20est%C3%A1tica" term="analise estática" /><category scheme="http://lailson.github.io/tags/#an%C3%A1lise%20dinamica" term="análise dinamica" /><category scheme="http://lailson.github.io/tags/#linux" term="linux" /><category scheme="http://lailson.github.io/tags/#wireshark" term="wireshark" /><category scheme="http://lailson.github.io/tags/#botnet" term="botnet" /><category scheme="http://lailson.github.io/tags/#rxbot" term="rxbot" />
   <content type="html">
   
     &lt;p&gt;Este post mostra uma introdução à Análise de Malware mostrando passo-a-passo como devemos analisar de forma estática e dinâmica um malware. 
-A análise &lt;/p&gt;
+A análise&lt;/p&gt;
 
 &lt;h1 id=&quot;analisando-malware&quot;&gt;Analisando Malware&lt;/h1&gt;
 
@@ -719,7 +1213,7 @@ Para faciliar segue o &lt;a href=&quot;https://mega.co.nz/#!rsJx0LRK!a6whtxW014b
 &lt;figure&gt;
  	&lt;img src=&quot;/images/analisemalware/upx.png&quot; /&gt;
  &lt;/figure&gt;
-&lt;p&gt;Figura: upx &lt;/p&gt;
+&lt;p&gt;Figura: upx&lt;/p&gt;
 
 &lt;h2 id=&quot;anlise-dinmica---comportamental&quot;&gt;Análise Dinâmica - Comportamental&lt;/h2&gt;
 &lt;p&gt;Utilizaremos o wireshark para verificar os pacotes que trafegam na rede. O wireshark é um snifer (bisbilhoteiro) que capture o tráfego da rede para análise.

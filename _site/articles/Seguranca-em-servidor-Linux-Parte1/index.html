@@ -5,9 +5,11 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
+<meta name="google-site-verification" 
+             content="mss25byVukevJKrr9LvHjQkPRDUoMYluyTGcbvxfs_I" />
 <title>Segurança em servidores Linux - Parte 1 &#8211; Lailson Henrique</title>
 <meta name="description" content="Práticas recomendadas para deixar seu servidor linux mais seguro">
-<meta name="keywords" content="segurança linux antivirus boot grub log kaspersky clamav mysql patições">
+<meta name="keywords" content="segurança, linux, antivirus, boot, grub, log, kaspersky, clamav, mysql, patições">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary_large_image">
@@ -83,7 +85,7 @@
 		    
 		        
 		    
-		    <li><a href="http://lailson.github.io/concursos/" >Concursos</a></li>
+		    <li><a href="http://lailson.github.io/tags/" >Tags</a></li>
 		  
 		    
 		        
@@ -98,11 +100,11 @@
 <!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
 
 <div class="search-wrapper">
-  <div class="search-form">
-    <input type="text" class="search-field" placeholder="Pesquisar...">
-    <button class="close-btn"><i class="fa fa-times-circle fa-2x"></i></button>
-    <ul class="search-results post-list"></ul><!-- /.search-results -->
-  </div><!-- /.search-form -->
+	<div class="search-form">
+		<input type="text" class="search-field" placeholder="Pesquisar...">
+		<i class="icon-remove-sign icon-2x"></i>
+		<ul class="search-results post-list"></ul><!-- /.search-results -->
+	</div><!-- /.search-form -->
 </div><!-- ./search-wrapper -->
 
 <header class="masthead">
@@ -133,7 +135,7 @@
     <img src="http://lailson.github.io/images/seguranca_linux/comandos-linux.jpg" class="entry-feature-image" alt="Segurança em servidores Linux - Parte 1" ><p class="image-credit">Photo Credit: <a href="">Lailson Henrique</a>
     <div class="entry-wrapper">
       <header class="entry-header">
-        <span class="entry-tags"><a href="http://lailson.github.io/tags/#segurança linux antivirus boot grub log kaspersky clamav mysql patições" title="Pages tagged segurança linux antivirus boot grub log kaspersky clamav mysql patições">segurança linux antivirus boot grub log kaspersky clamav mysql patições</a></span>
+        <span class="entry-tags"><a href="http://lailson.github.io/tags/#segurança" title="Pages tagged segurança">segurança</a>&nbsp;&bull;&nbsp;<a href="http://lailson.github.io/tags/#linux" title="Pages tagged linux">linux</a>&nbsp;&bull;&nbsp;<a href="http://lailson.github.io/tags/#antivirus" title="Pages tagged antivirus">antivirus</a>&nbsp;&bull;&nbsp;<a href="http://lailson.github.io/tags/#boot" title="Pages tagged boot">boot</a>&nbsp;&bull;&nbsp;<a href="http://lailson.github.io/tags/#grub" title="Pages tagged grub">grub</a>&nbsp;&bull;&nbsp;<a href="http://lailson.github.io/tags/#log" title="Pages tagged log">log</a>&nbsp;&bull;&nbsp;<a href="http://lailson.github.io/tags/#kaspersky" title="Pages tagged kaspersky">kaspersky</a>&nbsp;&bull;&nbsp;<a href="http://lailson.github.io/tags/#clamav" title="Pages tagged clamav">clamav</a>&nbsp;&bull;&nbsp;<a href="http://lailson.github.io/tags/#mysql" title="Pages tagged mysql">mysql</a>&nbsp;&bull;&nbsp;<a href="http://lailson.github.io/tags/#patições" title="Pages tagged patições">patições</a></span>
         
           <h1 class="entry-title">Segurança em servidores Linux - Parte 1</h1>
         
@@ -162,18 +164,18 @@ Tomar medidas para aumentar a segurança do seu servidor linux é primordial nos
  </figure>
 
 <ul id="markdown-toc">
-  <li><a href="#instalando-antivirus">Instalando antivirus</a>    <ul>
-      <li><a href="#kaspersky">Kaspersky</a></li>
+  <li><a href="#instalando-antivirus" id="markdown-toc-instalando-antivirus">Instalando antivirus</a>    <ul>
+      <li><a href="#kaspersky" id="markdown-toc-kaspersky">Kaspersky</a></li>
     </ul>
   </li>
-  <li><a href="#segurana-no-gestor-de-boot-grub">Segurança no gestor de boot: GRUB</a></li>
-  <li><a href="#gerenciando-logs">Gerenciando Logs</a>    <ul>
-      <li><a href="#configuraes-do-servidor-de-log">Configurações do servidor de log</a></li>
-      <li><a href="#configurando-o-cliente-de-log">Configurando o cliente de log</a></li>
-      <li><a href="#gravando-os-logs-no-mysql">Gravando os logs no MySQL</a></li>
+  <li><a href="#segurana-no-gestor-de-boot-grub" id="markdown-toc-segurana-no-gestor-de-boot-grub">Segurança no gestor de boot: GRUB</a></li>
+  <li><a href="#gerenciando-logs" id="markdown-toc-gerenciando-logs">Gerenciando Logs</a>    <ul>
+      <li><a href="#configuraes-do-servidor-de-log" id="markdown-toc-configuraes-do-servidor-de-log">Configurações do servidor de log</a></li>
+      <li><a href="#configurando-o-cliente-de-log" id="markdown-toc-configurando-o-cliente-de-log">Configurando o cliente de log</a></li>
+      <li><a href="#gravando-os-logs-no-mysql" id="markdown-toc-gravando-os-logs-no-mysql">Gravando os logs no MySQL</a></li>
     </ul>
   </li>
-  <li><a href="#configurando-parties">Configurando Partições</a></li>
+  <li><a href="#configurando-parties" id="markdown-toc-configurando-parties">Configurando Partições</a></li>
 </ul>
 
 <h1 id="instalando-antivirus">Instalando antivirus</h1>
@@ -181,18 +183,18 @@ Tomar medidas para aumentar a segurança do seu servidor linux é primordial nos
 <p>##ClamAV
 Instalando o ClamAV</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">apt-get install clamav</span>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">apt-get install clamav</span>
 <span class="l-Scalar-Plain">apt-get install arc bzip2 cabextract p7zip unzip unrar-free</span>
 <span class="l-Scalar-Plain">/etc/init.d/clamav-freshclam status</span></code></pre></div>
 
 <p>O EICAR test file(arquivo de teste, em português) é um arquivo de 68 bytes que possui uma linha de caracteres, desenvolvido pelo European Institute of Computer Anti-Virus Research (Instituto Europeu para Pesquisa de Antivírus de Computador), é usado para testar a eficiência dos antivírus na detecção de vírus conhecidos sem qualquer risco ao computador. Usar o EICAR ao invés de um vírus real para testar um antivírus, é a garantia de que o computador não será infectado.
 Baixar o <a href="http://www.eicar.org/">Eicar</a>:</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">wget http://www.eicar.org/download/eicar.com</span></code></pre></div>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">wget http://www.eicar.org/download/eicar.com</span></code></pre></div>
 
 <p>Testando o ClamAv:</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">clamscan eicar.com</span></code></pre></div>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">clamscan eicar.com</span></code></pre></div>
 
 <p>Testando o ClamAV</p>
 <figure>
@@ -203,7 +205,7 @@ Baixar o <a href="http://www.eicar.org/">Eicar</a>:</p>
 <p>Efetuar o download do pacote no site <a href="http://kaspersky.com/">kaspersky.com</a>:
 Baixando e intalando o pacote mais atual (8.0.2):</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">wget http://products.kaspersky-labs.com/products/multilanguage/file_servers/kavlinuxserver8.0/linux/kav4fs_8.0.2-172_i386.deb</span>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">wget http://products.kaspersky-labs.com/products/multilanguage/file_servers/kavlinuxserver8.0/linux/kav4fs_8.0.2-172_i386.deb</span>
 <span class="l-Scalar-Plain">dpkg -i kav4fs_8.0.2-172_i386.deb</span>
 <span class="l-Scalar-Plain">/opt/kaspersky/kav4fs/bin/kav4fs-setup.pl</span></code></pre></div>
 
@@ -216,7 +218,7 @@ Baixando e intalando o pacote mais atual (8.0.2):</p>
   <li>Proteção do kernel em tempo real: yes</li>
   <li>Proteção do SAMBA: yes</li>
   <li>locale: pt_BR.utf8</li>
-  <li>diretório do arquivo da licença trial: </li>
+  <li>diretório do arquivo da licença trial:</li>
   <li>senha : Yes <em>**</em>
 Ao final abra seu navegador e digite http://SEU_IP:9080</li>
 </ul>
@@ -229,7 +231,7 @@ Ao final abra seu navegador e digite http://SEU_IP:9080</li>
 
 <p>Instalando o pbkdf2</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">grub-mkpasswd-pbkdf2</span></code></pre></div>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">grub-mkpasswd-pbkdf2</span></code></pre></div>
 
 <figure>
  	<img src="/images/seguranca_linux/pbkdf2.png" />
@@ -260,12 +262,12 @@ Ao reiniciar o sistema verá que se solicitar a tecla de edição “e” será 
 <p>Neste exemplo o servidor vai ser a maquina que irá receber os log e tem o ip=192.168.0.17. </p>
 <p>Devemos alterar o arquivo <code>vim /etc/rsyslog.conf</code> e descomentar as linhas:</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">$ModLoad imudp</span> 
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">$ModLoad imudp</span> 
 <span class="l-Scalar-Plain">$UDPServerRun 514</span></code></pre></div>
 
 <p>No arquivo <code>vim /etc/default/rsyslog</code> devemos adiconar ao final do arquivo:</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">RSYSLOGD_OPTIONS=&quot;-c0 -r&quot;</span></code></pre></div>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">RSYSLOGD_OPTIONS=&quot;-c0 -r&quot;</span></code></pre></div>
 
 <p>Reiniciando o serviço com o comando <code>/etc/init.d/rsyslog restart</code>. Para visualizar os logs utilizaremos o comando <code>tail -f /var/log/auth.log</code>. 
 Agora vamos configurar o cliente que irá enviar os logs para o servidor.</p>
@@ -273,11 +275,11 @@ Agora vamos configurar o cliente que irá enviar os logs para o servidor.</p>
 <h2 id="configurando-o-cliente-de-log">Configurando o cliente de log</h2>
 <p>Vamos alterar o arquivo de hosts do cliente.</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">192.168.0.17     lailson</span></code></pre></div>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">192.168.0.17     lailson</span></code></pre></div>
 
 <p>Agora vamos alterar o arquivo de configuração `vim /etc/rsyslog.conf`</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="err">*</span><span class="l-Scalar-Plain">.*       @lailson</span></code></pre></div>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="err">*</span><span class="l-Scalar-Plain">.*       @lailson</span></code></pre></div>
 
 <p>Adicionando isso ao final do arquivo podmos reiniciar o serviço `/etc/init.d/rsyslog restart`. Pronto! Se logarmos novamente no cliente o log de  </p>
 <figure>
@@ -288,7 +290,7 @@ Agora vamos configurar o cliente que irá enviar os logs para o servidor.</p>
 <h2 id="gravando-os-logs-no-mysql">Gravando os logs no MySQL</h2>
 <p>No servidor de log:</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">apt-get install rsyslog-mysql mysql-server</span>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">apt-get install rsyslog-mysql mysql-server</span>
 <span class="l-Scalar-Plain">mysql -p</span>
     <span class="l-Scalar-Plain">mysql&gt; grant ALL ON Syslog.* to rsyslog@localhost identified by &#39;secret&#39;;</span>
     <span class="l-Scalar-Plain">mysql&gt; flush privileges;</span>
@@ -325,17 +327,17 @@ Alterações no <code>/etc/fstab</code></p>
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="http://lailson.github.io/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="http://lailson.github.io/assets/js/scripts.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
 
 <!-- Jekyll Simple Search option -->
 <script>
   $(document).ready(function() {
       $('.search-field').simpleJekyllSearch({
-          jsonFile : 'http://lailson.github.io/search.json',
-          searchResults : '.Resultado da pesquisa:',
+          jsonFile : '/search.json',
+          searchResults : '.search-results',
           template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
-          noResults: '<p>Nenhum resultado encontrado.</p>'
+          noResults: '<p>Nothing found.</p>'
         });
   });
 
@@ -400,7 +402,13 @@ Alterações no <code>/etc/fstab</code></p>
     }());
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>	   
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<!-- Webfonts -->
+<script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+	   
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -421,18 +429,28 @@ Alterações no <code>/etc/fstab</code></p>
 
 <div class="footer-wrapper">
   <footer role="contentinfo">
-    <span>&copy; 2014 Lailson Henrique.</span>
+    <span>&copy; 2015 Lailson Henrique.</span>
 <div class="social-icons">
 	<a href="http://twitter.com/lailsonh" title="Lailson Henrique on Twitter" target="_blank"><i class="icon-twitter icon-2x"></i></a>
 	<a href="http://facebook.com/lailson.henrique" title="Lailson Henrique on Facebook" target="_blank"><i class="icon-facebook icon-2x"></i></a>
 	<a href="https://plus.google.com/+LailsonHenrique" title="Lailson Henrique on Google+" target="_blank"><i class="icon-google-plus icon-2x"></i></a>
 	<a href="http://linkedin.com/in/lailsonhenrique" title="Lailson Henrique on LinkedIn" target="_blank"><i class="icon-linkedin icon-2x"></i></a>
 	
-	<a href="http://instagram.com/lailsonh" title="Lailson Henrique on Instagram" target="_blank"><i class="icon-instagram icon-2x"></i></a>
+	<a href="http://instagram.com/lailsonhenrique" title="Lailson Henrique on Instagram" target="_blank"><i class="icon-instagram icon-2x"></i></a>
 	
 	<a href="http://github.com/lailson" title="Lailson Henrique on Github" target="_blank"><i class="icon-github icon-2x"></i></a>
 	
+	
+	<!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+	<form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
+	<!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+	<input type="hidden" name="currency" value="BRL" />
+	<input type="hidden" name="receiverEmail" value="lailson.pi@gmail.com" />
+	<input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/doacoes/120x53-doar-cinza.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+	</form>
+<!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
 </div><!-- /.social-icons -->
+
   </footer>
 </div><!-- /.footer-wrapper -->
 
