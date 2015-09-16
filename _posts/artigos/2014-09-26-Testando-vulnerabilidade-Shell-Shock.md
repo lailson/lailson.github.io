@@ -4,7 +4,7 @@ title: Testando vulnerabilidade Shell Shock
 description: "Teste se o seu sistema está vulnerável para Shell Shock"
 modified: 2014-09-26
 category: articles
-tags: [vulnerabilidade, shell, shock, osx, linux]
+tags: [vulnerabilidade, shell shock, osx, linux]
 image:
   feature: ShellShock/img.jpg
   creditlink: 
