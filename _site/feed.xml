@@ -9,13 +9,157 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://lailson.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://lailson.github.io/" />
-<updated>2015-09-17T15:57:33-03:00</updated>
+<updated>2015-09-29T09:40:35-03:00</updated>
 <id>http://lailson.github.io/</id>
 <author>
   <name>Lailson Henrique</name>
   <uri>http://lailson.github.io/</uri>
   <email>lailson.pi@gmail.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Tribunal de Justiça do Piauí]]></title>
+  <link rel="alternate" type="text/html" href="http://lailson.github.io/articles/TJ-PI/"/>
+  <id>http://lailson.github.io/articles/TJ-PI</id>
+  <updated>2015-09-29T00:00:00-00:00</updated>
+  <published>2015-09-29T00:00:00-03:00</published>
+  
+  <author>
+    <name>Lailson Henrique</name>
+    <uri>http://lailson.github.io</uri>
+    <email>lailson.pi@gmail.com</email>
+  </author>
+  <category scheme="http://lailson.github.io/tags/#concurso" term="concurso" /><category scheme="http://lailson.github.io/tags/#tribunal%20de%20justi%C3%A7a" term="tribunal de justiça" /><category scheme="http://lailson.github.io/tags/#PI" term="PI" /><category scheme="http://lailson.github.io/tags/#Analista%20de%20TI" term="Analista de TI" /><category scheme="http://lailson.github.io/tags/#vagas" term="vagas" />
+  <content type="html">
+  
+    &lt;p&gt;Concurso Público destinado ao provimento de 180 (cento e oitenta) vagas para o grupo funcional de Analista Judiciário, de Nível Superior&lt;/p&gt;
+
+&lt;h1 id=&quot;banca&quot;&gt;Banca&lt;/h1&gt;
+&lt;p&gt;FGV&lt;/p&gt;
+
+&lt;h1 id=&quot;inscrio&quot;&gt;Inscrição:&lt;/h1&gt;
+&lt;p&gt;Site: www.fgv.br/fgvprojetos/concursos/tjpi
+14h do dia 02 de outubro de 2015 até as 23h59min do dia
+27 de outubro de 2015;&lt;/p&gt;
+
+&lt;h1 id=&quot;vagas&quot;&gt;Vagas&lt;/h1&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;/images/concursos/tjpi-vagas.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;remunerao&quot;&gt;Remuneração&lt;/h1&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;/images/concursos/tjpi-remuneracao.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;prova-escrita-objetiva&quot;&gt;Prova Escrita Objetiva&lt;/h1&gt;
+&lt;p&gt;Carreiras:  Escrivão Judicial, Analista de Sistemas - Banco de Dados, Analista de Sistemas –
+Telecomunicações, Auditor, Enfermeiro e Analista Administrativo
+Data: 20 de dezembro de 2015.
+Horário: 8h às 13h, segundo o horário oficial de Teresina-PI.&lt;/p&gt;
+
+&lt;p&gt;Carreiras: Oficial de Justiça e Avaliador, Analista de Sistemas – Desenvolvimento, Contador,
+Engenheiro Eletricista, Médico, Nutricionista, Odontólogo, Psicólogo, Psiquiatra e Analista Judicial.
+Data: 20 de dezembro de 2015.
+Horário: 14h30min às 19h30min.&lt;/p&gt;
+
+&lt;h1 id=&quot;taxa-de-inscrio&quot;&gt;Taxa de Inscrição&lt;/h1&gt;
+&lt;p&gt;Analista: R$ 90,00&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;questes&quot;&gt;Questões&lt;/h1&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;/images/concursos/tjpi-questoes.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;cotedo-programtico&quot;&gt;Coteúdo Programático&lt;/h1&gt;
+
+&lt;h3 id=&quot;lngua-portuguesa&quot;&gt;Língua Portuguesa&lt;/h3&gt;
+&lt;p&gt;Elementos de construção do texto e seu sentido: gênero do texto (literário e não literário, narrativo, descritivo e
+argumentativo); interpretação e organização interna. Semântica: sentido e emprego dos vocábulos; campos
+semânticos; emprego de tempos e modos dos verbos em português. Morfologia: reconhecimento, emprego e sentido
+das classes gramaticais; processos de formação de palavras; mecanismos de flexão dos nomes e verbos. Sintaxe: frase,
+oração e período; termos da oração; processos de coordenação e subordinação; concordância nominal e verbal;
+transitividade e regência de nomes e verbos; padrões gerais de colocação pronominal no português; mecanismos de
+coesão textual. Ortografia. Acentuação gráfica. Emprego do sinal indicativo de crase. Pontuação. Estilística: figuras de
+linguagem. Reescrita de frases: substituição, deslocamento, paralelismo; variação linguística: norma culta.
+Observação: os itens deste programa serão considerados sob o ponto de vista textual, ou seja, deverão ser estudados
+sob o ponto de vista de sua participação na estruturação significativa dos textos.&lt;/p&gt;
+
+&lt;h3 id=&quot;raciocnio-lgico&quot;&gt;Raciocínio Lógico&lt;/h3&gt;
+&lt;p&gt;Lógica: proposições, valor-verdade, negação, conjunção, disjunção, implicação, equivalência, proposições compostas.
+Equivalências lógicas. Problemas de raciocínio: deduzir informações de relações arbitrárias entre objetos, lugares,
+pessoas e/ou eventos fictícios dados. Diagramas lógicos, tabelas e gráficos. Conjuntos e suas operações. Números
+naturais, inteiros, racionais, reais e suas operações. Representação na reta. Unidades de medida: distância, massa e
+tempo. Representação de pontos no plano cartesiano. Álgebra básica: equações, sistemas e problemas do primeiro
+grau. Porcentagem e proporcionalidade direta e inversa. Sequências, reconhecimento de padrões, progressões
+aritmética e geométrica. Juros. Geometria básica: distâncias e ângulos, polígonos, circunferência, perímetro e área.
+Semelhança e relações métricas no triângulo retângulo. Medidas de comprimento, área, volume. Princípios de
+contagem e noção de probabilidade.&lt;/p&gt;
+
+&lt;h3 id=&quot;legislao-especfica&quot;&gt;Legislação Específica&lt;/h3&gt;
+&lt;p&gt;Regime Jurídico dos Servidores Públicos Civis do Estado do Piauí (Lei Complementar Estadual nº 13, de 03 de janeiro
+de 1994, e suas alterações). Plano de Carreiras e Remuneração dos Servidores do Poder Judiciário do Estado do Piauí
+(Lei Complementar Estadual nº 115, de 25 de agosto de 2008, e suas alterações). Regimento Interno do Tribunal de
+Justiça do Estado do Piauí (Resolução nº 02 de 12 de novembro 1987, e suas alterações) . Lei de Organização Judiciária
+do Estado do Piauí (Lei nº 3.716, de 12 de dezembro de 1979, e suas alterações).&lt;/p&gt;
+
+&lt;h3 id=&quot;rea-de-apoio-especializado--carreira-de-analista-de-sistemas--banco-de-dados&quot;&gt;ÁREA DE APOIO ESPECIALIZADO – CARREIRA DE ANALISTA DE SISTEMAS / BANCO DE DADOS:&lt;/h3&gt;
+&lt;p&gt;Organização básica de computadores. Componentes de um computador (hardware e software). Linguagens de
+programação; compiladores e interpretadores; sistemas de numeração e representação de dados numéricos, textuais
+e estruturados; aritmética computacional. Noções de Java Web, PHP, Ruby e Object Pascal . Sistemas operacionais:
+funções básicas; sistemas de arquivos e gerenciamento de memória. Windows e Linux. Comandos e funcionamento.
+Servidores Web. Conceitos de virtualização. Conhecimentos de VMWARE. Redes de computadores: fundamentos de
+comunicação de dados; meios físicos; serviços de comunicação; redes locais e redes geograficamente distribuídas;
+TCP/IP; protocolos e serviços. Dispositivos de segurança: firewalls, IDS, IPS, proxies, NAT e VPN; tipos de ataques.
+Criptografia: conceitos básicos e aplicações, protocolos criptográficos; criptografia simétrica e assimétrica; principais
+algoritmos criptográficos; assinatura e certificação digital. Análise e projeto orientados a objetos. UML 2: visão geral,
+modelos e diagramas. Conhecimentos de HTML, XML: XML Schema, XQuery. Modelagem de dados, conceitual e
+semântica. Modelo de Entidades e Relacionamentos. Notação IDEF1X. Sistema relacional: teoria, estrutura,
+linguagens, operações, normalização, integridade. Projeto de bancos de dados: teoria. Projetos lógico e físico.
+Dependências funcionais. Normalização. Linguagem SQL: comandos para manipulação (DML), controle (DCL) e
+descrição de dados (DDL). Técnicas de implementação de SGBD. Transações: conceito, propriedades e implementação.
+Processamento e otimização de consultas. Recuperação e concorrência. Segurança em bancos de dados. Distribuição
+de dados e transações. Interfaces de utilização: principais propriedades e características das bibliotecas mais
+difundidas. ODBC. Algoritmos de busca e indexação: sequenciais, árvores, hashing, bitmaps. Conceitos de Data
+Warehouse, Data Mining, OLAP e ETL. Técnicas de modelagem e otimização de bases de dados multidimensionais.
+Administração de bancos de dados. Administração de dados e metadados: gestão, organização, coleta e manutenção.Bancos de dados NoSQL: características, operações. Engenharia de software. Ciclo de vida do software. Metodologias
+de desenvolvimento de software. Processo unificado: disciplinas, fases, papeis e atividades. Metodologias ágeis.
+Métricas e estimativas de software. Qualidade de software. Desenvolvimento baseado em componentes.
+Desenvolvimento baseado em serviços. Princípios de interface com o usuário. Técnicas de testes de software.
+Conceitos de reengenharia. Gestão de segurança da informação: normativas e boas práticas. Gerenciamento de
+projetos – PMBOK 5ª edição. ITIL v3: conceitos básicos e objetivos. COBIT 5: conceitos básicos e objetivos.
+Conhecimentos de SQL Server 2008, Oracle 11g, MySQL 5.5 PostgreSQL 8 .Tecnologias e arquitetura de Datacenter:
+Conceitos básicos, serviços de armazenamento, padrões de disco e de interfaces; tecnologia RAID; tecnologias de
+armazenamento DAS, NAS e SAN; tecnologias de backup e conceitos relacionados.&lt;/p&gt;
+
+&lt;h3 id=&quot;rea-de-apoio-especializado--carreira-de-analista-de-sistemas--desenvolvimento&quot;&gt;ÁREA DE APOIO ESPECIALIZADO – CARREIRA DE ANALISTA DE SISTEMAS / DESENVOLVIMENTO:&lt;/h3&gt;
+&lt;p&gt;Organização básica de computadores. Componentes de um computador (hardware e software). Linguagens de
+programação; compiladores e interpretadores; sistemas de numeração e representação de dados numéricos, textuais
+e estruturados; aritmética computacional. Conhecimentos de Java Web, PHP, Ruby e Object Pascal . Complexidade de
+algoritmos. Estruturas de dados. Algoritmos básicos de ordenação, combinatória, criptografia e busca. Sistemas
+operacionais: funções básicas; sistemas de arquivos e gerenciamento de memória. Windows e Linux. Comandos e
+funcionamento. Servidores Web. Conceitos de virtualização. Conhecimentos de VMWARE. Redes de computadores:
+fundamentos de comunicação de dados; meios físicos; serviços de comunicação; redes locais e redes geograficamente
+distribuídas; TCP/IP; protocolos e serviços. Dispositivos de segurança: firewalls, IDS, IPS, proxies, NAT e VPN; tipos de
+ataques. Criptografia: conceitos básicos e aplicações, protocolos criptográficos; criptografia simétrica e assimétrica;
+principais algoritmos criptográficos; assinatura e certificação digital. Análise e projeto orientados a objetos. UML 2:
+visão geral, modelos e diagramas. Padrões de projeto. Conhecimentos de HTML, XML: XML Schema, XQuery.
+Modelagem de dados, conceitual e semântica. Modelo de Entidades e Relacionamentos. Notação IDEF1X. Projeto de
+bancos de dados: teoria. Projetos lógico e físico. Dependências funcionais. Normalização. Operações. Linguagem SQL:
+comandos de controle, manipulação e definição. Segurança em bancos de dados. Distribuição de dados e transações.
+Interfaces de utilização: principais propriedades e características das bibliotecas e componentes mais difundidos.
+Engenharia de software. Ciclo de vida do software. Metodologias de desenvolvimento de software. Processo
+unificado: disciplinas, fases, papÉis e atividades. Metodologias ágeis. Métricas e estimativas de software. Qualidade
+de software. Desenvolvimento baseado em componentes. Desenvolvimento baseado em serviços. Princípios de interface com o usuário. Técnicas de testes de software. Conceitos de reengenharia. Engenharia de requisitos.
+Conceitos básicos. Técnicas de elicitação de requisitos. Gerenciamento de requisitos. Especificação de requisitos.
+Técnicas de validação de requisitos. Prototipação. Gestão de segurança da informação: normativas. Gerenciamento de
+projetos – PMBOK 5ª edição. ITIL v3: conceitos básicos e objetivos. COBIT 5: conceitos básicos e objetivos.&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/articles/TJ-PI/&quot;&gt;Tribunal de Justiça do Piauí&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on September 29, 2015.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
