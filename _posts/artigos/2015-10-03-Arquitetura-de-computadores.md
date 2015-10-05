@@ -27,7 +27,7 @@ link: <a href="https://www.goconqr.com/pt-BR/p/3670369">aqui</a>
 
 #Conversor de Linguagem
 <figure>
-  <img src="/images/arquiteturacomputadores/compilador.png">
+  <img src="/images/arquiteturacomputadores/Compilador.png">
 </figure>
 Link: <a href="https://www.goconqr.com/pt-BR/mind_maps/3677492/">aqui</a>
 
