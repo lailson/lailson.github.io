@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Algoritimos de Busca
-description: "Algoritmos de Busca"
-modified: 2015-09-18
+title: Arquitetura de Computadores
+description: "Arquitetura e Organização de Computadores"
+modified: 2015-10-03
 category: articles
-tags: [algoritmos, Busca, estrutura de dados, computação, linear, binário]
+tags: [computação, arquitetura de computadores]
 image:
-  feature: ordenacao/ordenacao1.jpg
+  feature: arquiteturacomputadores/arquitetura.jpg
   credit: 
   creditlink: 
 comments: true
