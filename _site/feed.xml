@@ -9,7 +9,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://lailson.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://lailson.github.io/" />
-<updated>2015-10-05T20:08:27-03:00</updated>
+<updated>2015-10-05T20:14:36-03:00</updated>
 <id>http://lailson.github.io/</id>
 <author>
   <name>Lailson Henrique</name>
@@ -50,6 +50,27 @@
   &lt;img src=&quot;/images/arquiteturacomputadores/Compilador.png&quot; /&gt;
 &lt;/figure&gt;
 &lt;p&gt;Link: &lt;a href=&quot;https://www.goconqr.com/pt-BR/mind_maps/3677492/&quot;&gt;aqui&lt;/a&gt;&lt;/p&gt;
+
+&lt;script s=&quot;&quot;&gt;
+ var $ = go.GraphObject.make;
+var myDiagram =
+  $(go.Diagram, &quot;myDiagramDiv&quot;,
+    {
+      initialContentAlignment: go.Spot.Center, // center Diagram contents
+      &quot;undoManager.isEnabled&quot;: true // enable Ctrl-Z to undo and Ctrl-Y to redo
+    });
+
+var myModel = $(go.Model);
+// in our model data, each node is represented by a JavaScript object:
+myModel.nodeDataArray = [
+  { key: &quot;Alpha&quot; },
+  { key: &quot;Beta&quot; },
+  { key: &quot;Gamma&quot; }
+];
+myDiagram.model = myModel;
+    &lt;/script&gt;
+
+&lt;div id=&quot;myDiagramDiv&quot; style=&quot;width:400px; height:150px; background-color: #DAE4E4;&quot;&gt;&lt;/div&gt;
 
 
   

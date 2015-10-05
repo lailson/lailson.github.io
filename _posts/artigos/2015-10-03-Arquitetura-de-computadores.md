@@ -31,6 +31,28 @@ link: <a href="https://www.goconqr.com/pt-BR/p/3670369">aqui</a>
 </figure>
 Link: <a href="https://www.goconqr.com/pt-BR/mind_maps/3677492/">aqui</a>
 
+<script s>
+ var $ = go.GraphObject.make;
+var myDiagram =
+  $(go.Diagram, "myDiagramDiv",
+    {
+      initialContentAlignment: go.Spot.Center, // center Diagram contents
+      "undoManager.isEnabled": true // enable Ctrl-Z to undo and Ctrl-Y to redo
+    });
+
+var myModel = $(go.Model);
+// in our model data, each node is represented by a JavaScript object:
+myModel.nodeDataArray = [
+  { key: "Alpha" },
+  { key: "Beta" },
+  { key: "Gamma" }
+];
+myDiagram.model = myModel;
+    </script>
+
+
+<div id="myDiagramDiv" style="width:400px; height:150px; background-color: #DAE4E4;"></div>
+    
 
 
 
