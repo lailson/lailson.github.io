@@ -25,3 +25,12 @@ link: <a href="https://www.goconqr.com/pt-BR/p/3670369">aqui</a>
 	<img src="/images/arquiteturacomputadores/multinivel.jpg">
 </figure>
 
+#Conversor de Linguagem
+<figure>
+  <img src="/images/arquiteturacomputadores/compilador.png">
+</figure>
+Link: <a href="https://www.goconqr.com/pt-BR/mind_maps/3677492/">aqui</a>
+
+
+
+
