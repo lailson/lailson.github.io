@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tribunal de Justiça do Piauí
+title: Resumo TJ-PI
 description: "Concurso para Tribunal de Justiça do Piauí"
 modified: 2015-09-29
 category: articles
@@ -25,8 +25,8 @@ Dividí o edital em algumas partes e fiz resumos, mapas mentais , etc
 Ainda não está completo mas à medida que for fazendo irei colocando aqui:
 
 ##Desenvolvimento
-- [Português](#)
-- [Legislação](#)
+- Português
+- Legislação
 - [Arquitetura Organização de Computadores](http://lailsonhenrique.com/articles/Estrutura-de-dados)
 - Java
 - Estrutura de Dados
