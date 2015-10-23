@@ -9,7 +9,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://lailson.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://lailson.github.io/" />
-<updated>2015-10-05T20:14:36-03:00</updated>
+<updated>2015-10-23T15:34:30-03:00</updated>
 <id>http://lailson.github.io/</id>
 <author>
   <name>Lailson Henrique</name>
@@ -75,6 +75,154 @@ myDiagram.model = myModel;
 
   
   &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/articles/Arquitetura-de-computadores/&quot;&gt;Arquitetura de Computadores&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on October 03, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Estrutura de Dados]]></title>
+  <link rel="alternate" type="text/html" href="http://lailson.github.io/articles/Estrutura-de-dados/"/>
+  <id>http://lailson.github.io/articles/Estrutura-de-dados</id>
+  <updated>2015-09-17T00:00:00-00:00</updated>
+  <published>2015-10-01T00:00:00-03:00</published>
+  
+  <author>
+    <name>Lailson Henrique</name>
+    <uri>http://lailson.github.io</uri>
+    <email>lailson.pi@gmail.com</email>
+  </author>
+  <category scheme="http://lailson.github.io/tags/#algoritmos" term="algoritmos" /><category scheme="http://lailson.github.io/tags/#ordena%C3%A7%C3%A3o" term="ordenação" /><category scheme="http://lailson.github.io/tags/#estrutura%20de%20dados" term="estrutura de dados" /><category scheme="http://lailson.github.io/tags/#computa%C3%A7%C3%A3o" term="computação" /><category scheme="http://lailson.github.io/tags/#quick%20sort" term="quick sort" />
+  <content type="html">
+  
+    &lt;h1 id=&quot;principais-caractersticas&quot;&gt;Principais Características&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Os algoritmos de ordenação são de fundamental inportância na ciência da computação.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;O melhor algoritmo para determinada aplicação depende, entre outros fatores, do número de itens a ordenar e do grau de ordenação ja apreseentado por esses itens.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Um algoritmo de ordenação é &lt;b&gt;estável&lt;/b&gt; se não altera a posição relativa de elementos que têm um mesmo valor.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;/assets/js/ordenacao.js&quot;&gt;&lt;/script&gt;
+
+&lt;noscript&gt;&amp;lt;p style=&quot;color:red&quot;&amp;gt;Sorry, Esse programa requer JavaScript para funcionar.&amp;lt;/p&amp;gt;&lt;/noscript&gt;
+
+&lt;h2&gt;Algoritmos de ordenação&lt;/h2&gt;
+&lt;!--[if lt IE 9]&gt;
+&lt;div style=&quot;width:600px&quot;&gt;
+&lt;p&gt;&lt;b&gt;Note for Internet Explorer 8 and earlier:&lt;/b&gt; This page uses an emulator
+for the HTML5 Canvas, which is not supported directly in your browser.  The
+emulator runs more slowly than the real thing.  And in this example, some
+text that should be shown on the canvas is &lt;b&gt;missing&lt;/b&gt; because the emulator
+does not support text.  Please consider using Internet Explorer 9, Firefox,
+or Google Chrome.&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;![endif]--&gt;
+&lt;div style=&quot;float:left;&quot;&gt;
+   &lt;canvas id=&quot;sortcanvas&quot; width=&quot;450&quot; height=&quot;400&quot; style=&quot;background-color:rgb(255,255,255)&quot;&gt;&lt;/canvas&gt;
+   &lt;/div&gt;
+&lt;div style=&quot;float:left; margin-left:30px;&quot;&gt;
+      &lt;select id=&quot;sortSelect&quot; disabled=&quot;disabled&quot;&gt;
+         &lt;option value=&quot;1&quot;&gt;Bubble Sort&lt;/option&gt;
+         &lt;option value=&quot;2&quot;&gt;Selection Sort&lt;/option&gt;
+         &lt;option value=&quot;3&quot;&gt;Insertion Sort&lt;/option&gt;
+         &lt;option value=&quot;4&quot;&gt;Merge Sort&lt;/option&gt;
+         &lt;option value=&quot;5&quot;&gt;Quick Sort&lt;/option&gt;
+      &lt;/select&gt;
+      &lt;p&gt;&lt;button id=&quot;newBtn&quot;&gt;Nova ordem&lt;/button&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;input type=&quot;checkbox&quot; id=&quot;fastCheckbox&quot; /&gt;&lt;label for=&quot;fastCheckbox&quot;&gt;Rápido&lt;/label&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;button id=&quot;runBtn&quot; disabled=&quot;disabled&quot;&gt;Executar&lt;/button&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;button id=&quot;pauseBtn&quot;&gt;Pausar&lt;/button&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;button id=&quot;stepBtn&quot; disabled=&quot;disabled&quot;&gt;Passos&lt;/button&gt;&lt;/p&gt;
+      &lt;p style=&quot;margin-top:5px;&quot;&gt;
+         &lt;b&gt;Comparações:&lt;/b&gt; &lt;span id=&quot;compCt&quot;&gt;72&lt;/span&gt;
+      &lt;/p&gt;
+      &lt;p style=&quot;margin-top:30px;&quot;&gt;
+         &lt;b&gt;Copias: &lt;/b&gt; &lt;span id=&quot;moveCt&quot;&gt;15&lt;/span&gt;
+      &lt;/p&gt;
+   &lt;/div&gt;
+&lt;div style=&quot;clear: both&quot;&gt;
+      &lt;br /&gt;
+      &lt;p id=&quot;message1&quot;&gt;Phase 6:   Find the next largest item and move it to position 11&lt;/p&gt;
+      &lt;p id=&quot;message2&quot;&gt;Item 8 is smaller than item 6, so item 6 is still the max seen.&lt;/p&gt;
+   &lt;/div&gt;
+
+&lt;h2&gt;Selection Sort&lt;/h2&gt;
+
+&lt;h3&gt;Funcionamento&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;O selection sort coloca sempre o menor valor do vetor para a primeira posição (ou o maior dependendo da ordem requerida), depois o de segundo menor valor para a segunda posição, e assim é feito sucessivamente com os (n-1) elementos restantes, até os últimos dois elementos.&lt;/li&gt;
+  &lt;li&gt;Não Estável&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Complexidade&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;O(n&lt;sup&gt;2&lt;/sup&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/articles/Estrutura-de-dados/&quot;&gt;Estrutura de Dados&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on October 01, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Resumo TJ-PI]]></title>
+  <link rel="alternate" type="text/html" href="http://lailson.github.io/articles/Resumo-TJ-PI/"/>
+  <id>http://lailson.github.io/articles/Resumo-TJ-PI</id>
+  <updated>2015-09-29T00:00:00-00:00</updated>
+  <published>2015-09-30T00:00:00-03:00</published>
+  
+  <author>
+    <name>Lailson Henrique</name>
+    <uri>http://lailson.github.io</uri>
+    <email>lailson.pi@gmail.com</email>
+  </author>
+  <category scheme="http://lailson.github.io/tags/#concurso" term="concurso" /><category scheme="http://lailson.github.io/tags/#tribunal%20de%20justi%C3%A7a" term="tribunal de justiça" /><category scheme="http://lailson.github.io/tags/#PI" term="PI" /><category scheme="http://lailson.github.io/tags/#Analista%20de%20TI" term="Analista de TI" /><category scheme="http://lailson.github.io/tags/#vagas" term="vagas" />
+  <content type="html">
+  
+    &lt;p&gt;Concurso Público destinado ao provimento de 180 (cento e oitenta) vagas para o grupo funcional de Analista Judiciário, de Nível Superior&lt;/p&gt;
+
+&lt;h1 id=&quot;mapeamento&quot;&gt;Mapeamento&lt;/h1&gt;
+&lt;p&gt;Foi feito um mapeamento realizado pelo site Provas de TI:&lt;/p&gt;
+&lt;div&gt;&lt;a href=&quot;https://docs.google.com/document/d/1vmS5t8706xJ7MoVMMivdTBlnfkSb2GCyw8Isd9C9MyY/edit?ts=56131b69&quot; class=&quot;btn&quot;&gt;Mapeamento&lt;/a&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;apresentao&quot;&gt;Apresentação&lt;/h1&gt;
+&lt;p&gt;Dividí o edital em algumas partes e fiz resumos, mapas mentais , etc
+Ainda não está completo mas à medida que for fazendo irei colocando aqui:&lt;/p&gt;
+
+&lt;h2 id=&quot;desenvolvimento&quot;&gt;Desenvolvimento&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Português&lt;/li&gt;
+  &lt;li&gt;Legislação&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lailsonhenrique.com/articles/Estrutura-de-dados&quot;&gt;Arquitetura Organização de Computadores&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Java&lt;/li&gt;
+  &lt;li&gt;Estrutura de Dados&lt;/li&gt;
+  &lt;li&gt;Sistemas Operacionais&lt;/li&gt;
+  &lt;li&gt;Redes&lt;/li&gt;
+  &lt;li&gt;Segurança&lt;/li&gt;
+  &lt;li&gt;Análise de Projeto OO&lt;/li&gt;
+  &lt;li&gt;Padrão de Projeto&lt;/li&gt;
+  &lt;li&gt;WEB&lt;/li&gt;
+  &lt;li&gt;Banco de Dados&lt;/li&gt;
+  &lt;li&gt;Engenharia de Software&lt;/li&gt;
+  &lt;li&gt;Desenvolvimento Baseado em Serviço&lt;/li&gt;
+  &lt;li&gt;Reengenharia&lt;/li&gt;
+  &lt;li&gt;Gestão da Segurança da Informação&lt;/li&gt;
+  &lt;li&gt;Governança&lt;/li&gt;
+&lt;/ul&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/articles/Resumo-TJ-PI/&quot;&gt;Resumo TJ-PI&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on September 30, 2015.&lt;/p&gt;</content>
 </entry>
 
 
@@ -219,125 +367,6 @@ projetos – PMBOK 5ª edição. ITIL v3: conceitos básicos e objetivos. COBIT 
 
   
   &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/articles/TJ-PI/&quot;&gt;Tribunal de Justiça do Piauí&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on September 29, 2015.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Algoritimos de Busca]]></title>
-  <link rel="alternate" type="text/html" href="http://lailson.github.io/articles/Algoritmos-de-busca/"/>
-  <id>http://lailson.github.io/articles/Algoritmos-de-busca</id>
-  <updated>2015-09-18T00:00:00-00:00</updated>
-  <published>2015-09-18T00:00:00-03:00</published>
-  
-  <author>
-    <name>Lailson Henrique</name>
-    <uri>http://lailson.github.io</uri>
-    <email>lailson.pi@gmail.com</email>
-  </author>
-  <category scheme="http://lailson.github.io/tags/#algoritmos" term="algoritmos" /><category scheme="http://lailson.github.io/tags/#Busca" term="Busca" /><category scheme="http://lailson.github.io/tags/#estrutura%20de%20dados" term="estrutura de dados" /><category scheme="http://lailson.github.io/tags/#computa%C3%A7%C3%A3o" term="computação" /><category scheme="http://lailson.github.io/tags/#linear" term="linear" /><category scheme="http://lailson.github.io/tags/#bin%C3%A1rio" term="binário" />
-  <content type="html">
-  
-    &lt;h1 id=&quot;principais-caractersticas&quot;&gt;Principais Características&lt;/h1&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/articles/Algoritmos-de-busca/&quot;&gt;Algoritimos de Busca&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on September 18, 2015.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Algoritimos de Ordenação]]></title>
-  <link rel="alternate" type="text/html" href="http://lailson.github.io/articles/Algoritmos-de-ordenacao/"/>
-  <id>http://lailson.github.io/articles/Algoritmos-de-ordenacao</id>
-  <updated>2015-09-17T00:00:00-00:00</updated>
-  <published>2015-09-17T00:00:00-03:00</published>
-  
-  <author>
-    <name>Lailson Henrique</name>
-    <uri>http://lailson.github.io</uri>
-    <email>lailson.pi@gmail.com</email>
-  </author>
-  <category scheme="http://lailson.github.io/tags/#algoritmos" term="algoritmos" /><category scheme="http://lailson.github.io/tags/#ordena%C3%A7%C3%A3o" term="ordenação" /><category scheme="http://lailson.github.io/tags/#estrutura%20de%20dados" term="estrutura de dados" /><category scheme="http://lailson.github.io/tags/#computa%C3%A7%C3%A3o" term="computação" /><category scheme="http://lailson.github.io/tags/#quick%20sort" term="quick sort" />
-  <content type="html">
-  
-    &lt;h1 id=&quot;principais-caractersticas&quot;&gt;Principais Características&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Os algoritmos de ordenação são de fundamental inportância na ciência da computação.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;O melhor algoritmo para determinada aplicação depende, entre outros fatores, do número de itens a ordenar e do grau de ordenação ja apreseentado por esses itens.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Um algoritmo de ordenação é &lt;b&gt;estável&lt;/b&gt; se não altera a posição relativa de elementos que têm um mesmo valor.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;
-
-&lt;script src=&quot;/assets/js/ordenacao.js&quot;&gt;&lt;/script&gt;
-
-&lt;noscript&gt;&amp;lt;p style=&quot;color:red&quot;&amp;gt;Sorry, Esse programa requer JavaScript para funcionar.&amp;lt;/p&amp;gt;&lt;/noscript&gt;
-
-&lt;h2&gt;Algoritmos de ordenação&lt;/h2&gt;
-&lt;!--[if lt IE 9]&gt;
-&lt;div style=&quot;width:600px&quot;&gt;
-&lt;p&gt;&lt;b&gt;Note for Internet Explorer 8 and earlier:&lt;/b&gt; This page uses an emulator
-for the HTML5 Canvas, which is not supported directly in your browser.  The
-emulator runs more slowly than the real thing.  And in this example, some
-text that should be shown on the canvas is &lt;b&gt;missing&lt;/b&gt; because the emulator
-does not support text.  Please consider using Internet Explorer 9, Firefox,
-or Google Chrome.&lt;/p&gt;
-&lt;/div&gt;
-&lt;br&gt;
-&lt;![endif]--&gt;
-&lt;div style=&quot;float:left;&quot;&gt;
-   &lt;canvas id=&quot;sortcanvas&quot; width=&quot;450&quot; height=&quot;400&quot; style=&quot;background-color:rgb(255,255,255)&quot;&gt;&lt;/canvas&gt;
-   &lt;/div&gt;
-&lt;div style=&quot;float:left; margin-left:30px;&quot;&gt;
-      &lt;select id=&quot;sortSelect&quot; disabled=&quot;disabled&quot;&gt;
-         &lt;option value=&quot;1&quot;&gt;Bubble Sort&lt;/option&gt;
-         &lt;option value=&quot;2&quot;&gt;Selection Sort&lt;/option&gt;
-         &lt;option value=&quot;3&quot;&gt;Insertion Sort&lt;/option&gt;
-         &lt;option value=&quot;4&quot;&gt;Merge Sort&lt;/option&gt;
-         &lt;option value=&quot;5&quot;&gt;Quick Sort&lt;/option&gt;
-      &lt;/select&gt;
-      &lt;p&gt;&lt;button id=&quot;newBtn&quot;&gt;Nova ordem&lt;/button&gt;&lt;/p&gt;
-      &lt;p&gt;&lt;input type=&quot;checkbox&quot; id=&quot;fastCheckbox&quot; /&gt;&lt;label for=&quot;fastCheckbox&quot;&gt;Rápido&lt;/label&gt;&lt;/p&gt;
-      &lt;p&gt;&lt;button id=&quot;runBtn&quot; disabled=&quot;disabled&quot;&gt;Executar&lt;/button&gt;&lt;/p&gt;
-      &lt;p&gt;&lt;button id=&quot;pauseBtn&quot;&gt;Pausar&lt;/button&gt;&lt;/p&gt;
-      &lt;p&gt;&lt;button id=&quot;stepBtn&quot; disabled=&quot;disabled&quot;&gt;Passos&lt;/button&gt;&lt;/p&gt;
-      &lt;p style=&quot;margin-top:5px;&quot;&gt;
-         &lt;b&gt;Comparações:&lt;/b&gt; &lt;span id=&quot;compCt&quot;&gt;72&lt;/span&gt;
-      &lt;/p&gt;
-      &lt;p style=&quot;margin-top:30px;&quot;&gt;
-         &lt;b&gt;Copias: &lt;/b&gt; &lt;span id=&quot;moveCt&quot;&gt;15&lt;/span&gt;
-      &lt;/p&gt;
-   &lt;/div&gt;
-&lt;div style=&quot;clear: both&quot;&gt;
-      &lt;br /&gt;
-      &lt;p id=&quot;message1&quot;&gt;Phase 6:   Find the next largest item and move it to position 11&lt;/p&gt;
-      &lt;p id=&quot;message2&quot;&gt;Item 8 is smaller than item 6, so item 6 is still the max seen.&lt;/p&gt;
-   &lt;/div&gt;
-
-&lt;h2&gt;Selection Sort&lt;/h2&gt;
-
-&lt;h3&gt;Funcionamento&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;O selection sort coloca sempre o menor valor do vetor para a primeira posição (ou o maior dependendo da ordem requerida), depois o de segundo menor valor para a segunda posição, e assim é feito sucessivamente com os (n-1) elementos restantes, até os últimos dois elementos.&lt;/li&gt;
-  &lt;li&gt;Não Estável&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Complexidade&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;O(n&lt;sup&gt;2&lt;/sup&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/articles/Algoritmos-de-ordenacao/&quot;&gt;Algoritimos de Ordenação&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on September 17, 2015.&lt;/p&gt;</content>
 </entry>
 
 

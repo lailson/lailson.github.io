@@ -12,8 +12,18 @@
 
   
     ,{
-      "title"			: "Tribunal de Justiça do Piauí",
-      "link"			: "http://lailson.github.io/articles/TJ-PI/",
+      "title"			: "Estrutura de Dados",
+      "link"			: "http://lailson.github.io/articles/Estrutura-de-dados/",
+      "excerpt"		: "<h1 id="principais-caractersticas">Principais Características</h1>
+
+"
+    }
+  
+
+  
+    ,{
+      "title"			: "Resumo TJ-PI",
+      "link"			: "http://lailson.github.io/articles/Resumo-TJ-PI/",
       "excerpt"		: "<p>Concurso Público destinado ao provimento de 180 (cento e oitenta) vagas para o grupo funcional de Analista Judiciário, de Nível Superior</p>
 
 "
@@ -22,19 +32,9 @@
 
   
     ,{
-      "title"			: "Algoritimos de Busca",
-      "link"			: "http://lailson.github.io/articles/Algoritmos-de-busca/",
-      "excerpt"		: "<h1 id="principais-caractersticas">Principais Características</h1>
-
-"
-    }
-  
-
-  
-    ,{
-      "title"			: "Algoritimos de Ordenação",
-      "link"			: "http://lailson.github.io/articles/Algoritmos-de-ordenacao/",
-      "excerpt"		: "<h1 id="principais-caractersticas">Principais Características</h1>
+      "title"			: "Tribunal de Justiça do Piauí",
+      "link"			: "http://lailson.github.io/articles/TJ-PI/",
+      "excerpt"		: "<p>Concurso Público destinado ao provimento de 180 (cento e oitenta) vagas para o grupo funcional de Analista Judiciário, de Nível Superior</p>
 
 "
     }
