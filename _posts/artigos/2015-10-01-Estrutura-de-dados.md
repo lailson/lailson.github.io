@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Algoritimos de Ordenação
-description: "Algoritmos de Ordenação"
+title: Estrutura de Dados
+description: "Estrutura de dados: Algoritmos de Ordenação, algoritmos de busca, estruturas"
 modified: 2015-09-17
 category: articles
 tags: [algoritmos, ordenação, estrutura de dados, computação, quick sort]
