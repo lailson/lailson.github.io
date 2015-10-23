@@ -38,7 +38,6 @@ Ainda não está completo mas à medida que for fazendo irei colocando aqui:
 - WEB
 - Banco de Dados
 - Engenharia de Software
-- Desenvolvimento Baseado em Serviço
 - Reengenharia
 - Gestão da Segurança da Informação
 - Governança
