@@ -17,14 +17,14 @@ share: true
 
 #Mapeamento
 Foi feito um mapeamento realizado pelo site Provas de TI:
-<div markdown="0"><a href="https://docs.google.com/document/d/1vmS5t8706xJ7MoVMMivdTBlnfkSb2GCyw8Isd9C9MyY/edit?ts=56131b69" class="btn">Mapeamento</a></div>
+<a href="https://docs.google.com/document/d/1vmS5t8706xJ7MoVMMivdTBlnfkSb2GCyw8Isd9C9MyY/edit?ts=56131b69" class="btn">Mapeamento</a>
 
 
 #Apresentação
 Dividí o edital em algumas partes e fiz resumos, mapas mentais , etc
 Ainda não está completo mas à medida que for fazendo irei colocando aqui:
 
-##Desenvolvimento
+##Desenvolvimento ![Em construção](http://www.del.ufms.br/constru.gif)
 - Português
 - Legislação
 - [Arquitetura Organização de Computadores](http://lailsonhenrique.com/articles/Estrutura-de-dados)
