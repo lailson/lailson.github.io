@@ -27,6 +27,7 @@ Ainda não está completo mas à medida que for fazendo irei colocando aqui:
 ##Desenvolvimento ![Em construção](http://www.del.ufms.br/constru.gif)
 - Português
 - Legislação
+- Raciocínio Lógico
 - [Arquitetura Organização de Computadores](http://lailsonhenrique.com/articles/Estrutura-de-dados)
 - Java
 - Estrutura de Dados
