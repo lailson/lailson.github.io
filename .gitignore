@@ -1,4 +1,21 @@
-### Jekyll ###
+Gemfile.lock
+test/dest
+*.gem
+pkg/
+*.swp
+*~
 _site/
-.sass-cache/
+.bundle/
+.DS_Store
+bbin/
+gh-pages/
+site/_site/
+coverage
+.ruby-version
+.ruby-gemset
+.sass-cache
+tmp/*
 .jekyll-metadata
+/vendor
+/test/source/file_name.txt
+
