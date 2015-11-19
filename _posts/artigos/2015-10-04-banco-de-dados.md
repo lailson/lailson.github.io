@@ -254,6 +254,8 @@ commit;
 {% endhighlight %}
 
 #Populando o banco
+em breve
+
 
 #Fazendo consultas.
 Consultando os clientes:
@@ -269,7 +271,7 @@ Poderiamos selecionar apenas o número o código e a razão, ficaria:
 select numero, codigo, razao from clientes
 {% endhighlight %}
 <figure>
-    <img src="/images/bancodedados/02.png">
+    <img src="/images/bancodedados/2.png">
 </figure>
 
 Existe situações que queremos selecionar registros específicos, neste caso utilizamos <i>where</i>.
@@ -277,7 +279,7 @@ Existe situações que queremos selecionar registros específicos, neste caso ut
 select numero, codigo, razao from clientes where codigo = '0001';
 {% endhighlight %}
 <figure>
-    <img src="/images/bancodedados/03.png">
+    <img src="/images/bancodedados/3.png">
 </figure>
 
 Se quisessemos todos os clientes que diferem do código 0001
@@ -285,7 +287,7 @@ Se quisessemos todos os clientes que diferem do código 0001
 select numero, codigo, razao from clientes where codigo <> '0001';
 {% endhighlight %}
 <figure>
-    <img src="/images/bancodedados/04.png">
+    <img src="/images/bancodedados/4.png">
 </figure>
 <b>Obs.:</b> Além dos operadores de comparação = e <>, temos os seguintes:<br>
 * >
@@ -297,5 +299,5 @@ Para compar uma string podemos utilizar o <i>like</i>. Ele também é usado para
 select numero, codigo, nome from clientes where nome like 'L%';
 {% endhighlight %}
 <figure>
-    <img src="/images/bancodedados/05.png">
+    <img src="/images/bancodedados/5.png">
 </figure>
