@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Português
-description: "Resumo geral"
-modified: 2015-10-02
+title: Banco de dados
+description: "Banco de dados"
+modified: 2015-10-04
 category: articles
-tags: [portugues, morfologia ]
+tags: [banco de dados, mysql ]
 image:
-  feature: portugues/logoportugues.jpg
+  feature: bancodedados/bd.png
   credit: 
   creditlink: 
 comments: true
 share: true
 ---
 
-#Morfologia
+#Banco de dados
 
  
