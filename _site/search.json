@@ -2,6 +2,16 @@
 
   
     {
+      "title"			: "Resumo TJ-PI",
+      "link"			: "http://lailson.github.io/articles/Resumo-TJ-PI/",
+      "excerpt"		: "<p>Concurso Público destinado ao provimento de 180 (cento e oitenta) vagas para o grupo funcional de Analista Judiciário, de Nível Superior</p>
+
+"
+    }
+  
+
+  
+    ,{
       "title"			: "Arquitetura de Computadores",
       "link"			: "http://lailson.github.io/articles/Arquitetura-de-computadores/",
       "excerpt"		: "<h1 id="arquitetura-de-von-neumann-x-modelo-de-harvard">Arquitetura de Von Neumann x Modelo de Harvard</h1>
@@ -12,9 +22,9 @@
 
   
     ,{
-      "title"			: "Estrutura de Dados",
-      "link"			: "http://lailson.github.io/articles/Estrutura-de-dados/",
-      "excerpt"		: "<h1 id="principais-caractersticas">Principais Características</h1>
+      "title"			: "Português",
+      "link"			: "http://lailson.github.io/articles/portugues/",
+      "excerpt"		: "<h1 id="morfologia">Morfologia</h1>
 
 "
     }
@@ -22,9 +32,9 @@
 
   
     ,{
-      "title"			: "Resumo TJ-PI",
-      "link"			: "http://lailson.github.io/articles/Resumo-TJ-PI/",
-      "excerpt"		: "<p>Concurso Público destinado ao provimento de 180 (cento e oitenta) vagas para o grupo funcional de Analista Judiciário, de Nível Superior</p>
+      "title"			: "Estrutura de Dados",
+      "link"			: "http://lailson.github.io/articles/Estrutura-de-dados/",
+      "excerpt"		: "<h1 id="principais-caractersticas">Principais Características</h1>
 
 "
     }
