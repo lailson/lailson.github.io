@@ -298,6 +298,150 @@ Para compar uma string podemos utilizar o <i>like</i>. Ele também é usado para
 {% highlight mysql %}
 select numero, codigo, nome from clientes where nome like 'L%';
 {% endhighlight %}
+O símbolo de % (porcento) é um curinga no SQL. Quando não sabemos uma parte da string, podemos utilizá-lo no início, no meio ou no fim dela.
 <figure>
     <img src="/images/bancodedados/5.png">
 </figure>
+
+Se quisermos saber os clientes que efetuaram uma compra devemos selecionar a coluna cliente na tabela vendas, assim:
+{% highlight mysql %}
+select cliente from vendas;
+{% endhighlight %}
+<figure>
+    <img src="/images/bancodedados/6.png">
+</figure>
+De acordo com a imagem a cima veja que aparece clientes repetidos, caso não seja interessante mostrar os clientes repetidos poderiamos usar <b>distinct</b>
+{% highlight mysql %}
+select distinct cliente from vendas;
+{% endhighlight %}
+<figure>
+    <img src="/images/bancodedados/7.png">
+</figure>
+
+Se quisermos consultar na tabela de clientes aqueles que tem os números 1 e 2. A princípio podemos pensar no seguinte código:
+{% highlight mysql %}
+select numero, razao from clientes where numero = 1,2;
+{% endhighlight %}
+Mas esse código vai apresentar um erro.
+Para solucionar o problema podemos utilizar o <i>in</i>, o código ficaria assim:
+{% highlight mysql %}
+select numero, razao 
+	from clientes 
+	where numero in (1,2);
+{% endhighlight %}
+outra maneira seria assim:
+{% highlight mysql %}
+select numero, razao from clientes where numero =1 or numero = 2;
+{% endhighlight %}
+
+Apesar de apresentarem o mesmo resultado, a forma utilzando o <i>in</i> é mais elegante, e se torna mais sucinta quando passa a ter vários parametros.
+
+Ao contrário do <i>in</i> existe o <i>not in</i>, que mostraria os elementos diferentes, neste caso, podemos selecionar os clientes que tem o codigo diferente de 1 e 2.
+{% highlight mysql %}
+select numero, razao 
+	from clientes 
+	where numero not in (1,2);
+{% endhighlight %}
+
+Todas as pesquisas anteriores sabiamos qual o código do cliente que queríamos ou não pesquisar, mas agora vamos supor que queremos fazer uma busca que retorne a razão social do cliente que possuem registro na tabela de vendas. Neste caso temos que fazer uma pesquisa dentro da pesquisa, sendo assim, vamos utilzar uma subconsulta, para isto, vamos utilizar o <i>in</i>.
+A consulta principal vai retornar a razão social e vai comparar o numero do cliente que será retornado pela subconsulta. 
+{% highlight mysql %}
+select razao 
+		from clientes 
+		where numero in 
+		(select numero from vendas where numero);
+{% endhighlight %}
+
+Com o mesmo raciocínio, vamos buscar os clientes que ainda não fizeram nenhuma venda. Para iso, vamos utilizar <i>not in</i>. 
+{% highlight mysql %}
+select razao from clientes 
+		where numero not in 
+		(select numero from vendas where numero);
+{% endhighlight %}
+
+Utilizando ALIAS.
+Alias são apelidos para os nomes da colunas, podemos ter:
+{% highlight mysql %}
+select codigo, razao Cliente from clientes;
+{% endhighlight %}
+Neste caso o apelido da coluna razao será Cliente e será mostrado na imagem, já a coluna codigo não tem apelido e irá mostra seu nome real. Veja:
+<figure>
+    <img src="/images/bancodedados/8.png">
+</figure>
+Esta prática é bastante utilizada quando temos colunas com nomes iguais.
+
+Até agora, selecionamos dados de apenas uma tabela. Ao fazer um relatório as informações possivelmente estarão em várias delas. Para fazer uma consulta em mais de uma, nós utilizamos o <b>JOIN</b>. Nos bancos de dados relacionais, ao consultar duas tabelas que possuem alguem relacionamento, você deve especificar de qual tabela são esses campo. Por exemplo, vamos pegar a tabela de vendas e a tabela de clientes, existe uma coluna que é igual entre elas: a chave primária da tabela de cliente e o <i>cliente</i>, com isso temos:
+vendas.cliente = cliente.numero
+Veja que além de fazer a igualdade entre as colunas, deve-se especificar também à qual tabela pertence o campo.
+
+{% highlight mysql %}
+select clientes.codigo, clientes.razao, vendas.codigo 
+	from clientes, vendas 
+	where vendas.cliente = clientes.numero
+{% endhighlight %}
+<figure>
+    <img src="/images/bancodedados/9.png">
+</figure>
+Veja que estamos selecionando as colunas codigos e razao da tabela clientes e vendas da tabela codigo. No caso da coluna <i>clientes.codigo</i> indicamos a tabela cliente e a coluna codigo, tem que ser feito assim pois a coluna código existe na duas tabelas, sendo assim, se não colocar o nome da tabela a qual faz referência o sgdb retornará um erro de ambiguidade de colunas. O mesmo acontece para a coluna codigo da tabela de vendas <i>vendas.codigo</i>. No caso da coluna razão <i>clientes.razao</i> não é obrigatório indicar a tabela q qual faz referência pois ela é encontrada apenas na tabela clientes. 
+
+Podemos ordenar as consultas. Para faciliatar a visualização vamos ordernar nossa busca por código do cliente.
+{% highlight mysql %}
+select clientes.codigo, razao, vendas.codigo from clientes, vendas where vendas.cliente = clientes.numero order by clientes.codigo;
+{% endhighlight %}
+<figure>
+    <img src="/images/bancodedados/10.png">
+</figure>
+
+Pois bem, falamos mais a cima que para pegar dados de mais de uma tabela precisamos utilizar o JOIN e a solução mostrada não utiliza o JOIN. 
+Sem JOIN
+{% highlight mysql %}
+select clientes.codigo, clientes.razao, vendas.codigo 
+	from clientes, vendas 
+	where vendas.cliente = clientes.numero
+{% endhighlight %}
+
+Com JOIN
+{% highlight mysql %}
+select clientes.codigo, clientes.razao, vendas.codigo
+    -> from vendas
+    -> join clientes
+    -> on
+    -> vendas.cliente = clientes.numero
+    -> order by clientes.razao;
+{% endhighlight %}
+<figure>
+    <img src="/images/bancodedados/11.png">
+</figure>
+Veja que o resultado apresentado é o mesmo. Apesar de existir discussão sobre a performace da busca, não vamos entrar em detalhes. A sql sem o Join é mais utilizada pois é mais facil de ser entendida, ja com o Join a pesquisa se toda mais complicada/extensa.
+
+#Utilizando consultas com funções
+No MySQL, existe várias funções nativas que nos possibilita fazer diversas operações, detre elas: realizar cálculos, manipular strings, trabalhar com datas, realizar operações lógicas, extrar informações do nossos registros, etc. Elas estão divididas nos seguintes tipos:
+* Numéricas
+* Lógicas
+* Manipulação de strings
+* Funções de data e horas
+Mostraremos as mais utilizadas.
+
+Na pesquisa anterior que fizemos mostramos o codigo do cliente, o nome do cliente e o código das compras que eles fizeram. Agora vamos excluir dessa pesquisa o código da compra. Ficará assim:
+{% highlight mysql %}
+select clientes.codigo, razao 
+    -> from clientes, vendas 
+    -> where vendas.cliente = clientes.numero 
+    -> order by clientes.codigo;
+{% endhighlight %}
+<figure>
+    <img src="/images/bancodedados/12.png">
+</figure>
+Podemos observar que o código e o nome/razao do cliente aparece repetido, podemos agrupar para uma melhor visualização para isso utilizaremos o <i>group by</i>.
+
+##Group By
+Group by é o comando Sql que faz a operação de agregação. Ele deverá ser utilizado logo após as cláusulas de condição <i>where</i> ou <i>and</i>, e antes de <i>order by</i>.
+{% highlight mysql %}
+    select clientes.codigo, razao 
+    -> from clientes, vendas 
+    -> where vendas.cliente = clientes.numero 
+    -> group by clientes.codigo, clientes.razao 
+    -> order by clientes.codigo;
+{% endhighlight %}
+
+
