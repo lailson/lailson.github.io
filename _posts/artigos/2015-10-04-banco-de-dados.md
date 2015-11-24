@@ -72,22 +72,26 @@ Utilizar aquele banco de dados.
 #Criando as tabelas
 {% highlight mysql %}
 create table clientes(
-                numero int not null auto_increment,
-                codigo varchar(10),
-                nome varchar(100),
-                razao varchar(100),
-                data date,
-                cnpj varchar(20),
-                fone varchar(20),
-primary key (numero));
+    -> numero int not null auto_increment,
+    -> codigo varchar(10),
+    -> nome varchar(100),
+    -> razao varchar(100),
+    -> data date,
+    -> cnpj varchar(20),
+    -> fone varchar(20),
+    -> primary key (numero));
 {% endhighlight %}
-create table: cria uma tabela.<br>
-cliente: Nome da tabela.<br>
-numero: nome da coluna. int : Tipo de dados daquela coluna. Not null : Não pode ter dados nulos. Autoincrement: Auto incremento.
+Perceba que se a SQL ficar muito grande você pode apertar <i>enter</i> para organizar seu comando. O MySql vai permitir você digitar quantas linhas quiser até o ";".
+*create table: cria uma tabela.<br>
+*cliente: Nome da tabela.<br>
+*numero: nome da coluna. 
+*int : Tipo de dados daquela coluna. 
+*Not null : Não pode ter dados nulos. 
+*Autoincrement: Auto incremento.
+Depois de executar a sql é possivel ver a descrição da tabela com o comando abaixo:
 {% highlight mysql %}
 desc cliente
 {% endhighlight %}
-Mostra as informações da tabela cliente.
 
 Criando a tabela fornecedor
 {% highlight mysql %}
@@ -184,6 +188,11 @@ alter table clientes drop column estad;
 alter table clientes add column estado varchar(50);
 {% endhighlight %}
 Agora esta correto!
+Para renomear uma coluna você pode simplesmente fazer assim:
+{% highlight mysql %}
+alter table vendas change valortoral total float(10.2);
+{% endhighlight %}
+Veja que estou alterar o nome da coluna da tabela vendas de valortoral para total. Perceba que é necessário informar o tipo da coluna, mesmo que não haja alteração de tipo. Para alterar apenas o nome não tem problema, mas tome cuidado quando for alterar o tipo de alguma coluna. Se você tiver um varchar(50), e alterar para varchar(10), por exeplo, pode acontecer um truncamento daqueles nome que forem maiores do que tamanho 50. Tome cuidado para não ter resultados inesperados.
 
 #Inserindo registros
 Inserindo um cliente
@@ -443,5 +452,243 @@ Group by é o comando Sql que faz a operação de agregação. Ele deverá ser u
     -> group by clientes.codigo, clientes.razao 
     -> order by clientes.codigo;
 {% endhighlight %}
+<figure>
+    <img src="/images/bancodedados/13.png">
+</figure>
 
+##Count()
+O resultado ficou agrupado de acordo com o código e a razão social, trazendo apenas um registro de cada. Essa consulta poderia ser melhor se tivesse a quantidade de vendas do cliente. Para isso, podemos utilizar outra função de agregação chamda <i>count()</i> para contar os registros agrupados. Esta função só pode ser utilizada na cláusula select, pois contará os registros da colina que está sendo selecionada. Ficará assim:
+{% highlight mysql %}
+    select clientes.codigo, razao, count(vendas.numero) 
+    -> from clientes, vendas 
+    -> where vendas.cliente = clientes.numero 
+    -> group by clientes.codigo, clientes.razao 
+    -> order by clientes.codigo;
+{% endhighlight %}
+<figure>
+    <img src="/images/bancodedados/14.png">
+</figure>
 
+##Having Count
+A contagem utilizada pela função anterior <i>count</i> pode ter parâmetros, para isso utilizamos o <i>Having count()</i>. Podemos, por exemplo, precisar de um relatório que mostre os clientes que tiveram mais de duas vendas. Podemos montar a SQL da seguinte forma:
+{% highlight mysql %}
+select razao, count(vendas.numero) 
+    -> from clientes, vendas 
+    -> where vendas.cliente = clientes.numero 
+    -> group by razao 
+    -> having count(vendas.numero) > 2;
+{% endhighlight %}
+<figure>
+    <img src="/images/bancodedados/15.png">
+</figure>
+
+##Max() e min()
+Pode surgir a necessidade de buscar o maior ou menor número de um determinado item, para isso utilzamos a função <i>max()</i> e <i>min()</i>, respectivamente.
+Vamos façar a busca pelo valor de maior venda:
+{% highlight mysql %}
+select max(total) Maior_venda
+    -> from vendas;
+{% endhighlight %}
+<figure>
+    <img src="/images/bancodedados/16.png">
+</figure>
+
+Maior e menor vendas:
+{% highlight mysql %}
+select min(total) menor_venda,
+    -> max(total) maior venda,
+    from vendas;
+{% endhighlight %}
+<figure>
+    <img src="/images/bancodedados/17.png">
+</figure>
+
+Desafio !
+Mostrar o nome do cliente com maior venda, juntamente com o valor da venda (consulta anterior).
+
+Resposta:
+{% highlight mysql %}
+select c.nome, total from clientes c, vendas v where c.numero = v.cliente and v.total = (select max(total) from vendas);
+{% endhighlight %}
+
+##Sum()
+Podemos somar todos os valores e consultar o total, para isso utilizamos a função <i>sum()</i>.
+Vamos somar o tatal das vendas, o total de descontos, e a soma dos valores finais das vendas.
+{% highlight mysql %}
+select sum(valorvenda) total_venda, sum(valordesc) total_desconto, sum(total) from vendas;
+{% endhighlight %}
+
+Podemos selecionar um intervalo de tempo (datas).
+{% highlight mysql %}
+select sum(valorvenda) total_venda, sum(valordesc) total_desconto, sum(total) 
+    -> from vendas
+    -> where data between '2015-01-01' and '2015-01-02';
+{% endhighlight %}
+
+##Avg()
+Depois de utilizar o máximo, mínimo e soma, podemos utilizar a média, para isso utilizamos a função <i>avg()</i>
+
+##substr() e length()
+Se quisermos fazer pesquisa com o tamanho da palavra utilizamos <i>llength()</i> e se quisermos fazer uma busca com parte de  uma palava utilizamos o <i>substr()</i>.
+Vamos procurar os produtos que tem nome mais de 8 letras e que começa com o código '123'.
+{% highlight mysql %}
+select codigo, descricao 
+    -> from produtos 
+    -> where substr(codigo,1,3) = '123' and length(descricao) > 8;
+{% endhighlight %}
+
+##concat() e concat_ws()
+Podemos concatenar valores:
+{% highlight mysql %}
+select concat(razao, ' - fone ', fone) Fonecedores
+    -> from fornecedores 
+    -> order by razao;
+{% endhighlight %}
+<figure>
+    <img src="/images/bancodedados/18.png">
+</figure>
+
+O concat_ws tem a mesma função do concat porem adiciona um sepador entre os campos:
+{% highlight mysql %}
+select concat_ws('/',razao, ' - fone ', fone) Fonecedores
+    -> from fornecedores 
+    -> order by razao;
+{% endhighlight %}
+<figure>
+    <img src="/images/bancodedados/19.png">
+</figure>
+
+##Lcase() e lower()
+Mostrar o resultado com letras minusculas.
+{% highlight mysql %}
+select lcase(nome) 
+    -> from clientes;
+    -> order by nome;
+{% endhighlight %}
+<figure>
+    <img src="/images/bancodedados/20.png">
+</figure>
+
+##ucase()
+Mostrar o resultado com letras maiusculas.
+{% highlight mysql %}
+select ucase(nome) 
+    -> from clientes;
+    -> order by nome;
+{% endhighlight %}
+<figure>
+    <img src="/images/bancodedados/21.png">
+</figure>
+
+##Round() e format()
+Arredonda valores. o format() arredonda e formata.
+{% highlight mysql %}
+select round('321.12945',2);
+{% endhighlight %}
+
+##Truncate
+Trunca/corta parte do número.
+<figure>
+    <img src="/images/bancodedados/22.png">
+</figure>
+
+##Sqrt()
+Calcula a raiz quadrada.
+{% highlight mysql %}
+select sqrt(9);
+{% endhighlight %}
+
+##Pi, seno, cosseno e tangente
+Existe vária funções de trigonometria. Ex.:
+{% highlight mysql %}
+select pi();
+select sin(pi());
+select cos(pi());
+select tan(pi()+1)
+{% endhighlight %}
+
+##Datas e Horas
+Curdate() retorna a data atual, now()e sysdate() retorna data e hora atual, curtime() retonra somente o horário atual.
+<figure>
+    <img src="/images/bancodedados/23.png">
+</figure>
+Diferença de datas
+{% highlight mysql %}
+select datediff ('2015-02-01 23:59:59', '2015-01-01') diff;
+{% endhighlight %}
+
+Adicionar dias a uma data
+{% highlight mysql %}
+select date_add('2013-01-01', interval 40 day);
+{% endhighlight %}
+
+Selecionar o nome do dia da semana
+{% highlight mysql %}
+select dayname('2015-01-01');
+{% endhighlight %}
+
+Retornar o dia do mês
+{% highlight mysql %}
+select dayofmonth('2015-01-01');
+{% endhighlight %}
+
+Retorna o ano/mês/dia da data
+{% highlight mysql %}
+select extract(year from '2015-01-01');
+{% endhighlight %}
+
+<figure>
+    <img src="/images/bancodedados/24.png">
+</figure>
+
+Formatando datas:
+{% highlight mysql %}
+select date_format('2015-12-30', get_format(date,'EUR'));
+select date_format('2015-12-30', get_format(date,'USA'));
+{% endhighlight %}
+<figure>
+    <img src="/images/bancodedados/25.png">
+</figure>
+
+#Procedure e Functions
+No nosso sistema vamos precisar de um campo para armazenar o valor da comissão para cada vendedor. Esse valor será baseado na porcentagem de comissão que também vamos criar.
+{% highlight mysql %}
+mysql> alter table vendas add porcentagem float(10,2);
+mysql> alter table vendas add comissao float(10,2);
+{% endhighlight %}
+
+Criando a procedure
+{% highlight mysql %}
+mysql> delimiter $$
+mysql>create procedure processa_comissionamento(
+      in data_inicial date,
+      in data_final date,
+      out total_processado int)
+      
+      begin
+      declare total_venda float(10,2) default 0;
+      declare venda int default 0;
+      declare vendedor int default 0;
+      declare comissao float(10,2) default 0;
+      declare valor_comissao float(10,2) default 0;
+      declare aux int default 0;
+
+      ## Cursos para buscar os registros a serem
+      ## processados entre a data inicial e data final
+      ## e valor total de venda é maior que zero.
+      declare busca_pedido cursos for,
+      ..............
+
+{% endhighlight %}
+
+#Agendamento de procedure
+
+#Criando gatilhos
+Triggers é um conjunto de operações que são executadas automaticamente quando uma alteração é feita em um registro que está relacionado a uma tabela. Ela pode ser invocada antes ou depois de uma alteração em  um <i>insert, update</i> ou <i>delete</i>, podendo haver até 6 triggers por tabelas.
+
+#Obtendo performance e criando visões
+Indices serve principalmente para organizar as tabelas e melhorar o desempenho das consultas ao banco.
+Quando uma tabela não tem indices, os seus registros são desodenados e uma consulta terá que percorrer todos eles. Se adicionarmos um índice, uma nova tabela é gerada. A quantidade de registros desta nova tabela é a mesma que a da original, a diferença é que eles são organizados. Isso implica que uma consulta percorrerá a tabela para encontrar os registros que casem com  a sua condição e a busca é cessada quando um valor imediatamente maior é encontrado. 
+Se uma tabela possui 1000 registros, será, pelo menos, 100 vezes mais rápido do que ler todos sequencialmente. Porém, note que, se você precisar acessar quase todos eles, seria mais rápido acessá-los sequencialmente, porque evitaria acessos ao disco a cada verificação.
+
+Criando Index
