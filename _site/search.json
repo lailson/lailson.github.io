@@ -12,6 +12,26 @@
 
   
     ,{
+      "title"			: "Engenharia de Software",
+      "link"			: "http://lailson.github.io/articles/engenharia-de-software/",
+      "excerpt"		: "<h1 id="engenharia-de-software">Engenharia de Software</h1>
+
+"
+    }
+  
+
+  
+    ,{
+      "title"			: "Banco de dados",
+      "link"			: "http://lailson.github.io/articles/java/",
+      "excerpt"		: "<h1 id="banco-de-dados">Banco de dados</h1>
+
+"
+    }
+  
+
+  
+    ,{
       "title"			: "Banco de dados",
       "link"			: "http://lailson.github.io/articles/banco-de-dados/",
       "excerpt"		: "<h1 id="banco-de-dados">Banco de dados</h1>
