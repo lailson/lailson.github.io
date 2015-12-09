@@ -9,7 +9,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://lailson.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://lailson.github.io/" />
-<updated>2015-11-27T16:01:17-03:00</updated>
+<updated>2015-11-30T20:22:19-03:00</updated>
 <id>http://lailson.github.io/</id>
 <author>
   <name>Lailson Henrique</name>
@@ -131,7 +131,240 @@ Presman:&lt;/p&gt;
     &lt;img src=&quot;/images/engenhariadesoftware/cascata2.png&quot; /&gt;
 &lt;/figure&gt;
 &lt;p&gt;&lt;b&gt;Vantagens:&lt;/b&gt; Minimiza o planejamento, organiza as atividades em uma sequência com entregas bem definidas. Funciona bem para requisitos estáveis e bem compreendidos. O modelo pressupõe que  os requisitos ficarão estáveisao longo do projeto. É facilmente aplicável em equipes inexperientes.
-&lt;b&gt;Desvantagens:&lt;/b&gt; Atrasa a redução de riscos~&lt;/p&gt;
+&lt;b&gt;Desvantagens:&lt;/b&gt; Atrasa a redução de riscos.&lt;/p&gt;
+
+&lt;p&gt;Fases do ciclo de vida do Software&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Planejamento
+Esboçar escopo e requisitos, fazer estimativas razoáveis sobre recursos, custos e prazos.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Análise e Especificação de requisitos
+Refinar requisotos e escopo. Entender o domínio do problema, com comportamento e funcionalidades esperados.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Projeto
+Incorporar requisitos tecnológicos aos requisitos essenciais do sistema. Projetar a arquitetura do sistema.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Implementação
+Traduzir o projeto em uma forma passível de execução pela máquina. Codificação.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Testes
+Realizar diversos níveis de teste, de forma a fazer a verificação do software.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Implantação, Operação e Manutenção.
+Colocar o software em produção, treinar pessoas, manter o software e gerenciar os serviços.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;prototipagem&quot;&gt;Prototipagem&lt;/h3&gt;
+&lt;p&gt;PROTOTIPAGEM EVOLUCIONÁRIA.
+Objetivo: trabalhar junto aos clientes para evoluir o sistema a partir de uma especificação inicial resumida, entregar resultado o mais rápido possível. Deve começar com os requisitos mais bem compreendidos. Novas funcionalidades são adicionadas à medida que o cliente as propõem. Aplicável em sistemas pequenos ou médios com curto tempo de vida.
+Problemas: Falta de visibilidade do progresso. O sistema está sempre evoluindo, nunca está “terminado”. Os sistemas acabam tornando-se pobremente estruturados. A documentação pode ser esquecida. Os padrões de qualidade podem ser “relaxados”.&lt;/p&gt;
+
+&lt;p&gt;PROTOTIPAGEM DESCARTÁVEL
+Assim como na prototipagem evolucionária, pequenas versões prototípicas são disponibilizadas aos clientes para avaliação.
+O objetivo aqui é entender e clarificar os requisitos do sistema. Deve-se começar com requisitos mais difíceis e menos compreendidos. Ao final, decarta-se o protótipo e a implementação do software continua. 
+É util para sistemas grandes e complicados, e quando o cliente não sabe exatamente o que quer. Protótipos descartáveis podem ser aplicados no contexto de qualquer modelo de processo: Cascata, espiral e Iteativo/Incremental, etc.&lt;/p&gt;
+
+&lt;h3 id=&quot;mtodos-formais&quot;&gt;Métodos formais&lt;/h3&gt;
+&lt;p&gt;Modelo baseado emtécnicas matemáticas para especificar, desenvolver e verificar software. O próprio processo de desenvolvimento garante que o programa faz exatamente o que foi especificado. Têm sido aplicados apenas ao desenvolvimento de sistemas críticos. 
+Problemas: É muito caro, é muito específico, precisa de uma pessoa com base matemática muito grande.&lt;/p&gt;
+
+&lt;h3 id=&quot;modelos-iterativos&quot;&gt;Modelos Iterativos&lt;/h3&gt;
+&lt;p&gt;Motivação: Requisitos de sistema sempre evoluem durante o projeto. Deve-se dividir para conquistar. Duas abordagens: Desenvolviemnto Incremental e Desenvolvimento Espiral.
+Vantagens: Maior gerenciamneto de risco.&lt;/p&gt;
+
+&lt;h3 id=&quot;desenvolvimento-incremental&quot;&gt;Desenvolvimento Incremental:&lt;/h3&gt;
+&lt;p&gt;A idéia é de desenvolver e entregar o asoftware em incrementos, com cada incremento entregando parte da funcionalidade requerida. 
+Requisitos são definidos antes do desenvolvimento do incremento, sendo os mais críticos priorizados.&lt;/p&gt;
+
+&lt;p&gt;Ex.: RUP.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;/images/engenhariadesoftware/rup.png&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;Iterativo xIncremental:&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;/images/engenhariadesoftware/iterativoxincremental.png&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;Vantagens do Incremental: O cliente pode receber e avaliar as entregas do produto mais cedo. Os incrementos são avaliados e os desvios identificados, sem possível &lt;b&gt;replanejar&lt;/b&gt; as próximas iterações de acordo. O risco geral do projeto fracassar diminui.&lt;/p&gt;
+
+&lt;h3 id=&quot;desenvolvimento-espiral&quot;&gt;Desenvolvimento Espiral&lt;/h3&gt;
+&lt;p&gt;O processo é representado como uma espiral em dez de uma sequência de atividades. Cada volta na espiral representa uma fase no processo. Não há fases fixas, como Especificação, projetos, etc. Os loopsna espiral são escolhidos dependendo do que for necessário. 
+A grande diferença do modelo em Espiral é que ele acrescenta aspecstos gerenciais ao desenvolvimento de software (Análise de riscos).&lt;/p&gt;
+
+&lt;p&gt;Boehm:&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;/images/engenhariadesoftware/espiral.png&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;Pressman&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;/images/engenhariadesoftware/espiral_pressman.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;metodologias-geis&quot;&gt;Metodologias Ágeis&lt;/h3&gt;
+&lt;p&gt;Motivação: Insatisfação com os excessos dos métodos tradicionais, considerados “pesados”. Métodos ágeis buscam flexibilizar o desenvolvimento de software focando no código e não no projeto, são baseados em abordagens iterativas e tem como objetivo de entregar software funcionando o mais rápido possível.
+Manifesto Ágil:
+“Estamos evidenciando maneiras melhores de desenvolver software fazendo-o nós mesmos e ajudando outros a fazê-lo. Através desse trabalho, passamos a entender que:”&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Indivíduos e interações&amp;lt;/s&amp;gt; são mais importantes que processos e ferramentas.&lt;/b&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Software funcionando&lt;/b&gt; é mais importante do que documentação completa e detalhada.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Colaboração com o cliente&lt;/b&gt; é mais importante do que negociação de contratos.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Adaptação a mudanças&lt;/b&gt; é mais importante do que seguir o plano inicial.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Principais métodos ágeis:
+eXtreme Programming, Scrum, FDD, Lean Software Development, Crystal Family…&lt;/p&gt;
+
+&lt;h3 id=&quot;extreme-programming-xp&quot;&gt;Extreme Programming (XP)&lt;/h3&gt;
+&lt;p&gt;“Trata-se de uma metodologia ágil para equipes pequenas e médias desenvolvendo software com &lt;u&gt;requisitos vagos&lt;/u&gt; e em constante mudança” - Kent Beck. 
+Levar todas as boas práticas ao extremo:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Se revisar código é bom, vamos revisá-lo (pair programming).&lt;/li&gt;
+  &lt;li&gt;Se testar é bom, vamos testar toda hora (testes funcionais).&lt;/li&gt;
+  &lt;li&gt;Se projetar é bom, vamos fazer disso parte do trabalho diário de cada pessoa (refactoring).&lt;/li&gt;
+  &lt;li&gt;Se integrar é bom, vamos integrar a maior quantidade de vezes possível (integração contínua).&lt;/li&gt;
+  &lt;li&gt;Se simplicidade é bom, vamos deixar o sistema na forma mais simples possível (projeto simples).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Práticas do XP:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Metáforas: Uma história que todos (progamadores, clientes e gerentes) podem contar acerca de como funciona o sistema.&lt;/li&gt;
+  &lt;li&gt;Projeto simples: O código está, a qualquer momento, na forma mais simples que passae todos os teste.&lt;/li&gt;
+  &lt;li&gt;Pequenas versões: As entregas são feitas através de pequenos releases (pedaços) de software funcionando. Dá confiança ao cliente sobre progresso geral.&lt;/li&gt;
+  &lt;li&gt;Refatoração (refectoring): O código deve ser constantemente melhorado, tornando-o mais simples e mais genérico, removendo redundâncias e duplicidades.&lt;/li&gt;
+  &lt;li&gt;Programação em pares (pair programming): Os programadores trabalham em pares, checando (validando) mutuamente o trabalho feito. Mesma máquina, mesmo mouse, mesmo monitor.&lt;/li&gt;
+  &lt;li&gt;Propriedade coletiva do código: Todos são responsáveis por todo o código e qualquer pessoa está autorizada a realizar mudanças.&lt;/li&gt;
+  &lt;li&gt;Padão de codificação: Todo código é desenvolvido de acordo com um estilo e formato consistentes (padrão).&lt;/li&gt;
+  &lt;li&gt;Ritmo sustentável: Cada programador trabalha 40 horas por semana, no máximo.&lt;/li&gt;
+  &lt;li&gt;Reuniões em pé: Reuniões rápidas e diárias com a equipe, para discutir apenas o essencial.&lt;/li&gt;
+  &lt;li&gt;Reuniões em pé: Reuniões rápidas e diárias com a equipe, para discutir apenas o essencial.&lt;/li&gt;
+  &lt;li&gt;Cliente sempre presente: O cliente, com conhecimento sobre o negócio, deve estar dispon;ivel em tempo integral para a equipe.&lt;/li&gt;
+  &lt;li&gt;Desenvolvimento Orientado a Testes: Uma estrutura de testes unitários automatizada é criada e os testes são escritos antes mesmo das funcionalidades serem implementadas.&lt;/li&gt;
+  &lt;li&gt;Integração Contínua: Os diversos módulos do Software são integrados o mais cedo possível, para evitar problemas de intregação no futuro.&lt;/li&gt;
+  &lt;li&gt;Planejamento Incremental: Requisitos são registrados comos Estórias dos Usuários e priorizados para serem incluídos em uma determinada iteração.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Valores:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Comunicação: Métodos para rapidamente construir e disseminar conhecimento.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Simplicidade: XP encorajar que você comece, sempre, pela solução mais simples que funcione.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Feedback: Do cliente, do sistema e da equipe.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Coragem: Design simples, refatoração …&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Respeito: Respeito da equipe, do cliente, dos usuários …&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;scrum&quot;&gt;Scrum&lt;/h3&gt;
+&lt;p&gt;“É um framework de processo dentro do qual podem ser empregados processos e técnicas variadas”
+Para concurso: Processo ou metodologia Scrum.&lt;/p&gt;
+
+&lt;p&gt;Características:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;As equipes se auto-organizam para maximizar a comunicação e diminuir a supervisão.&lt;/li&gt;
+  &lt;li&gt;O produto evolui em uma sérir de “sprints”.&lt;/li&gt;
+  &lt;li&gt;Os requisitos (funcionalidades dos clientes) são listados em um “product backlog”.&lt;/li&gt;
+  &lt;li&gt;Não há prática de engenharia prescrita (Scrum se adapta a todas elas).&lt;/li&gt;
+  &lt;li&gt;Scrum é um processo essencialmente gerencial.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/images/engenhariadesoftware/scrum.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Artefatos:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Product Backlog: Conjunto de funcionalidades/requisitos.&lt;/li&gt;
+  &lt;li&gt;Sprint Backlog: Uma lista de tarefas que a equipe se compromete a completar dentro de uma determinada sprint. Os itens são derivados a partir do Product Backlog. São considerados a prioridade que o cliente deu aos itens, o tempo e o esforço estimados pela equipe para completar os vários itens.
+Daily Scrums: Reuniões diárias.Incremento do produto: Incremento funcional do produto.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Papéis&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Product Owner: Define as funcionalidades do produto. Decide as datas de lançamento e conteúdo. Prioriza as funcionalidades de acordo com o valor para a empresa. Aceita ou rejeita os resultados dos trabalhos.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Team: Contém tipicamente entre 5 e 9 pessoas. Multi-funcional (programadores, testadores, desenvolvedores da interface, etc). Dedicação integral. Trocas só na mudança de sprints.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Scrum Master: Responsável pela aplicação dos valores e práticas Scrum. Remove obstáculos, facilita resultados. Garante a plena funcionalidade e produtividade da equipe. Escudo para inferência externas. Não é um gerente de projetos.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Eventos&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Planejamento da Sprint: Selecionam-se itens do Product Backlog, e as tarefas são identificadas e estimadas. De forma colaborativa, não apenas feito pelo Scrum Master.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reuniões Diárias (Daily Scrums): Apenas os mebros da equipe, todos os dias, em pé, durante 15 minutos.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Revisão do Sprint: Apresentação dos resultados obtidos. Todo o time participar, informalmente, 2 horas de preparação, sem slides.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Retrospectiva da Sprint: Ocorre após a revisão da sprint e antes da próxima reunião de planejamento. Inspeciona como foi a último sprint em termos de: Pessoas e relações, Processo e ferramentas.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ferramentas-case&quot;&gt;Ferramentas CASE&lt;/h3&gt;
+&lt;p&gt;São ferramentas que auxiliam o engenheiro de SW em cada atividade associada ao desenvolvimento de SW.&lt;/p&gt;
+
+&lt;p&gt;Categorias:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Horizontais: São utilizadas durante o processo de desenvolvimento de software.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Verticais: São específicas para uma disciplina de software.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Por função: Processos de negócio, planejamento de projeto, análise de risco, IDEs, Análise Estática, etc.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Front-end ou Upper Case: Apoiam as etapas iniciais da criação dos sistemas: as fases de planejamento, análise e projeto da aplicação.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Back-end ou Lower CASE: Dão apoio à parte física, código, testes e manutenção.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I-CASE ou Integrated CASE: Cobrem todo o ciclo de vida, do início ao fim.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;rup---rational-unified-process&quot;&gt;RUP - Rational Unified Process&lt;/h3&gt;
+&lt;p&gt;Segundo Kruchten:&lt;br /&gt;
+Necessidades do usuário mal compreendidas; Falta de habilidade para tratar mudanças de requisitos; Descoberta tardia de problemas sérios; Baixa qualidade de SW; Problemas com papéis e responsabilidades.&lt;/p&gt;
+
+&lt;p&gt;É uma plataforma (framework) de processos:&amp;lt;/br&amp;gt;
+Adptável.&lt;br /&gt;
+Deve ser configurada para selecionar os elementos apropriados às necessidades da organização.
+Fornece atividades, artefatos e guias ligados às ferramentas IBM/Rational e À linguagem UML.&lt;/p&gt;
+
 
   
   &lt;p&gt;&lt;a href=&quot;http://lailson.github.io/articles/engenharia-de-software/&quot;&gt;Engenharia de Software&lt;/a&gt; was originally published by Lailson Henrique at &lt;a href=&quot;http://lailson.github.io&quot;&gt;Lailson Henrique&lt;/a&gt; on October 06, 2015.&lt;/p&gt;</content>
@@ -460,6 +693,14 @@ id_cliente int primary key;&lt;/li&gt;
 
 &lt;p&gt;Chave Composta
 primary key(id_cliente, id_vendas);&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Integridade Referencial
+ Foreign key (chave estrangeira)
+ foreign key (constraint1) references departamento (dnum);&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ação referencial engatilhada&lt;/p&gt;
 
 &lt;h1 id=&quot;fazendo-consultas&quot;&gt;Fazendo consultas.&lt;/h1&gt;
 &lt;p&gt;Consultando os clientes:&lt;/p&gt;

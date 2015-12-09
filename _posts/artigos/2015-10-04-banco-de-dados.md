@@ -308,6 +308,13 @@ id_cliente int primary key;
 Chave Composta
 primary key(id_cliente, id_vendas);
 
+* Integridade Referencial
+ Foreign key (chave estrangeira)
+ foreign key (constraint1) references departamento (dnum);
+
+ Ação referencial engatilhada
+ 
+
 #Fazendo consultas.
 Consultando os clientes:
 {% highlight mysql %}
