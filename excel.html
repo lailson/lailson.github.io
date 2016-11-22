@@ -41,98 +41,92 @@
 
       <div class="slides">
         <section>
-          <h3>Criando um cluster CoreOS com Docker</h3>
-          <img src="imgs/coreos.png" alt="docker">
+          <h3>Utilizando o Excel para criar planilhas bem elaboradas!</h3>
+          <img src="images/excel/excel.png" alt="Excel">
           <p>
-            <small>by Daniel Romero / <a href="http://twitter.com/infoslack">@infoslack</a></small>
+            <small>by Lailson Henrique / <a href="http://twitter.com/lailsonh">@lailsonh</a></small>
           </p>
         </section>
 
         <section>
           <section>
-            <h2>Daniel Romero</h2>
-            <img src="imgs/daniel.png" alt="daniel romero">
-            <p><a href="http://infoslack.com/about">infoslack.com/about</a></p>
-          </section>
-
-          <section>
-            <img src="imgs/enjoei.png" alt="initsec">
-            <p>
-              <small>www.enjoei.com.br / <a href="mailto:jobs@enjoei.com.br">jobs@enjoei.com.br</a></small>
-            </p>
-          </section>
-
-          <section>
-            <img src="imgs/livro.png" alt="Livro começando com Linux">
-          </section>
-
-          <section>
-            <img src="imgs/Preview-Docker.jpg" alt="livro docker">
+            <h2>Lailson Henrique</h2>
+            <img src="images/lailson.jpg" alt="Lailson Henrique">
+            <p><a href="http://lailsonhenrique.com.br">lailsonhenrique.com.br</a></p>
           </section>
 
         </section>
 
-        <section>
-            <img src="imgs/coreos-logo.png">
+        <section data-background-image="images/excel/excel2.jpg">
+            
         </section>
 
 				<section>
           <section id="fragments1">
 					  <h2>O que é ?</h2>
             <ul>
-					    <li class="fragment">Tolerante a falhas</li>
-					    <li class="fragment">Distribuído (clusters)</li>
-					    <li class="fragment">Fácil de escalar</li>
-					    <li class="fragment">Trabalha com containers</li>
-					    <li class="fragment">Não possui sistema de empacotamento</li>
+					    <li class="fragment">Planilha eletrônica.</li>
+					    <li class="fragment">Cálculos</li>
+					    <li class="fragment">Células</li>
+					    <li class="fragment">Funções</li>
+					    <li class="fragment">Fórmulas</li>
             </ul>
           </section>
 				</section>
 
         <section>
-          <h2>Boot</h2>
-          <img src="imgs/update-coreos.png">
+          <h2>Célula</h2>
+          <img src="images/excel/celula.png">
+        </section>
+
+
+        <section>
+          <section id="fragments2">
+            <h2>Sinais de Operação</h2>
+            <ul>
+              <li class="fragment"> +  : Soma</li>
+              <li class="fragment"> -  : Subtração</li>
+              <li class="fragment"> *  : Multiplicação</li>
+              <li class="fragment"> /  : Dibisão</li>
+              <li class="fragment"> %  : Porcentagem</li>
+              <li class="fragment"> =  : Igualdade</li>
+              <li class="fragment"> ^  : Exponencial</li>
+            </ul>
+          </section>
         </section>
 
         <section>
-          <h2>cloud-config</h2>
-          <pre>
-          <code data-trim contenteditable>
-coreos:
-  etcd:
-   # generate a new token for each unique
-   # cluster from https://discovery.etcd.io/new
-   discovery: https://discovery.etcd.io/token
+          <section id="fragments3">
+            <h2>Sinais de Condição</h2>
+            <ul>
+              <li class="fragment"> >  : Soma</li>
+              <li class="fragment"> <  : Subtração</li>
+              <li class="fragment"> < >  : Multiplicação</li>
+              <li class="fragment"> >=  : Dibisão</li>
+              <li class="fragment"> <=  : Porcentagem</li>
+              <li class="fragment"> =  : Igualdade</li>
+            </ul>
+          </section>
+        </section>        
 
-   addr: $private_ipv4:4001
-   peer-addr: $private_ipv4:7001
-
-   fleet:
-    public-ip:$private_ipv4
-
-   units:
-    - name: etcd.service
-      command: start
-    - name: fleet.service
-      command: start
-          </code></pre>
-        </section>
+        <section>
+          <h2>Soma</h2>
+          <section data-markdown>
+    <script type="text/template">
+        # Page title
+Name | Lunch order | Spicy      | Owes
+------- | ---------------- | ---------- | ---------:
+Joan  | saag paneer | medium | $11
+Sally  | vindaloo        | mild       | $14
+Erin   | lamb madras | HOT      | $5
+    </script>
+</section></section>
 
         <section>
           <h2>ETCD</h2>
           <img src="imgs/etcd-api.png">
         </section>
 
-        <section>
-          <section id="fragments2">
-					  <h2>E o systemd ?</h2>
-            <ul>
-					    <li class="fragment">Executa containers Docker</li>
-					    <li class="fragment">Registra os serviços no etcd</li>
-					    <li class="fragment">Não é utilizado para iniciar ou parar serviços</li>
-            </ul>
-          </section>
-				</section>
 
         <section>
           <section>
