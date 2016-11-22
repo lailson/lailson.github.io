@@ -9,7 +9,7 @@
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
         <a href="{{ site.baseurl }}" title="link to home of {{ site.title }}">
-          <img src="{{ "images/profile.jpg" | prepend: site.baseurl }}" class="user-image" alt="My Profile Photo">
+          <img src="{{ "images/profile.jpg" | prepend: site.baseurl }}" class="user-image" alt="Lailson Henrique">
           <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
         </a>
         <hr class="panel-cover__divider">
@@ -48,6 +48,17 @@
                 </a>
               </li>
             {% endif %}
+
+            {% if site.author.instagram_username %}
+              <!-- Instagram -->
+              <li class="navigation__item">
+                <a href="http://instagram.com/{{ site.author.instagram_username }}" title="{{ site.author.instagram_username }} on Instagram" target="_blank">
+                  <i class="icon icon-social-instagram"></i>
+                  <span class="label">Facebook</span>
+                </a>
+              </li>
+            {% endif %}
+
 
             {% if site.author.linkedin_username %}
               <!-- LinkedIn -->

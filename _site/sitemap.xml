@@ -21,7 +21,7 @@
     <url>
       <loc>http://www.lailsonhenrique.com.br/about/</loc>
       
-        <lastmod>2016-11-22T02:16:39-03:00</lastmod>
+        <lastmod>2016-11-22T04:30:52-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -36,7 +36,7 @@
     <url>
       <loc>http://www.lailsonhenrique.com.br/categories/</loc>
       
-        <lastmod>2016-11-22T02:16:39-03:00</lastmod>
+        <lastmod>2016-11-22T04:30:52-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -51,7 +51,7 @@
     <url>
       <loc>http://www.lailsonhenrique.com.br/feed.xml</loc>
       
-        <lastmod>2016-11-22T02:16:39-03:00</lastmod>
+        <lastmod>2016-11-22T04:30:52-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -66,7 +66,7 @@
     <url>
       <loc>http://www.lailsonhenrique.com.br/</loc>
       
-        <lastmod>2016-11-22T02:16:39-03:00</lastmod>
+        <lastmod>2016-11-22T04:30:52-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -81,7 +81,7 @@
     <url>
       <loc>http://www.lailsonhenrique.com.br/js/main.js</loc>
       
-        <lastmod>2016-11-22T02:16:39-03:00</lastmod>
+        <lastmod>2016-11-22T04:30:52-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -98,7 +98,22 @@
     <url>
       <loc>http://www.lailsonhenrique.com.br/tags/</loc>
       
-        <lastmod>2016-11-22T02:16:39-03:00</lastmod>
+        <lastmod>2016-11-22T04:30:52-03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.lailsonhenrique.com.br/teste/</loc>
+      
+        <lastmod>2016-11-22T04:30:52-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

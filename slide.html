@@ -1,0 +1,299 @@
+
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Excel</title>
+
+    <meta name="description" content="Excel">
+    <meta name="author" content="Lailson Henrique">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/simple.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+        <section>
+          <h3>Criando um cluster CoreOS com Docker</h3>
+          <img src="imgs/coreos.png" alt="docker">
+          <p>
+            <small>by Daniel Romero / <a href="http://twitter.com/infoslack">@infoslack</a></small>
+          </p>
+        </section>
+
+        <section>
+          <section>
+            <h2>Daniel Romero</h2>
+            <img src="imgs/daniel.png" alt="daniel romero">
+            <p><a href="http://infoslack.com/about">infoslack.com/about</a></p>
+          </section>
+
+          <section>
+            <img src="imgs/enjoei.png" alt="initsec">
+            <p>
+              <small>www.enjoei.com.br / <a href="mailto:jobs@enjoei.com.br">jobs@enjoei.com.br</a></small>
+            </p>
+          </section>
+
+          <section>
+            <img src="imgs/livro.png" alt="Livro começando com Linux">
+          </section>
+
+          <section>
+            <img src="imgs/Preview-Docker.jpg" alt="livro docker">
+          </section>
+
+        </section>
+
+        <section>
+            <img src="imgs/coreos-logo.png">
+        </section>
+
+				<section>
+          <section id="fragments1">
+					  <h2>O que é ?</h2>
+            <ul>
+					    <li class="fragment">Tolerante a falhas</li>
+					    <li class="fragment">Distribuído (clusters)</li>
+					    <li class="fragment">Fácil de escalar</li>
+					    <li class="fragment">Trabalha com containers</li>
+					    <li class="fragment">Não possui sistema de empacotamento</li>
+            </ul>
+          </section>
+				</section>
+
+        <section>
+          <h2>Boot</h2>
+          <img src="imgs/update-coreos.png">
+        </section>
+
+        <section>
+          <h2>cloud-config</h2>
+          <pre>
+          <code data-trim contenteditable>
+coreos:
+  etcd:
+   # generate a new token for each unique
+   # cluster from https://discovery.etcd.io/new
+   discovery: https://discovery.etcd.io/token
+
+   addr: $private_ipv4:4001
+   peer-addr: $private_ipv4:7001
+
+   fleet:
+    public-ip:$private_ipv4
+
+   units:
+    - name: etcd.service
+      command: start
+    - name: fleet.service
+      command: start
+          </code></pre>
+        </section>
+
+        <section>
+          <h2>ETCD</h2>
+          <img src="imgs/etcd-api.png">
+        </section>
+
+        <section>
+          <section id="fragments2">
+					  <h2>E o systemd ?</h2>
+            <ul>
+					    <li class="fragment">Executa containers Docker</li>
+					    <li class="fragment">Registra os serviços no etcd</li>
+					    <li class="fragment">Não é utilizado para iniciar ou parar serviços</li>
+            </ul>
+          </section>
+				</section>
+
+        <section>
+          <section>
+            <h2>Arquitetura</h2>
+            <img src="imgs/arquitetura-coreos.png">
+          </section>
+
+          <section>
+            <img src="imgs/etcd-cluster.png">
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>Fleet</h2>
+            <ul>
+              <li>Sistema de inicialização do cluster</li>
+              <li>Orquestração de processos dentro do cluster</li>
+              <li>Interface para gerenciar o systemd em cada nó do cluster</li>
+             </ul>
+          </section>
+
+          <section>
+          <pre>
+          <code data-trim contenteditable>
+[Unit]
+Description=Nginx web server service
+After=etcd.service
+After=docker.service
+Requires=nginx-discovery@%i.service
+
+[Service]
+TimeoutStartSec=0
+KillMode=none
+ExecStartPre=-/usr/bin/docker kill nginx%i
+ExecStartPre=-/usr/bin/docker rm nginx%i
+ExecStartPre=/usr/bin/docker pull infoslack/docker-nginx
+ExecStart=/usr/bin/docker run -d --name nginx%i \
+-p 80:80 infoslack/docker-nginx
+
+[X-Fleet]
+X-Conflicts=nginx@*.service
+          </code></pre>
+          </section>
+
+          <section>
+            <img src="imgs/fleet.png">
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h3>Flannel & SkyDNS</h3>
+            <ul>
+              <li>SkyDNS - cria um sistema de DNS distribuído</li>
+              <li>Flannel - realiza o mapeamento de ips virtuais</li>
+            </ul>
+          </section>
+
+          <section>
+            <img src="imgs/flanel.png">
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>Criando o cluster</h2>
+          </section>
+
+          <section>
+            <img src="imgs/ec2-cloud-config.png">
+          </section>
+        </section>
+
+        <section>
+          <pre>
+          <code data-trim contenteditable>
+$ ssh core@54.174.248.174
+
+CoreOS (stable)
+core@ip-172-31-34-98 ~ $ fleetctl list-machines
+
+MACHINE       IP              METADATA
+610aa9e3...   172.31.34.98    -
+0b735501...   172.31.34.97    -
+          </code>
+          </pre>
+        </section>
+
+        <section>
+          <pre>
+          <code data-trim contenteditable>
+$ fleetctl start nginx@80.service
+          </code>
+          </pre>
+        </section>
+
+        <section>
+          <pre>
+          <code data-trim contenteditable>
+$ http -h 54.174.248.174
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Connection: keep-alive
+Content-Length: 612
+Content-Type: text/html
+Date: Fri, 23 Jan 2015 01:32:54 GMT
+ETag: "5418459b-264"
+Last-Modified: Tue, 16 Sep 2014 14:13:47 GMT
+Server: nginx/1.6.2
+
+$ http -h 54.174.226.238
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Connection: keep-alive
+Content-Length: 612
+Content-Type: text/html
+Date: Fri, 23 Jan 2015 01:33:08 GMT
+ETag: "5418459b-264"
+Last-Modified: Tue, 16 Sep 2014 14:13:47 GMT
+Server: nginx/1.6.2
+          </code>
+          </pre>
+        </section>
+
+        <section>
+            <img src="imgs/perguntas.jpg" alt="pergutas">
+        </section>
+
+        <section>
+            <h1>Obrigado! =)</h1>
+        </section>
+
+    </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+
+      transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+  </body>
+</html>
