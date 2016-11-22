@@ -1,85 +1,35 @@
-// Toggle Script
-(function() {
-	var container = document.getElementById( 'container' ),
-		trigger = container.querySelector( 'button.trigger' );
+---
+layout: null
+---
+$(document).ready(function () {
+  $('a.blog-button').click(function (e) {
+    if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
+    currentWidth = $('.panel-cover').width()
+    if (currentWidth < 960) {
+      $('.panel-cover').addClass('panel-cover--collapsed')
+      $('.content-wrapper').addClass('animated slideInRight')
+    } else {
+      $('.panel-cover').css('max-width', currentWidth)
+      $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {})
+    }
+  })
 
-	function toggleContent() {
-		if( classie.has( container, 'container-open' ) ) {
-			classie.remove( container, 'container-open' );
-			classie.remove( trigger, 'trigger-active' );
-			window.addEventListener( 'scroll', noscroll );
-		}
-		else {
-			classie.add( container, 'container-open' );
-			classie.add( trigger, 'trigger-active' );
-			window.removeEventListener( 'scroll', noscroll );
-		}
-	}
+  if (window.location.hash && window.location.hash == '#blog') {
+    $('.panel-cover').addClass('panel-cover--collapsed')
+  }
 
-	function noscroll() {
-		window.scrollTo( 0, 0 );
-	}
+  if (window.location.pathname !== '{{ site.baseurl }}' && window.location.pathname !== '{{ site.baseurl }}index.html') {
+    $('.panel-cover').addClass('panel-cover--collapsed')
+  }
 
-	// reset scrolling position
-	document.body.scrollTop = document.documentElement.scrollTop = 0;
+  $('.btn-mobile-menu').click(function () {
+    $('.navigation-wrapper').toggleClass('visible animated bounceInDown')
+    $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
+  })
 
-	// disable scrolling
-	window.addEventListener( 'scroll', noscroll );
+  $('.navigation-wrapper .blog-button').click(function () {
+    $('.navigation-wrapper').toggleClass('visible')
+    $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
+  })
 
-	trigger.addEventListener( 'click', toggleContent );
-
-	// For Demo purposes only (prevent jump on click)
-	[].slice.call( document.querySelectorAll('.content-wrapper a') ).forEach( function(el) { el.onclick = function() { return false; } } );
-})();
-
-// Background Image Sideshow
-(function(){
-    'use strict';
-
-    jQuery('#maximage').maximage();
-
-})();
-
-  // JavaScript Document
-
-
-// screen loader
-$(window).load(function() {
-    "use strict";
-    $('.screen-loader').fadeOut('slow');
-});
-
-// preload
-$(document).ready(function() {
-    "use strict";
-    $('#preload').css({
-        display: 'table'
-    });
-});
-
-// preload function
-$(window).load(preLoader);
-"use strict";
-function preLoader() {
-    setTimeout(function() {
-        $('#preload').delay(1000).fadeOut(1500);
-    });
-};
-
-// niceScroll
-$(document).ready(function() {
-    "use strict";
-    $("body").niceScroll({
-        cursorcolor: "#fff",
-        cursorwidth: "5px",
-        cursorborder: "1px solid #fff",
-        cursorborderradius: "0px",
-        zindex: "9999",
-        scrollspeed: "60",
-        mousescrollstep: "40"
-    });
-});
-
-
-// niceScroll || scrollbars resize
-$("body").getNiceScroll().resize();
+})
