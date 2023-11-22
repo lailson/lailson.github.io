@@ -1,37 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Página de Teste</title>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <title>A static website</title>
+
+  <!-- include the widget -->
+  <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <h1>Bem-vindo à página de teste</h1>
-    <input type="password" id="password" placeholder="Digite sua senha">
-    <button id="login-button">Entrar</button>
+  <!-- Add a menu:
+   Log in / Sign up - when the user is not logged in
+   Username / Log out - when the user is logged in
+  -->
+  <div data-netlify-identity-menu></div>
 
-    <script>
-        if (window.netlifyIdentity) {
-            window.netlifyIdentity.on('init', user => {
-                if (user) {
-                    // Redirecionar para teste2.html se o usuário já estiver logado
-                    window.location.href = 'teste2.html';
-                }
-            });
-        }
-
-        document.getElementById('login-button').addEventListener('click', () => {
-            const password = document.getElementById('password').value;
-            window.netlifyIdentity.open();
-            window.netlifyIdentity.on('login', user => {
-                // Verificar a senha (isso deve ser feito com segurança no servidor, se possível)
-                if (password === 'senha_correta') {
-                    window.location.href = 'teste2.html';
-                } else {
-                    alert('Senha incorreta!');
-                }
-            });
-        });
-    </script>
+  <!-- Add a simpler button:
+    Simple button that will open the modal.
+  -->
+  <div data-netlify-identity-button>Login with Netlify Identity</div>
 </body>
 </html>
