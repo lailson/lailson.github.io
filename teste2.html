@@ -8,5 +8,17 @@
     <h1>Bem-vindo à página Teste 2</h1>
     <p>Conteúdo protegido.</p>
     <button onclick="window.netlifyIdentity.logout()">Sair</button>
+    <script>
+        window.netlifyIdentity = window.netlifyIdentity || {};
+        window.netlifyIdentity.on('init', user => {
+          if (!user) {
+            // Usuário não está logado, redirecione para a página de login ou inicial
+            window.location.href = '/caminho-para-pagina-login.html';
+          }
+        });
+      
+        window.netlifyIdentity.init();
+      </script>
+      
 </body>
 </html>
