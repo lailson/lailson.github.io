@@ -5,6 +5,7 @@
     <title>Página Teste 2</title>
 </head>
 <body>
+    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script>
         window.netlifyIdentity = window.netlifyIdentity || {};
         window.netlifyIdentity.on('init', user => {
@@ -20,7 +21,6 @@
     <h1>Bem-vindo à página Teste 2</h1>
     <p>Conteúdo protegido.</p>
     <button onclick="window.netlifyIdentity.logout()">Sair</button>
-    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     
 </body>
 </html>
