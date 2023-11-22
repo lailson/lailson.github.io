@@ -11,5 +11,36 @@
     <h1>Lailson Henrique</h1>
     <p>Minha página</p>
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+Para que a funcionalidade de recuperação de senha funcione corretamente em seu site hospedado no Netlify, você precisa configurar a página para lidar com o token de recuperação (recovery_token) que é enviado na URL. O widget do Netlify Identity pode lidar com isso, mas você precisa garantir que o script esteja configurado corretamente para reagir a essa situação.
+
+Passos para Configurar a Página de Recuperação de Senha
+1. Incluir o Widget do Netlify Identity
+Certifique-se de que o script do Netlify Identity Widget está incluído no seu HTML:
+
+html
+Copy code
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+2. Script para Manipular o Token de Recuperação
+Você precisa de um script que verifique a URL para um token de recuperação e, em seguida, abra o widget do Netlify Identity no modo apropriado. Adicione o seguinte script à sua página:
+
+html
+Copy code
+<script>
+  window.addEventListener('load', function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const recoveryToken = urlParams.get('recovery_token');
+
+    if (recoveryToken) {
+      window.netlifyIdentity.on('init', user => {
+        if (!user) {
+          window.netlifyIdentity.open('recovery');
+        }
+      });
+    }
+
+    window.netlifyIdentity.init();
+  });
+</script>
 </body>
 </html>
